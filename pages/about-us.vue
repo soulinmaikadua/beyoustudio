@@ -1,9 +1,9 @@
 <template>
     <main class="max-w-screen-xl mx-auto px-4 min-h-screen">
-      <div class="mt-5 md:mb-60">
+      <div class="mt-12 md:mb-60">
         <div class="grid grid-cols-1">
           <div class="col-span-2">
-            <h1 class="text-2xl font-bold border-b-2 pb-5">About Us</h1>
+            <h1 class="text-2xl font-bold border-b-2 pb-5">About BeYou Studio</h1>
             <h2 class="text-xl font-bold mt-5">Who We Are</h2>
             <p>
               We are a passionate team of music enthusiasts dedicated to
