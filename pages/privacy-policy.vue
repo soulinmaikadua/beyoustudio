@@ -1,7 +1,7 @@
 <template>
     <div class="mt-10">
-        <h2 class="font-bold">PRIVACY POLICY</h2>
-        <div class="mt-2">
+        <h1 class="text-2xl font-bold border-b-2 pb-5">PRIVACY POLICY</h1>
+        <div class="mt-6">
             <p>
                 Be You Gaming create and publish mobile games and applications.
                 This Privacy Policy applies to all of our games, apps and

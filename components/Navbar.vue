@@ -21,7 +21,7 @@
                 >
                     <li>
                         <a
-                            href="#home"
+                            href="/#home"
                             class="block py-2 pl-3 pr-4 bg-green-200 rounded md:bg-transparent md:p-0"
                             aria-current="page"
                             >Home</a
@@ -29,23 +29,16 @@
                     </li>
                     <li>
                         <a
-                            href="#about"
+                            href="/about-us"
                             class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-green-400 md:p-0"
-                            >About</a
+                            >About us</a
                         >
                     </li>
                     <li>
                         <a
-                            href="#games"
+                            href="/contact-us"
                             class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-green-400 md:p-0"
-                            >Game</a
-                        >
-                    </li>
-                    <li>
-                        <a
-                            href="#contacts"
-                            class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0"
-                            >Contact</a
+                            >Contact us</a
                         >
                     </li>
                 </ul>
