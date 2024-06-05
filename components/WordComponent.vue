@@ -1,9 +1,13 @@
 <template>
     <div>
         <div class="bg-blue-100 p-4 flex items-center">
-            <div class="cursor-pointer" @click="speakKorean(item.korean)">
+            <button
+                class="rounded-full p-2 border border-blue-200"
+                type="button"
+                @click="speakKorean(item.korean)"
+            >
                 <IconSpeakerWave />
-            </div>
+            </button>
             <div class="ml-4">
                 <h1 class="text-xl font-bold">
                     {{ props.item.korean }} {{ props.item.read
@@ -21,18 +25,26 @@
             class="bg-white p-4"
         >
             <div class="flex items-center">
-                <div class="cursor-pointer" @click="speakKorean(example.korean)">
+                <button
+                    class="rounded-full p-2 border"
+                    type="button"
+                    @click="speakKorean(example.korean)"
+                >
                     <IconSpeakerWave />
-                </div>
+                </button>
                 <div class="ml-4">
                     <p>{{ example.korean }}</p>
                     <p>{{ example.read }}</p>
                 </div>
             </div>
             <div class="flex items-center">
-                <div class="cursor-pointer" @click="speakEnglish(example.english)">
-                    <IconSpeakerWave  />
-                </div>
+                <button
+                    class="rounded-full p-2 border"
+                    type="button"
+                    @click="speakEnglish(example.english)"
+                >
+                    <IconSpeakerWave />
+                </button>
                 <div class="ml-4">
                     <p>{{ example.english }}</p>
                     <p>{{ example.lao }}</p>
@@ -48,6 +60,7 @@ const props = defineProps({
         default: () => {},
     },
 });
+
 function speakKorean(text: string) {
     const utterance = new SpeechSynthesisUtterance(text);
     utterance.lang = "ko-KR"; // Korean language
