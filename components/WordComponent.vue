@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="bg-blue-100 p-4 flex items-center">
+        <div class="bg-blue-100 p-4 flex items-center border-b border-blue-200">
             <button
                 class="rounded-full p-2 border border-blue-200"
                 type="button"

@@ -1,5 +1,6 @@
 <template>
     <main class="max-w-screen-md mx-auto px-4 min-h-screen">
+        <nuxt-link to="/korean-vocabulary-lists">Go Home</nuxt-link>
         <div class="rounded border">
             <WordComponent
                 v-for="(item, index) in numbers"

@@ -1,16 +1,6 @@
-<template>
-    <main class="max-w-screen-md mx-auto px-4 min-h-screen">
-        <div class="rounded border">
-            <WordComponent
-                v-for="(item, index) in days"
-                :key="index"
-                :item="item"
-            />
-        </div>
-    </main>
-</template>
-<script setup lang="ts">
-const days: any = [
+import type { WordModel } from "~/models";
+
+export const JOBS: WordModel[] = [
     {
         id: 1,
         korean: "엔지니어",
@@ -97,4 +87,3 @@ const days: any = [
         ],
     },
 ];
-</script>

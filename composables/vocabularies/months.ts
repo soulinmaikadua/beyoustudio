@@ -1,16 +1,6 @@
-<template>
-    <main class="max-w-screen-md mx-auto px-4 min-h-screen">
-        <div class="rounded border">
-            <WordComponent
-                v-for="(item, index) in months"
-                :key="index"
-                :item="item"
-            />
-        </div>
-    </main>
-</template>
-<script setup lang="ts">
-const months: any = [
+import type { WordModel } from "~/models";
+
+export const MONTHS: WordModel[] = [
     {
         id: 1,
         korean: "일월",
@@ -18,6 +8,7 @@ const months: any = [
         english: "January",
         lao: "ເດືອນມັງກອນ",
         speech: "n",
+        examples: [],
     },
     {
         id: 2,
@@ -26,6 +17,7 @@ const months: any = [
         english: "February",
         lao: "ເດືອນກຸມພາ",
         speech: "n",
+        examples: [],
     },
     {
         id: 3,
@@ -34,6 +26,7 @@ const months: any = [
         english: "March",
         lao: "ເດືອນມີນາ",
         speech: "n",
+        examples: [],
     },
     {
         id: 4,
@@ -42,6 +35,7 @@ const months: any = [
         english: "April",
         lao: "ເດືອນເມສາ",
         speech: "n",
+        examples: [],
     },
     {
         id: 5,
@@ -50,6 +44,7 @@ const months: any = [
         english: "May",
         lao: "ພຶດສະພາ",
         speech: "n",
+        examples: [],
     },
     {
         id: 6,
@@ -58,6 +53,7 @@ const months: any = [
         english: "June",
         lao: "ເດືອນມິຖຸນາ",
         speech: "n",
+        examples: [],
     },
     {
         id: 7,
@@ -66,6 +62,7 @@ const months: any = [
         english: "July",
         lao: "ເດືອນກໍລະກົດ",
         speech: "n",
+        examples: [],
     },
     {
         id: 8,
@@ -74,6 +71,7 @@ const months: any = [
         english: "August",
         lao: "ເດືອນສິງຫາ",
         speech: "n",
+        examples: [],
     },
     {
         id: 9,
@@ -82,6 +80,7 @@ const months: any = [
         english: "September",
         lao: "ເດືອນກັນຍາ",
         speech: "n",
+        examples: [],
     },
     {
         id: 10,
@@ -90,6 +89,7 @@ const months: any = [
         english: "October",
         lao: "ເດືອນຕຸລາ",
         speech: "n",
+        examples: [],
     },
     {
         id: 11,
@@ -98,6 +98,7 @@ const months: any = [
         english: "November",
         lao: "ເດືອນພະຈິກ",
         speech: "n",
+        examples: [],
     },
     {
         id: 12,
@@ -106,6 +107,6 @@ const months: any = [
         english: "December",
         lao: "ເດືອນທັນວາ",
         speech: "n",
+        examples: [],
     },
 ];
-</script>
