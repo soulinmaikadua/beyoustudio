@@ -8,9 +8,9 @@
                 <h1 class="text-xl">{{ data?.korean }}</h1>
                 <h2 class="text-xl">{{ data?.lao }}</h2>
                 <p>
-                    {{ data?.data?.length }} 단어.
-                    {{ data?.data?.length }} words.
-                    {{ data?.data?.length }} ຄໍາສັບ.
+                    {{ data?.data?.length }} 실없는 말.
+                    {{ data?.data?.length }} Phrases.
+                    {{ data?.data?.length }} ປະໂຫຍກ.
                 </p>
             </div>
         </div>

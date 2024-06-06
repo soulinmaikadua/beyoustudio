@@ -1,204 +1,22 @@
 <template>
     <main class="max-w-screen-md mx-auto px-4 min-h-screen">
-        <nuxt-link to="/korean-vocabulary-lists">Go Home</nuxt-link>
-        <div class="rounded border">
-            <WordComponent
-                v-for="(item, index) in numbers"
-                :key="index"
-                :item="item"
-            />
+        <div class="grid grid-cols-1 md:grid-cols-2">
+            <div>
+                <h1>Hello World</h1>
+            </div>
+            <div>
+                <h1>Hello World</h1>
+            </div>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2">
+            <div>
+                <h1>Hello World</h1>
+            </div>
+            <div>
+                <h1>Hello World</h1>
+            </div>
         </div>
     </main>
 </template>
 <script setup lang="ts">
-const numbers: any = [
-    {
-        id: 1,
-        korean: "영",
-        read: "yeong",
-        english: "zero",
-        lao: "ສູນ",
-        speech: "n",
-        examples: [
-            {
-                id: 1,
-                korean: "숫자 영",
-                read: "sutjja yeong",
-                english: "number zero",
-                lao: "ເລກສູນ",
-            },
-        ],
-    },
-    {
-        id: 2,
-        korean: "일",
-        read: "il",
-        english: "one",
-        lao: "ຫນຶ່ງ",
-        speech: "n",
-        examples: [
-            {
-                id: 1,
-                korean: "자정이 되기 일 분 전입니다.",
-                read: "Jajeongi doegi il bun jeonimnida.",
-                english: "It's one minute to midnight.",
-                lao: "ມັນແມ່ນຫນຶ່ງນາທີເຖິງເວລາທ່ຽງຄືນ.",
-            },
-        ],
-    },
-    {
-        id: 3,
-        korean: "이",
-        read: "i",
-        english: "two",
-        lao: "ສອງ",
-        speech: "n",
-        examples: [
-            {
-                id: 1,
-                korean: "표 2장",
-                read: "pyo 2jang",
-                english: "two tickets",
-                lao: "ປີ້ສອງອັນ",
-            },
-        ],
-    },
-    {
-        id: 4,
-        korean: "삼",
-        read: "sam",
-        english: "three",
-        lao: "ສາມ",
-        speech: "n",
-        examples: [
-            {
-                id: 1,
-                korean: "삼 분",
-                read: "sam bun",
-                english: "three minutes",
-                lao: "ສາມນາທີ",
-            },
-        ],
-    },
-    {
-        id: 5,
-        korean: "사",
-        read: "sa",
-        english: "four",
-        lao: "ສີ່",
-        speech: "n",
-        examples: [
-            {
-                id: 1,
-                korean: "대학 사 년 동안 저는 기숙사에서 살았습니다.",
-                read: "Daehak sa nyeon dongan jeoneun gisuksaeseo saratsseumnida.",
-                english:
-                    "I lived in the dormitory for all four years of college.",
-                lao: "ຂ້​ອ​ຍ​ອາ​ໄສ​ຢູ່​ໃນ​ຫໍ​ພັກ​ທັງ​ຫມົດ​ສີ່​ປີ​ຂອງ​ວິ​ທະ​ຍາ​ໄລ.",
-            },
-        ],
-    },
-    {
-        id: 6,
-        korean: "오",
-        read: "o",
-        english: "five",
-        lao: "ຫ້າ",
-        speech: "n",
-        examples: [
-            {
-                id: 1,
-                korean: "버스 요금이 오 년 전보다 두 배로 뛰었습니다.",
-                read: "Beoseu yogeumi o nyeon jeonboda du baero ttwieotsseumnida.",
-                english: "The bus fare has doubled in the last five years.",
-                lao: "ຄ່າໂດຍສານລົດເມໄດ້ເພີ່ມຂຶ້ນສອງເທົ່າໃນຫ້າປີທີ່ຜ່ານມາ.",
-            },
-        ],
-    },
-    {
-        id: 7,
-        korean: "육",
-        read: "yuk",
-        english: "six",
-        lao: "ຫົກ",
-        speech: "n",
-        examples: [
-            {
-                id: 1,
-                korean: "일 피트 육 인치",
-                read: "il piteu yu ginchi",
-                english: "one foot six inches",
-                lao: "ຫນຶ່ງຕີນຫົກນິ້ວ",
-            },
-        ],
-    },
-    {
-        id: 8,
-        korean: "칠",
-        read: "chil",
-        english: "seven",
-        lao: "ເຈັດ",
-        speech: "n",
-        examples: [
-            {
-                id: 1,
-                korean: "좌석 번호 칠 씨",
-                read: "jwaseok beonho chil ssi",
-                english: "seat number 7C",
-                lao: "ໝາຍເລກບ່ອນນັ່ງ 7C",
-            },
-        ],
-    },
-    {
-        id: 9,
-        korean: "팔",
-        read: "pal",
-        english: "eight",
-        lao: "ແປດ",
-        speech: "n",
-        examples: [
-            {
-                id: 1,
-                korean: "나는 여덟 살짜리 딸이 있다.",
-                read: "naneun yeodeol saljjari ttari itda.",
-                english: "I have an eight-year-old daughter.",
-                lao: "ຂ້ອຍມີລູກສາວອາຍຸແປດປີ.",
-            },
-        ],
-    },
-    {
-        id: 10,
-        korean: "구",
-        read: "gu",
-        english: "nine",
-        lao: "ເກົ້າ",
-        speech: "n",
-        examples: [
-            {
-                id: 1,
-                korean: "칠 점 구 센티미터",
-                read: "chil jjeom gu sentimiteo",
-                english: "7.9 centimeters",
-                lao: "7.9 ຊັງຕີແມັດ",
-            },
-        ],
-    },
-    {
-        id: 11,
-        korean: "십",
-        read: "sip",
-        english: "ten",
-        lao: "ສິບ",
-        speech: "n",
-        examples: [
-            {
-                id: 1,
-                korean: "십 도",
-                read: "sip ddo",
-                english: "ten degrees",
-                lao: "ສິບອົງສາ",
-            },
-        ],
-    },
-];
 </script>

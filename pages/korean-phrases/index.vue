@@ -8,11 +8,7 @@
                 class="rounded border cursor-pointer"
                 @click="router.push(item.route)"
             >
-                <img
-                    src="/assets/images/fruit.jpg"
-                    style="width: 100%"
-                    class="rounded-t"
-                />
+                <img :src="item.image" style="width: 100%" class="rounded-t" />
                 <div class="p-2 text-center">
                     <h1 class="text-xl">{{ item.korean }}</h1>
                     <p>{{ item.lao }}</p>
