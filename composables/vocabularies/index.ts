@@ -50,7 +50,7 @@ export const VOCABULARIES: VocabList[] = [
         data: MONTHS,
     },
     {
-        image: "/assets/images/fruit.jpg",
+        image: "https://dummyimage.com/400x400/000/fff",
         korean: "과일",
         lao: "ໝາກໄມ້",
         route: "/korean-vocabulary-lists/fruit",
@@ -58,7 +58,7 @@ export const VOCABULARIES: VocabList[] = [
         data: FRUIT,
     },
     {
-        image: "/assets/images/fruit.jpg",
+        image: "https://dummyimage.com/400x400/000/fff",
         korean: "동물의 종류",
         lao: "ປະເພດສັດ",
         route: "/korean-vocabulary-lists/animals",
@@ -66,7 +66,7 @@ export const VOCABULARIES: VocabList[] = [
         data: ANIMALS,
     },
     {
-        image: "/assets/images/fruit.jpg",
+        image: "https://dummyimage.com/400x400/000/fff",
         korean: "스포츠",
         lao: "ກິລາ",
         route: "/korean-vocabulary-lists/sports",
@@ -74,7 +74,7 @@ export const VOCABULARIES: VocabList[] = [
         data: SPORTS,
     },
     {
-        image: "/assets/images/fruit.jpg",
+        image: "https://dummyimage.com/400x400/000/fff",
         korean: "스포츠",
         lao: "ກິລາ",
         route: "/korean-vocabulary-lists/vegetables",
@@ -82,7 +82,7 @@ export const VOCABULARIES: VocabList[] = [
         data: VEGETABLES,
     },
     {
-        image: "/assets/images/fruit.jpg",
+        image: "https://dummyimage.com/400x400/000/fff",
         korean: "스포츠",
         lao: "ກິລາ",
         route: "/korean-vocabulary-lists/dates",
