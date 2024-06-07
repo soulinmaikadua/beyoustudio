@@ -1,16 +1,6 @@
-<template>
-    <main class="max-w-screen-md mx-auto px-4 min-h-screen">
-        <div class="rounded border">
-            <WordComponent
-                v-for="(item, index) in days"
-                :key="index"
-                :item="item"
-            />
-        </div>
-    </main>
-</template>
-<script setup lang="ts">
-const days: any = [
+import type { WordModel } from "~/models";
+
+export const DAYS: WordModel[] = [
     {
         id: 1,
         korean: "월요일",
@@ -157,6 +147,7 @@ const days: any = [
         english: "the day before yesterday",
         lao: "ມື້​ຊືນ",
         speech: "n",
+        examples: [],
     },
     {
         id: 10,
@@ -216,6 +207,6 @@ const days: any = [
         english: "the day after tomorrow",
         lao: "ມື້​ຮື",
         speech: "n",
+        examples: [],
     },
 ];
-</script>

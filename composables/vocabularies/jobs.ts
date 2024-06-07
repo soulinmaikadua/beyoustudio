@@ -1,16 +1,6 @@
-<template>
-    <main class="max-w-screen-md mx-auto px-4 min-h-screen">
-        <div class="rounded border">
-            <WordComponent
-                v-for="(item, index) in days"
-                :key="index"
-                :item="item"
-            />
-        </div>
-    </main>
-</template>
-<script setup lang="ts">
-const days: any = [
+import type { WordModel } from "~/models";
+
+export const JOBS: WordModel[] = [
     {
         id: 1,
         korean: "엔지니어",
@@ -18,6 +8,7 @@ const days: any = [
         english: "engineer",
         lao: "ວິສະວະກອນ",
         speech: "n",
+        emoji: "👷🏻‍♂️",
         examples: [
             {
                 id: 1,
@@ -35,6 +26,7 @@ const days: any = [
         english: "nurse",
         lao: "ພະຍາບານ",
         speech: "n",
+        emoji: "👩🏻‍⚕️",
         examples: [
             {
                 id: 1,
@@ -47,11 +39,30 @@ const days: any = [
     },
     {
         id: 3,
+        korean: "의사",
+        read: "uisa",
+        english: "doctor",
+        lao: "ທ່ານໝໍ",
+        speech: "n",
+        emoji: "👨🏻‍⚕️",
+        examples: [
+            {
+                id: 1,
+                korean: "내 아들은 의사예요.",
+                read: "nae adeul-eun uisayeyo.",
+                english: "My son is a doctor.",
+                lao: "ລູກຊາຍຂອງຂ້ອຍເປັນທ່ານຫມໍ.",
+            },
+        ],
+    },
+    {
+        id: 4,
         korean: "농부",
         read: "nongbu",
         english: "farmer",
         lao: "ຊາວນາ",
         speech: "n",
+        emoji: "👨🏻‍🌾",
         examples: [
             {
                 id: 1,
@@ -63,12 +74,13 @@ const days: any = [
         ],
     },
     {
-        id: 4,
+        id: 5,
         korean: "선생님",
         read: "seonsaengnim",
         english: "teacher",
         lao: "ຄູສອນ",
         speech: "n",
+        emoji: "👨🏻‍🏫",
         examples: [
             {
                 id: 1,
@@ -80,12 +92,13 @@ const days: any = [
         ],
     },
     {
-        id: 5,
+        id: 6,
         korean: "경관",
         read: "gyeong-gwan",
         english: "policeman",
         lao: "ຕຳຫຼວດ",
         speech: "n",
+        emoji: "👮🏻‍♂️",
         examples: [
             {
                 id: 1,
@@ -97,4 +110,3 @@ const days: any = [
         ],
     },
 ];
-</script>

@@ -1,16 +1,5 @@
-<template>
-    <main class="max-w-screen-md mx-auto px-4 min-h-screen">
-        <div class="rounded border">
-            <WordComponent
-                v-for="(item, index) in numbers"
-                :key="index"
-                :item="item"
-            />
-        </div>
-    </main>
-</template>
-<script setup lang="ts">
-const numbers: any = [
+import type { WordModel } from "~/models";
+export const NUMERIC: WordModel[] = [
     {
         id: 1,
         korean: "영",
@@ -200,4 +189,3 @@ const numbers: any = [
         ],
     },
 ];
-</script>
