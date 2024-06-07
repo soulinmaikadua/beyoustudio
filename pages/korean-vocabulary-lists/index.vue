@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="min-h-screen">
         <div class="grid grid-cols-2 md:grid-cols-6 gap-4">
             <div
                 v-for="(item, index) in VOCABULARIES"

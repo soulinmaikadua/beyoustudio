@@ -11,6 +11,7 @@ export interface WordModel {
     read: string;
     english: string;
     lao: string;
-    speech: string;
-    examples: PhraseModel[];
+    speech?: string;
+    emoji?: string;
+    examples?: PhraseModel[];
 }

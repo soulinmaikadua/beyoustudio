@@ -25,6 +25,7 @@ export const FRUIT: WordModel[] = [
         english: "orange",
         lao: "ໝາກກ້ຽງ",
         speech: "n",
+        emoji: "🍊",
         examples: [
             {
                 id: 1,
@@ -42,6 +43,7 @@ export const FRUIT: WordModel[] = [
         english: "banana",
         lao: "ໝາກກ້ວຍ",
         speech: "n",
+        emoji: "🍌",
         examples: [
             {
                 id: 1,
@@ -59,6 +61,7 @@ export const FRUIT: WordModel[] = [
         english: "apple",
         lao: "ໝາກໂປມ",
         speech: "n",
+        emoji: "🍎",
         examples: [
             {
                 id: 1,
@@ -76,6 +79,7 @@ export const FRUIT: WordModel[] = [
         english: "peach",
         lao: "ໝາກຄາຢ",
         speech: "n",
+        emoji: "🍑",
         examples: [
             {
                 id: 1,
@@ -93,6 +97,7 @@ export const FRUIT: WordModel[] = [
         english: "tomato",
         lao: "ຫມາກ​ເລັ່ນ",
         speech: "n",
+        emoji: "🍅",
         examples: [
             {
                 id: 1,
@@ -108,8 +113,9 @@ export const FRUIT: WordModel[] = [
         korean: "수박",
         read: "subak",
         english: "watermelon",
-        lao: "ຫມາກ​ເລັ່ນ",
+        lao: "ໝາກໂມ",
         speech: "n",
+        emoji: "🍉",
         examples: [
             {
                 id: 1,
@@ -127,6 +133,7 @@ export const FRUIT: WordModel[] = [
         english: "strawberry",
         lao: "ສະຕໍເບີຣີ",
         speech: "n",
+        emoji: "🍓",
         examples: [
             {
                 id: 1,
@@ -144,6 +151,7 @@ export const FRUIT: WordModel[] = [
         english: "cherry",
         lao: "ໝາກເຜັດ",
         speech: "n",
+        emoji: "🌶",
         examples: [
             {
                 id: 1,
@@ -161,6 +169,79 @@ export const FRUIT: WordModel[] = [
         english: "grape",
         lao: "ໝາກອະງຸ່ນ",
         speech: "n",
+        emoji: "🍇",
+        examples: [
+            {
+                id: 1,
+                korean: "한 송이의 포도와 한 송이의 청포도",
+                read: "han songiui podowa han songiui cheongpodo",
+                english: "a bunch of red grapes and a bunch of white grapes",
+                lao: "ຫນຶ່ງພວນອະງຸ່ມສີແດງ ແລະ ຫນຶ່ງພວນອະງຸ່ມສີແດງສີຂາວ",
+            },
+        ],
+    },
+    {
+        id: 11,
+        korean: "망고",
+        read: "mang-go",
+        english: "mango",
+        lao: "ໝາກມ່ວງ",
+        speech: "n",
+        emoji: "🥭",
+        examples: [
+            {
+                id: 1,
+                korean: "한 송이의 포도와 한 송이의 청포도",
+                read: "han songiui podowa han songiui cheongpodo",
+                english: "a bunch of red grapes and a bunch of white grapes",
+                lao: "ຫນຶ່ງພວນອະງຸ່ມສີແດງ ແລະ ຫນຶ່ງພວນອະງຸ່ມສີແດງສີຂາວ",
+            },
+        ],
+    },
+    {
+        id: 12,
+        korean: "파인애플",
+        read: "pain-aepeul",
+        english: "pineapple",
+        lao: "ໝາກນັດ",
+        speech: "n",
+        emoji: "🍍",
+        examples: [
+            {
+                id: 1,
+                korean: "한 송이의 포도와 한 송이의 청포도",
+                read: "han songiui podowa han songiui cheongpodo",
+                english: "a bunch of red grapes and a bunch of white grapes",
+                lao: "ຫນຶ່ງພວນອະງຸ່ມສີແດງ ແລະ ຫນຶ່ງພວນອະງຸ່ມສີແດງສີຂາວ",
+            },
+        ],
+    },
+    {
+        id: 13,
+        korean: "레몬",
+        read: "lemon",
+        english: "lemon",
+        lao: "ໝາກນາວ",
+        speech: "n",
+        emoji: "🍋",
+        examples: [
+            {
+                id: 1,
+                korean: "한 송이의 포도와 한 송이의 청포도",
+                read: "han songiui podowa han songiui cheongpodo",
+                english: "a bunch of red grapes and a bunch of white grapes",
+                lao: "ຫນຶ່ງພວນອະງຸ່ມສີແດງ ແລະ ຫນຶ່ງພວນອະງຸ່ມສີແດງສີຂາວ",
+            },
+        ],
+    },
+    {
+        id: 14,
+        korean: "코코넛",
+        read: "kokoneos",
+        english: "coconut",
+        lao: "ໝາກພ້າວ",
+        speech: "n",
+        emoji: "🥥",
         examples: [
             {
                 id: 1,

@@ -11,7 +11,9 @@
             <div class="ml-4">
                 <h1 class="text-xl font-bold">
                     {{ props.item.korean }} {{ props.item.read
-                    }}<span class="text-red-500 text-sm ml-2"
+                    }}<span
+                        v-if="props.item.speech"
+                        class="text-red-500 text-sm ml-2"
                         >({{ props.item.speech }})</span
                     >
                 </h1>
