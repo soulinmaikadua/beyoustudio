@@ -35,4 +35,34 @@ const data = computed(() => {
     const data = VOCABULARIES.find((el: any) => el.slug === route.params.slug);
     return data;
 });
+useHead({
+    meta: [
+        // Open Graph / Facebook
+        {
+            property: "og:title",
+            content: data.value?.korean + " - " + SITE_TITLE,
+        },
+        {
+            property: "og:description",
+            content: data.value?.korean ,
+        },
+        {
+            property: "og:image",
+            content: data.value?.image,
+        },
+        //  Twitter
+        {
+            property: "twitter:title",
+            content: data.value?.korean + " - " + SITE_TITLE,
+        },
+        {
+            property: "twitter:description",
+            content: data.value?.korean ,
+        },
+        {
+            property: "twitter:image",
+            content: data.value?.image,
+        }
+    ],
+});
 </script>

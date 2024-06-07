@@ -18,11 +18,17 @@ export default defineNuxtConfig({
                     content:
                         "learn korean, learn korean language, study korean, study korean language",
                 },
+                { property: "og:type", content: "website" },
                 {
                     name: "google-site-verification",
                     content: "eGaVqsClWH0Kk8xrXiyI6ImZEbIwSfpnpW-TTA3gz_U",
                     // google-site-verification=eGaVqsClWH0Kk8xrXiyI6ImZEbIwSfpnpW-TTA3gz_U
                 },
+                {
+                    name: "google-adsense-account",
+                    content: "ca-pub-5349802525175772",
+                },
+                // <meta name="google-adsense-account" content="ca-pub-5349802525175772">
             ],
             script: [
                 {
