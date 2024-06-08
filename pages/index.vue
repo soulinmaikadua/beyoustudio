@@ -2,10 +2,10 @@
     <main class="max-w-screen-xl mx-auto min-h-screen">
         <div class="w-full h-screen flex flex-col justify-center items-cente">
             <div class="grid grid-cols-1 md:grid-cols-2">
-                <div class="-mt-20">
+                <div class="m-0 md:-mt-20">
                     <img src="/gif/giphy.gif" class="mx-auto" />
                 </div>
-                <div class="-mt-10">
+                <div class="m-0 md:-mt-10">
                     <h1 class="text-xl mb-10">
                         Start learning korean from zero to advanced
                     </h1>
@@ -18,8 +18,8 @@
                 </div>
             </div>
         </div>
-        <div class="grid grid-cols-1 md:grid-cols-4">
-            <div>
+        <div class="grid grid-cols-1 md:grid-cols-4 text-center md:text-left">
+            <div class="mb-6 md:mb-0">
                 <h4 class="text-3xl font-bold">ຄຳສັບ</h4>
                 <p>ເລີ່ມຮຽນຄຳສັບແບບງາຍໆ, ມີຫລາກລາຍຄຳຄັບ</p>
                 <div class="mt-4">
@@ -30,10 +30,10 @@
                     >
                 </div>
             </div>
-            <div>
-                <img src="/logo.png" />
+            <div class="mb-6 md:mb-0">
+                <img src="/logo.png" class="mx-auto" />
             </div>
-            <div>
+            <div class="mb-6 md:mb-0">
                 <h4 class="text-3xl font-bold">ປະໂຫຍກ</h4>
                 <p>ມີຫລາກລາຍຄປະໂຫຍກທີ່ຄົນນີຍົມເວົ້າກັນສຸດໆ</p>
                 <div class="mt-4">
@@ -44,8 +44,8 @@
                     >
                 </div>
             </div>
-            <div>
-                <img src="/logo.png" />
+            <div class="mb-6 md:mb-0">
+                <img src="/logo.png" class="mx-auto" />
             </div>
         </div>
         <div class="mt-32">
