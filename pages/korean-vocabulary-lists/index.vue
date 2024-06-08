@@ -1,5 +1,8 @@
 <template>
     <div class="min-h-screen">
+        <div class="border-b my-4">
+            <h1 class="text-xl font-bold my-2">어휘 ຄຳສັບ</h1>
+        </div>
         <div class="grid grid-cols-2 md:grid-cols-6 gap-4">
             <div
                 v-for="(item, index) in VOCABULARIES"
@@ -24,29 +27,21 @@ useHead({
         // Open Graph / Facebook
         {
             property: "og:title",
-            content: "ຄຳສັບ" + " - " + SITE_TITLE,
+            content: "어휘 ຄຳສັບ" + " - " + SITE_TITLE,
         },
         {
             property: "og:description",
-            content: "ຄຳສັບ",
+            content: "어휘 ຄຳສັບ",
         },
-        // {
-        //     property: "og:image",
-        //     content: data.value?.image,
-        // },
         //  Twitter
         {
             property: "twitter:title",
-            content: "ຄຳສັບ" + " - " + SITE_TITLE,
+            content: "어휘 ຄຳສັບ" + " - " + SITE_TITLE,
         },
         {
             property: "twitter:description",
-            content: "ຄຳສັບ",
+            content: "어휘 ຄຳສັບ",
         },
-        // {
-        //     property: "twitter:image",
-        //     content: data.value?.image,
-        // },
     ],
 });
 </script>

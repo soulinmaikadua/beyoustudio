@@ -1,5 +1,8 @@
 <template>
     <div class="min-h-screen">
+        <div class="border-b my-4">
+            <h1 class="text-xl font-bold my-2">구절 ປະໂຫຍກ</h1>
+        </div>
         <div class="grid grid-cols-2 md:grid-cols-6 gap-4">
             <div
                 v-for="(item, index) in PHRASES"
@@ -19,4 +22,26 @@
 <script setup lang="ts">
 import { PHRASES } from "~/composables/phrases";
 const router = useRouter();
+useHead({
+    meta: [
+        // Open Graph / Facebook
+        {
+            property: "og:title",
+            content: "구절 ປະໂຫຍກ" + " - " + SITE_TITLE,
+        },
+        {
+            property: "og:description",
+            content: "구절 ປະໂຫຍກ",
+        },
+        //  Twitter
+        {
+            property: "twitter:title",
+            content: "구절 ປະໂຫຍກ" + " - " + SITE_TITLE,
+        },
+        {
+            property: "twitter:description",
+            content: "구절 ປະໂຫຍກ",
+        },
+    ],
+});
 </script>
