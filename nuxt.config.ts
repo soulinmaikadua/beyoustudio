@@ -48,5 +48,8 @@ export default defineNuxtConfig({
         trailingSlash: true,
     },
     modules: ["@nuxtjs/tailwindcss", "@nuxtjs/sitemap"],
+    sitemap: {
+        sources: ["/api/__sitemaps__/urls"],
+    },
     devtools: { enabled: true },
 });
