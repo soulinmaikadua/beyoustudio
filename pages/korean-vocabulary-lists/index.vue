@@ -19,4 +19,34 @@
 <script setup lang="ts">
 import { VOCABULARIES } from "~/composables/vocabularies";
 const router = useRouter();
+useHead({
+    meta: [
+        // Open Graph / Facebook
+        {
+            property: "og:title",
+            content: "ຄຳສັບ" + " - " + SITE_TITLE,
+        },
+        {
+            property: "og:description",
+            content: "ຄຳສັບ",
+        },
+        // {
+        //     property: "og:image",
+        //     content: data.value?.image,
+        // },
+        //  Twitter
+        {
+            property: "twitter:title",
+            content: "ຄຳສັບ" + " - " + SITE_TITLE,
+        },
+        {
+            property: "twitter:description",
+            content: "ຄຳສັບ",
+        },
+        // {
+        //     property: "twitter:image",
+        //     content: data.value?.image,
+        // },
+    ],
+});
 </script>
