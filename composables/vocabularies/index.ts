@@ -37,7 +37,7 @@ export const VOCABULARIES: VocabList[] = [
         image: "https://dummyimage.com/400x400/000/fff",
         korean: "날",
         lao: "ມື້",
-        route: "/korean-vocabulary-lists/talking-about-days",
+        route: "/korean-vocabulary-lists/days",
         slug: "days",
         data: DAYS,
     },
