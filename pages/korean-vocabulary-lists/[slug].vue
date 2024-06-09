@@ -18,12 +18,57 @@
                     </p>
                 </div>
             </div>
+            <div class="my-2 flex items-center">
+                <button
+                    class="border p-2 h-10 w-10"
+                    :class="
+                        romanization
+                            ? 'bg-white'
+                            : 'bg-blue-500 text-white border-blue-500'
+                    "
+                    @click="romanization = false"
+                >
+                    가
+                </button>
+                <button
+                    class="border-t border-r border-b p-2 h-10 w-10"
+                    :class="
+                        romanization
+                            ? 'bg-blue-500 text-white border-blue-500'
+                            : 'bg-white'
+                    "
+                    @click="romanization = true"
+                >
+                    Aa
+                </button>
+                <div class="ml-4 items-center">
+                    <input
+                        v-model="englishChecked"
+                        type="checkbox"
+                        id="english"
+                        :checked="englishChecked"
+                    />
+                    <label class="ml-2" for="english">English</label>
+                </div>
+                <div class="ml-4 items-center">
+                    <input
+                        v-model="laoChecked"
+                        type="checkbox"
+                        id="lao"
+                        :checked="laoChecked"
+                    />
+                    <label class="ml-2" for="lao">ລາວ</label>
+                </div>
+            </div>
         </div>
         <div class="rounded border">
             <WordComponent
                 v-for="(item, index) in data?.data"
                 :key="index"
                 :item="item"
+                :romanization="romanization"
+                :english="englishChecked"
+                :lao="laoChecked"
             />
         </div>
     </main>
@@ -31,11 +76,17 @@
 <script setup lang="ts">
 import { VOCABULARIES } from "~/composables/vocabularies";
 const route = useRoute();
+
+const romanization = ref<boolean>(true);
+const englishChecked = ref<boolean>(true);
+const laoChecked = ref<boolean>(true);
+
 const data = computed(() => {
     const data = VOCABULARIES.find((el: any) => el.slug === route.params.slug);
     return data;
 });
 useHead({
+    title: data.value?.korean + " " + data?.value?.lao + " - " + SITE_TITLE,
     meta: [
         // Open Graph / Facebook
         {
@@ -44,7 +95,7 @@ useHead({
         },
         {
             property: "og:description",
-            content: data.value?.korean ,
+            content: data.value?.korean,
         },
         {
             property: "og:image",
@@ -57,12 +108,12 @@ useHead({
         },
         {
             property: "twitter:description",
-            content: data.value?.korean ,
+            content: data.value?.korean,
         },
         {
             property: "twitter:image",
             content: data.value?.image,
-        }
+        },
     ],
 });
 </script>
