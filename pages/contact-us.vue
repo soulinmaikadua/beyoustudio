@@ -15,7 +15,6 @@
                     <div>
                         <p>We'll do our best to get back to you.</p>
                     </div>
-                    <p>-_- nkauj.com</p>
                     <h3 class="text-xl font-bold">
                        Follow or contact us through social  
                     </h3>

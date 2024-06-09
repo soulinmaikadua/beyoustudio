@@ -10,34 +10,34 @@
         </div>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-2 mt-6">
             <div>
-                <h2>LEARN KOREA</h2>
+                <h2>ຮຽນພາສາເກົາຫຼີ</h2>
                 <ul class="mt-4">
                     <li class="text-blue-500 hover:underline">
-                        <nuxt-link to="/">Home</nuxt-link>
+                        <nuxt-link to="/">ຫນ້າຫລັກ</nuxt-link>
                     </li>
                     <li class="text-blue-500 hover:underline">
                         <nuxt-link to="/korean-vocabulary-lists/"
-                            >Vocabularies</nuxt-link
+                            >ຄໍາສັບ</nuxt-link
                         >
                     </li>
                     <li class="text-blue-500 hover:underline">
-                        <nuxt-link to="/korean-phrases/">Phrases</nuxt-link>
+                        <nuxt-link to="/korean-phrases/">ປະໂຫຍກ</nuxt-link>
                     </li>
                 </ul>
             </div>
             <div>
-                <h2>ABOUT US</h2>
+                <h2>ກ່ຽວ​ກັບ​ພວກ​ເຮົາ</h2>
                 <ul class="mt-4">
                     <li class="text-blue-500 hover:underline">
-                        <nuxt-link to="/about-us/">About us</nuxt-link>
+                        <nuxt-link to="/about-us/">ກ່ຽວ​ກັບ​ພວກ​ເຮົາ</nuxt-link>
                     </li>
                     <li class="text-blue-500 hover:underline">
-                        <nuxt-link to="/contact-us/">Contact us</nuxt-link>
+                        <nuxt-link to="/contact-us/">ຕິດ​ຕໍ່​ພວກ​ເຮົາ</nuxt-link>
                     </li>
                 </ul>
             </div>
             <div>
-                <h2>FOLLOW US</h2>
+                <h2>ຕິດ​ຕາມ​ພວກ​ເຮົາ</h2>
                 <ul class="mt-4">
                     <li class="text-blue-500 hover:underline">
                         <a
