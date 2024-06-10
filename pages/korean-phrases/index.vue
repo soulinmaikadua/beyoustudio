@@ -42,7 +42,12 @@
             </div>
         </div>
         <div v-else class="">
-            <div v-for="(item, index) in PHRASES" :key="index" class="flex items-center">
+            <div
+                v-for="(item, index) in PHRASES"
+                :key="index"
+                class="flex items-center"
+                @click="router.push(item.route)"
+            >
                 <div class="w-16 h-16 my-1">
                     <img
                         :src="item.image"

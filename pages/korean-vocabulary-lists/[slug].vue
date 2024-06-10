@@ -1,9 +1,6 @@
 <template>
     <main class="max-w-screen-xl mx-auto px-4 min-h-screen">
         <div class="mt-16 mb-6">
-            <nuxt-link to="/korean-vocabulary-lists/">
-                Back to Lists
-            </nuxt-link>
             <div class="flex mt-6 items-center">
                 <div class="h-20 w-20">
                     <img src="/assets/images/fruit.jpg" />
