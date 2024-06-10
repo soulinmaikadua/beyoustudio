@@ -2,7 +2,7 @@
     <div>
         <div class="bg-blue-100 p-4 flex items-center border-b border-blue-200">
             <button
-                class="rounded-full p-2 border border-blue-200"
+                class="rounded-full p-2 border border-blue-200 hover:bg-blue-200"
                 type="button"
                 @click="speakKorean(item.korean)"
             >
@@ -12,7 +12,7 @@
                 <h1 class="text-xl font-bold">
                     {{ props.item.korean
                     }}{{ props.item?.emoji ? ` ${props.item.emoji}` : "" }}
-                    <span v-if="props.romanization">{{ props.item.read}}</span>
+                    <span v-if="props.romanization">{{ props.item.read }}</span>
                     <span
                         v-if="props.item.speech"
                         class="text-red-500 text-sm ml-2"
@@ -30,7 +30,7 @@
         >
             <div class="flex items-center">
                 <button
-                    class="rounded-full p-2 border"
+                    class="rounded-full p-2 border hover:bg-gray-200"
                     type="button"
                     @click="speakKorean(example.korean)"
                 >
@@ -44,7 +44,7 @@
             <div class="flex items-center">
                 <button
                     v-if="english"
-                    class="rounded-full p-2 border"
+                    class="rounded-full p-2 border hover:bg-gray-200"
                     type="button"
                     @click="speakEnglish(example.english)"
                 >
@@ -64,18 +64,18 @@ const props = defineProps({
         type: Object,
         default: () => {},
     },
-    english:{
-        type:Boolean,
+    english: {
+        type: Boolean,
         default: true,
     },
-    lao:{
-        type:Boolean,
+    lao: {
+        type: Boolean,
         default: true,
     },
-    romanization:{
-        type:Boolean,
+    romanization: {
+        type: Boolean,
         default: true,
-    }
+    },
 });
 
 function speakKorean(text: string) {

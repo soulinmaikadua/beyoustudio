@@ -43,4 +43,32 @@ export const INTRODUCE_YOURSELF: PhraseModel[] = [
         english: "I'm 27 years old.",
         lao: "ຂ້ອຍອາຍຸ 27 ປີ.",
     },
+    {
+        id: 7,
+        korean: "나는 학생입니다.",
+        read: "Naneun hagsaeng-ibnida.",
+        english: "I'm a student.",
+        lao: "ຂ້ອຍເປັນນັກຮຽນ.",
+    },
+    {
+        id: 8,
+        korean: "교사입니다.",
+        read: "Gyosaimnida.",
+        english: "I'm a teacher.",
+        lao: "ຂ້ອຍເປັນຄູສອນ.",
+    },
+    {
+        id: 9,
+        korean: "독서는 제 취미 중 하나입니다.",
+        read: "Dokseoneun je chwimi jung hanaimnida.",
+        english: "One of my hobbies is reading.",
+        lao: "ຫນຶ່ງໃນວຽກອະດິເລກຂອງຂ້ອຍແມ່ນການອ່ານ.",
+    },
+    {
+        id: 10,
+        korean: "음악 감상을 즐깁니다.",
+        read: "Eumak gamsangeul jeulgimnida.",
+        english: "I enjoy listening to music.",
+        lao: "ຂ້ອຍມັກຟັງເພງ.",
+    },
 ];
