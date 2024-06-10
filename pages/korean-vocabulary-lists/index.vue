@@ -66,7 +66,7 @@
 <script setup lang="ts">
 import { VOCABULARIES } from "~/composables/vocabularies";
 const router = useRouter();
-const viewGrid = ref<boolean>(false);
+const viewGrid = ref<boolean>(true);
 useHead({
     meta: [
         // Open Graph / Facebook
