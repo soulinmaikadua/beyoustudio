@@ -7,7 +7,7 @@ interface VocabList {
     data: any;
 }
 import { GREETING_CONVERSATIONS } from "./greeting-conversations";
-export const PHRASES: VocabList[] = [
+export const CONVERSATIONS: VocabList[] = [
     {
         image: "https://dummyimage.com/400x400/000/fff",
         korean: "인사말 문구",
