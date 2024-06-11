@@ -18,7 +18,9 @@
                 </div>
             </div>
         </div>
-        <div class="grid grid-cols-1 md:grid-cols-4 text-center md:text-left">
+        <div
+            class="grid grid-cols-1 md:grid-cols-4 gap-4 text-center md:text-left"
+        >
             <div class="mb-6 md:mb-0">
                 <h4 class="text-3xl font-bold">ຄຳສັບ</h4>
                 <p>ເລີ່ມຮຽນຄຳສັບແບບງາຍໆ, ມີຫລາກລາຍຄຳຄັບ</p>
