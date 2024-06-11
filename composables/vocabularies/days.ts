@@ -4,7 +4,7 @@ export const DAYS: WordModel[] = [
     {
         id: 1,
         korean: "월요일",
-        read: "wor-yoil",
+        read: "wor-yo-il",
         english: "Monday",
         lao: "ວັນຈັນ",
         speech: "n",
@@ -21,7 +21,7 @@ export const DAYS: WordModel[] = [
     {
         id: 2,
         korean: "화요일",
-        read: "hwa-yoil",
+        read: "hwa-yo-il",
         english: "Tuesday",
         lao: "ວັນອັງຄານ",
         speech: "n",
@@ -39,7 +39,7 @@ export const DAYS: WordModel[] = [
     {
         id: 3,
         korean: "수요일",
-        read: "su-yoil",
+        read: "su-yo-il",
         english: "Wednesday",
         lao: "ວັນພຸດ",
         speech: "n",
@@ -57,7 +57,7 @@ export const DAYS: WordModel[] = [
     {
         id: 4,
         korean: "목요일",
-        read: "mog-yoil",
+        read: "mog-yo-il",
         english: "Thursday",
         lao: "ວັນພະຫັດ",
         speech: "n",
@@ -75,7 +75,7 @@ export const DAYS: WordModel[] = [
     {
         id: 5,
         korean: "금요일",
-        read: "geum-yoil",
+        read: "geum-yo-il",
         english: "Friday",
         lao: "ວັນ​ສຸກ",
         speech: "n",
@@ -92,7 +92,7 @@ export const DAYS: WordModel[] = [
     {
         id: 6,
         korean: "토요일",
-        read: "to-yoil",
+        read: "to-yo-il",
         english: "Saturday",
         lao: "ວັນເສົາ",
         speech: "n",
@@ -109,7 +109,7 @@ export const DAYS: WordModel[] = [
     {
         id: 7,
         korean: "일요일",
-        read: "ir-yoil",
+        read: "ir-yo-il",
         english: "Sunday",
         lao: "ວັນອາທິດ",
         speech: "n",
@@ -152,7 +152,7 @@ export const DAYS: WordModel[] = [
     {
         id: 10,
         korean: "어제",
-        read: "eoje",
+        read: "eo-je",
         english: "yesterday",
         lao: "ມື້ວານນີ້",
         speech: "n",
@@ -169,7 +169,7 @@ export const DAYS: WordModel[] = [
     {
         id: 11,
         korean: "오늘",
-        read: "on-eul",
+        read: "o-neul",
         english: "today",
         lao: "ມື້​ນີ້",
         speech: "n",
