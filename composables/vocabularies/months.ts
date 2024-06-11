@@ -13,7 +13,7 @@ export const MONTHS: WordModel[] = [
     {
         id: 2,
         korean: "이월",
-        read: "iwol",
+        read: "i-wol",
         english: "February",
         lao: "ເດືອນກຸມພາ",
         speech: "n",
@@ -31,7 +31,7 @@ export const MONTHS: WordModel[] = [
     {
         id: 4,
         korean: "사월",
-        read: "sawol",
+        read: "sa-wol",
         english: "April",
         lao: "ເດືອນເມສາ",
         speech: "n",
@@ -40,7 +40,7 @@ export const MONTHS: WordModel[] = [
     {
         id: 5,
         korean: "오월",
-        read: "owol",
+        read: "o-wol",
         english: "May",
         lao: "ພຶດສະພາ",
         speech: "n",
@@ -49,7 +49,7 @@ export const MONTHS: WordModel[] = [
     {
         id: 6,
         korean: "유월",
-        read: "yuwol",
+        read: "yu-wol",
         english: "June",
         lao: "ເດືອນມິຖຸນາ",
         speech: "n",
@@ -76,7 +76,7 @@ export const MONTHS: WordModel[] = [
     {
         id: 9,
         korean: "구월",
-        read: "guwol",
+        read: "gu-wol",
         english: "September",
         lao: "ເດືອນກັນຍາ",
         speech: "n",

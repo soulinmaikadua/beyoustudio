@@ -4,7 +4,7 @@ export const KITCHEN: WordModel[] = [
     {
         id: 1,
         korean: "접시",
-        read: "jeopsi",
+        read: "jeo-psi",
         english: "plate",
         lao: "ຈານ",
         speech: "n",
@@ -40,7 +40,7 @@ export const KITCHEN: WordModel[] = [
     {
         id: 3,
         korean: "냄비",
-        read: "naembi",
+        read: "naem-bi",
         english: "pot",
         lao: "ຫມໍ້",
         speech: "n",
@@ -94,7 +94,7 @@ export const KITCHEN: WordModel[] = [
     {
         id: 5,
         korean: "나이프",
-        read: "naipeu",
+        read: "nai-peu",
         english: "knife",
         lao: "ມີດ",
         speech: "n",
@@ -112,7 +112,7 @@ export const KITCHEN: WordModel[] = [
     {
         id: 6,
         korean: "숟가락",
-        read: "suggarak",
+        read: "sug-ga-rak",
         english: "spoon",
         lao: "ມີດ",
         speech: "n",
@@ -130,7 +130,7 @@ export const KITCHEN: WordModel[] = [
     {
         id: 7,
         korean: "포크",
-        read: "pokeu",
+        read: "po-keu",
         english: "fork",
         lao: "ສ້ອມ",
         speech: "n",
@@ -148,7 +148,7 @@ export const KITCHEN: WordModel[] = [
     {
         id: 8,
         korean: "젓가락",
-        read: "jeosgalag",
+        read: "jeo-sga-lag",
         english: "chopsticks",
         lao: "ໄມ້ທູ່",
         speech: "n",
@@ -166,7 +166,7 @@ export const KITCHEN: WordModel[] = [
     {
         id: 9,
         korean: "도마",
-        read: "doma",
+        read: "do-ma",
         english: "cutting board",
         lao: "ຂຽນ",
         speech: "n",
@@ -183,7 +183,7 @@ export const KITCHEN: WordModel[] = [
     {
         id: 10,
         korean: "소금",
-        read: "sogeum",
+        read: "so-geum",
         english: "salt",
         lao: "ເກືອ",
         speech: "n",
