@@ -53,16 +53,22 @@ const props = defineProps({
         type: Boolean,
         default: true,
     },
+    speechRate:{
+        type: Number,
+        default: 1,
+    }
 });
 
 function speakKorean(text: string) {
     const utterance = new SpeechSynthesisUtterance(text);
     utterance.lang = "ko-KR"; // Korean language
+    utterance.rate = props.speechRate
     window.speechSynthesis.speak(utterance);
 }
 function speakEnglish(text: string) {
     const utterance = new SpeechSynthesisUtterance(text);
     utterance.lang = "en-US"; // English language
+    utterance.rate = props.speechRate
     window.speechSynthesis.speak(utterance);
 }
 </script>

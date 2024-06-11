@@ -199,4 +199,58 @@ export const JOBS: WordModel[] = [
             },
         ],
     },
+    {
+        id: 11,
+        korean: "비서",
+        read: "bi-seo",
+        english: "secretary",
+        lao: "ເລຂານຸການ",
+        speech: "n",
+        emoji: "👩🏻‍💼",
+        examples: [
+            {
+                id: 1,
+                korean: "바쁜 비서",
+                read: "bappeun biseo",
+                english: "busy secretary",
+                lao: "ເລຂານຸການວຽກຫລາຍ",
+            },
+        ],
+    },
+    {
+        id: 12,
+        korean: "주부",
+        read: "ju-bu",
+        english: "housewife",
+        lao: "ແມ່ບ້ານ",
+        speech: "n",
+        emoji: "👱🏼‍♀️",
+        examples: [
+            {
+                id: 1,
+                korean: "주부는 슈퍼마켓에서 장을 봅니다.",
+                read: "Jubuneun syupeomakeseseo jangeul bomnida.",
+                english: "The housewives are shopping at the supermarket.",
+                lao: "ແມ່ບ້ານກຳລັງຊື້ເຄື່ອງຢູ່ສັບພະສິນຄ້າ.",
+            },
+        ],
+    },
+    {
+        id: 13,
+        korean: "변호사",
+        read: "byeo-nho-sa",
+        english: "lawyer",
+        lao: "ທະ​ນາຍ​ຄວາມ",
+        speech: "n",
+        emoji: "🧑🏼‍⚖️",
+        examples: [
+            {
+                id: 1,
+                korean: "회사 변호사",
+                read: "hoesa byeonhosa",
+                english: "company lawyer",
+                lao: "ທະນາຍຄວາມບໍລິສັດ",
+            },
+        ],
+    },
 ];
