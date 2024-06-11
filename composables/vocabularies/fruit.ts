@@ -147,7 +147,7 @@ export const FRUIT: WordModel[] = [
     {
         id: 9,
         korean: "체리",
-        read: "cheri",
+        read: "che-ri",
         english: "cherry",
         lao: "ໝາກເຜັດ",
         speech: "n",
@@ -165,7 +165,7 @@ export const FRUIT: WordModel[] = [
     {
         id: 10,
         korean: "포도",
-        read: "podo",
+        read: "po-do",
         english: "grape",
         lao: "ໝາກອະງຸ່ນ",
         speech: "n",

@@ -12,10 +12,10 @@ export const ANIMALS: WordModel[] = [
         examples: [
             {
                 id: 1,
-                korean: "나는 닭고기와 밥을 먹어요",
-                read: "naneun dalg-gogiwa bab-eul meog-eoyo",
-                english: "I eat chicken and rice",
-                lao: "ຂ້ອຍກິນໄກ່ແລະເຂົ້າ",
+                korean: "나는 닭고기와 밥을 먹어요.",
+                read: "Naneun dalg-gogiwa bab-eul meog-eoyo.",
+                english: "I eat chicken and rice.",
+                lao: "ຂ້ອຍກິນໄກ່ແລະເຂົ້າ.",
             },
         ],
     },
@@ -30,10 +30,10 @@ export const ANIMALS: WordModel[] = [
         examples: [
             {
                 id: 1,
-                korean: "나는 닭고기와 밥을 먹어요",
-                read: "naneun dalg-gogiwa bab-eul meog-eoyo",
-                english: "I eat chicken and rice",
-                lao: "ຂ້ອຍກິນໄກ່ແລະເຂົ້າ",
+                korean: "저기 개가 짖고 있어요.",
+                read: "Jeogi gaega jijgo iss-eoyo.",
+                english: "A dog is barking right there.",
+                lao: "ໝາກຳລັງເຫົ່າຢູ່ບ່ອນນັ້ນ",
             },
         ],
     },
