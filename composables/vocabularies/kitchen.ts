@@ -134,7 +134,7 @@ export const KITCHEN: WordModel[] = [
         english: "fork",
         lao: "ສ້ອມ",
         speech: "n",
-        emoji: "🥄",
+        emoji: "🍴",
         examples: [
             {
                 id: 1,
@@ -147,11 +147,65 @@ export const KITCHEN: WordModel[] = [
     },
     {
         id: 8,
+        korean: "젓가락",
+        read: "jeosgalag",
+        english: "chopsticks",
+        lao: "ໄມ້ທູ່",
+        speech: "n",
+        emoji: "🥢",
+        examples: [
+            {
+                id: 1,
+                korean: "나무 도마",
+                read: "namu doma",
+                english: "wooden cutting board",
+                lao: "ຂຽນໄມ້",
+            },
+        ],
+    },
+    {
+        id: 9,
         korean: "도마",
         read: "doma",
         english: "cutting board",
         lao: "ຂຽນ",
         speech: "n",
+        examples: [
+            {
+                id: 1,
+                korean: "나무 도마",
+                read: "namu doma",
+                english: "wooden cutting board",
+                lao: "ຂຽນໄມ້",
+            },
+        ],
+    },
+    {
+        id: 10,
+        korean: "소금",
+        read: "sogeum",
+        english: "salt",
+        lao: "ເກືອ",
+        speech: "n",
+        emoji: "🧂",
+        examples: [
+            {
+                id: 1,
+                korean: "나무 도마",
+                read: "namu doma",
+                english: "wooden cutting board",
+                lao: "ຂຽນໄມ້",
+            },
+        ],
+    },
+    {
+        id: 11,
+        korean: "냉장고",
+        read: "naeng jang go",
+        english: "refrigerator",
+        lao: "ເກືອ",
+        speech: "n",
+        emoji: "❄️",
         examples: [
             {
                 id: 1,

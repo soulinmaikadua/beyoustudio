@@ -15,6 +15,8 @@ import { ANIMALS } from "./animals";
 import { SPORTS } from "./sports";
 import { VEGETABLES } from "./vegetables";
 import { DATES } from "./dates";
+import { KITCHEN } from "./kitchen";
+import { CLOTHING } from "./clothing";
 
 export const VOCABULARIES: VocabList[] = [
     {
@@ -92,9 +94,17 @@ export const VOCABULARIES: VocabList[] = [
     {
         image: "https://dummyimage.com/400x400/000/fff",
         korean: "날짜에 관한 말",
-        lao: "ຄໍາສັບກ່ຽວກັບວັນທີ",
-        route: "/korean-vocabulary-lists/dates",
-        slug: "dates",
-        data: DATES,
+        lao: "ຄໍາສັບກ່ຽວກັບເຮືອນຄົວ",
+        route: "/korean-vocabulary-lists/kitchen",
+        slug: "kitchen",
+        data: KITCHEN,
+    },
+    {
+        image: "https://dummyimage.com/400x400/000/fff",
+        korean: "날짜에 관한 말",
+        lao: "ຄໍາສັບກ່ຽວກັບເຄື່ອງນຸ່ງຫົ່ມ",
+        route: "/korean-vocabulary-lists/clothing",
+        slug: "clothing",
+        data: CLOTHING,
     },
 ];
