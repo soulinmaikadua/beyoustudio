@@ -15,3 +15,12 @@ export interface WordModel {
     emoji?: string;
     examples?: PhraseModel[];
 }
+
+export interface PageList {
+    image: string;
+    korean: string;
+    lao: string;
+    route: string;
+    slug: string;
+    data: any;
+}

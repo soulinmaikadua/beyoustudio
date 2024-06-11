@@ -1,14 +1,7 @@
-interface VocabList {
-    image: string;
-    korean: string;
-    lao: string;
-    route: string;
-    slug: string;
-    data: any;
-}
+import type { PageList } from "~/models";
 import { GREETING_PHRASES } from "./greeting-phrases";
 import { INTRODUCE_YOURSELF } from "./introduce-yourself";
-export const PHRASES: VocabList[] = [
+export const PHRASES: PageList[] = [
     {
         image: "https://dummyimage.com/400x400/000/fff",
         korean: "인사말 문구",

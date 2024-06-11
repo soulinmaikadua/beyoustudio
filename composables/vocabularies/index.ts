@@ -1,11 +1,5 @@
-interface VocabList {
-    image: string;
-    korean: string;
-    lao: string;
-    route: string;
-    slug: string;
-    data: any;
-}
+import type { PageList } from "~/models";
+
 import { NUMERIC } from "./numeric";
 import { JOBS } from "./jobs";
 import { DAYS } from "./days";
@@ -17,8 +11,9 @@ import { VEGETABLES } from "./vegetables";
 import { DATES } from "./dates";
 import { KITCHEN } from "./kitchen";
 import { CLOTHING } from "./clothing";
+import { TRAVEL_AND_PLACES } from "./travel-places";
 
-export const VOCABULARIES: VocabList[] = [
+export const VOCABULARIES: PageList[] = [
     {
         image: "https://dummyimage.com/400x400/000/fff",
         korean: "숫자에 관한 단어",
@@ -106,5 +101,13 @@ export const VOCABULARIES: VocabList[] = [
         route: "/korean-vocabulary-lists/clothing",
         slug: "clothing",
         data: CLOTHING,
+    },
+    {
+        image: "https://dummyimage.com/400x400/000/fff",
+        korean: "날짜에 관한 말",
+        lao: "ຄໍາສັບກ່ຽວກັບພາຫະນະ ແລະ ສະຖານທີ",
+        route: "/korean-vocabulary-lists/travel-and-places",
+        slug: "travel-and-places",
+        data: TRAVEL_AND_PLACES,
     },
 ];
