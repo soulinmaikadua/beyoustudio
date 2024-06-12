@@ -42,7 +42,12 @@
             </div>
         </div>
         <div v-else class="">
-            <div v-for="(item, index) in VOCABULARIES" :key="index" class="flex items-center">
+            <div
+                v-for="(item, index) in VOCABULARIES"
+                :key="index"
+                class="flex items-center"
+                @click="router.push(item.route)"
+            >
                 <div class="w-16 h-16 my-1">
                     <img
                         :src="item.image"
@@ -61,7 +66,7 @@
 <script setup lang="ts">
 import { VOCABULARIES } from "~/composables/vocabularies";
 const router = useRouter();
-const viewGrid = ref<boolean>(false);
+const viewGrid = ref<boolean>(true);
 useHead({
     meta: [
         // Open Graph / Facebook

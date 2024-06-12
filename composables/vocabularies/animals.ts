@@ -12,10 +12,10 @@ export const ANIMALS: WordModel[] = [
         examples: [
             {
                 id: 1,
-                korean: "나는 닭고기와 밥을 먹어요",
-                read: "naneun dalg-gogiwa bab-eul meog-eoyo",
-                english: "I eat chicken and rice",
-                lao: "ຂ້ອຍກິນໄກ່ແລະເຂົ້າ",
+                korean: "나는 닭고기와 밥을 먹어요.",
+                read: "Naneun dalg-gogiwa bab-eul meog-eoyo.",
+                english: "I eat chicken and rice.",
+                lao: "ຂ້ອຍກິນໄກ່ແລະເຂົ້າ.",
             },
         ],
     },
@@ -30,17 +30,17 @@ export const ANIMALS: WordModel[] = [
         examples: [
             {
                 id: 1,
-                korean: "나는 닭고기와 밥을 먹어요",
-                read: "naneun dalg-gogiwa bab-eul meog-eoyo",
-                english: "I eat chicken and rice",
-                lao: "ຂ້ອຍກິນໄກ່ແລະເຂົ້າ",
+                korean: "저기 개가 짖고 있어요.",
+                read: "Jeogi gaega jijgo iss-eoyo.",
+                english: "A dog is barking right there.",
+                lao: "ໝາກຳລັງເຫົ່າຢູ່ບ່ອນນັ້ນ",
             },
         ],
     },
     {
         id: 3,
         korean: "고양이",
-        read: "goyangi",
+        read: "go-yan-gi",
         english: "cat",
         lao: "ແມວ",
         speech: "n",
@@ -58,7 +58,7 @@ export const ANIMALS: WordModel[] = [
     {
         id: 4,
         korean: "오리",
-        read: "oli",
+        read: "o-li",
         english: "duck",
         lao: "ເປັດ",
         speech: "n",
@@ -76,7 +76,7 @@ export const ANIMALS: WordModel[] = [
     {
         id: 5,
         korean: "돼지",
-        read: "dwaeji",
+        read: "dwae-ji",
         english: "pig",
         lao: "ຫມູ",
         speech: "n",
@@ -94,7 +94,7 @@ export const ANIMALS: WordModel[] = [
     {
         id: 6,
         korean: "염소",
-        read: "yeomso",
+        read: "yeom-so",
         english: "pig",
         lao: "ແບ້",
         speech: "n",
@@ -130,7 +130,7 @@ export const ANIMALS: WordModel[] = [
     {
         id: 8,
         korean: "암소",
-        read: "amso",
+        read: "am-so",
         english: "cow",
         lao: "ງົວ",
         speech: "n",
@@ -148,7 +148,7 @@ export const ANIMALS: WordModel[] = [
     {
         id: 9,
         korean: "물소",
-        read: " mulso",
+        read: " mul-so",
         english: "buffalo",
         lao: "ຄວາຍ",
         speech: "n",
@@ -166,7 +166,7 @@ export const ANIMALS: WordModel[] = [
     {
         id: 10,
         korean: "칠면조",
-        read: "chilmyeonjo",
+        read: "chil-myeon-jo",
         english: "turkey",
         lao: "ໄກ່ງວງ",
         speech: "n",
@@ -202,7 +202,7 @@ export const ANIMALS: WordModel[] = [
     {
         id: 12,
         korean: "원숭이",
-        read: "wonsung-i",
+        read: "won-sung-i",
         english: "monkey",
         lao: "ລິງ",
         speech: "n",
@@ -220,7 +220,7 @@ export const ANIMALS: WordModel[] = [
     {
         id: 13,
         korean: "호랑이",
-        read: "holang-i",
+        read: "ho-lang-i",
         english: "tiger",
         lao: "ເສືອ",
         speech: "n",
@@ -238,7 +238,7 @@ export const ANIMALS: WordModel[] = [
     {
         id: 14,
         korean: "코끼리",
-        read: "kokkili",
+        read: "kok-ki-li",
         english: "elephant",
         lao: "ຊ້າງ",
         speech: "n",
@@ -310,7 +310,7 @@ export const ANIMALS: WordModel[] = [
     {
         id: 18,
         korean: "생쥐",
-        read: "saengjwi",
+        read: "saeng-jwi",
         english: "mouse",
         lao: "ແກະ",
         speech: "n",
@@ -328,7 +328,7 @@ export const ANIMALS: WordModel[] = [
     {
         id: 19,
         korean: "올빼미",
-        read: "olppaemi",
+        read: "olp-pae-mi",
         english: "owl",
         lao: "ນົກເຄົ້າ",
         speech: "n",
@@ -346,7 +346,7 @@ export const ANIMALS: WordModel[] = [
     {
         id: 20,
         korean: "토끼",
-        read: "tokki",
+        read: "tok-ki",
         english: "rabbit",
         lao: "ກະຕ່າຍ",
         speech: "n",
@@ -364,7 +364,7 @@ export const ANIMALS: WordModel[] = [
     {
         id: 21,
         korean: "사자",
-        read: "saja",
+        read: "sa-ja",
         english: "lion",
         lao: "ສິງ",
         speech: "n",
@@ -382,7 +382,7 @@ export const ANIMALS: WordModel[] = [
     {
         id: 22,
         korean: "사슴",
-        read: "saseum",
+        read: "sa-seum",
         english: "deer",
         lao: "ກວາງ",
         speech: "n",

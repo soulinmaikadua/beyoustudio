@@ -18,7 +18,9 @@
                 </div>
             </div>
         </div>
-        <div class="grid grid-cols-1 md:grid-cols-4 text-center md:text-left">
+        <div
+            class="grid grid-cols-1 md:grid-cols-4 gap-4 text-center md:text-left"
+        >
             <div class="mb-6 md:mb-0">
                 <h4 class="text-3xl font-bold">ຄຳສັບ</h4>
                 <p>ເລີ່ມຮຽນຄຳສັບແບບງາຍໆ, ມີຫລາກລາຍຄຳຄັບ</p>
@@ -39,6 +41,20 @@
                 <div class="mt-4">
                     <nuxt-link
                         to="/korean-phrases"
+                        class="px-4 py-2 border transition-5s hover:bg-gray-200"
+                        >ຮຽນເວົ້າເລີຍ</nuxt-link
+                    >
+                </div>
+            </div>
+            <div class="mb-6 md:mb-0">
+                <img src="/logo.png" class="mx-auto" />
+            </div>
+            <div class="mb-6 md:mb-0">
+                <h4 class="text-3xl font-bold">ປະໂຫຍກ</h4>
+                <p>ມີຫລາກລາຍຄປະໂຫຍກທີ່ຄົນນີຍົມເວົ້າກັນສຸດໆ</p>
+                <div class="mt-4">
+                    <nuxt-link
+                        to="/korean-conversations"
                         class="px-4 py-2 border transition-5s hover:bg-gray-200"
                         >ຮຽນເວົ້າເລີຍ</nuxt-link
                     >

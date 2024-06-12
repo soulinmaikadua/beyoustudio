@@ -29,7 +29,7 @@
         </div>
         <div v-if="viewGrid" class="grid grid-cols-2 md:grid-cols-6 gap-4">
             <div
-                v-for="(item, index) in PHRASES"
+                v-for="(item, index) in CONVERSATIONS"
                 :key="index"
                 class="rounded border cursor-pointer"
                 @click="router.push(item.route)"
@@ -43,7 +43,7 @@
         </div>
         <div v-else class="">
             <div
-                v-for="(item, index) in PHRASES"
+                v-for="(item, index) in CONVERSATIONS"
                 :key="index"
                 class="flex items-center"
                 @click="router.push(item.route)"
@@ -64,7 +64,7 @@
     </div>
 </template>
 <script setup lang="ts">
-import { PHRASES } from "~/composables/phrases";
+import { CONVERSATIONS } from "~/composables/conversations";
 const router = useRouter();
 const viewGrid = ref<boolean>(true);
 useHead({

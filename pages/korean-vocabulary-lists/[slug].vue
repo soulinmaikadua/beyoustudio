@@ -1,9 +1,6 @@
 <template>
     <main class="max-w-screen-xl mx-auto px-4 min-h-screen">
         <div class="mt-16 mb-6">
-            <nuxt-link to="/korean-vocabulary-lists/">
-                Back to Lists
-            </nuxt-link>
             <div class="flex mt-6 items-center">
                 <div class="h-20 w-20">
                     <img src="/assets/images/fruit.jpg" />
@@ -19,27 +16,16 @@
                 </div>
             </div>
             <div class="my-2 flex items-center">
+                <ButtonRomanization
+                    :romanization="romanization"
+                    @click1="romanization = true"
+                    @click2="romanization = false"
+                />
                 <button
-                    class="border p-2 h-10 w-10"
-                    :class="
-                        romanization
-                            ? 'bg-white'
-                            : 'bg-blue-500 text-white border-blue-500'
-                    "
-                    @click="romanization = false"
+                    class="ml-4 bg-blue-500 rounded-full border-blue-500 text-white border p-2 h-10 w-10"
+                    @click="speechRate === 1 ? speechRate = 0.5 : speechRate = 1"
                 >
-                    가
-                </button>
-                <button
-                    class="border-t border-r border-b p-2 h-10 w-10"
-                    :class="
-                        romanization
-                            ? 'bg-blue-500 text-white border-blue-500'
-                            : 'bg-white'
-                    "
-                    @click="romanization = true"
-                >
-                    Aa
+                    {{speechRate}}
                 </button>
                 <div class="ml-4 items-center">
                     <input
@@ -69,6 +55,7 @@
                 :romanization="romanization"
                 :english="englishChecked"
                 :lao="laoChecked"
+                :speech-rate="speechRate"
             />
         </div>
     </main>
@@ -78,6 +65,7 @@ import { VOCABULARIES } from "~/composables/vocabularies";
 const route = useRoute();
 
 const romanization = ref<boolean>(true);
+const speechRate = ref<number>(1);
 const englishChecked = ref<boolean>(true);
 const laoChecked = ref<boolean>(true);
 

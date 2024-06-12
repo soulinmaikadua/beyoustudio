@@ -1,11 +1,5 @@
-interface VocabList {
-    image: string;
-    korean: string;
-    lao: string;
-    route: string;
-    slug: string;
-    data: any;
-}
+import type { PageList } from "~/models";
+
 import { NUMERIC } from "./numeric";
 import { JOBS } from "./jobs";
 import { DAYS } from "./days";
@@ -15,8 +9,11 @@ import { ANIMALS } from "./animals";
 import { SPORTS } from "./sports";
 import { VEGETABLES } from "./vegetables";
 import { DATES } from "./dates";
+import { KITCHEN } from "./kitchen";
+import { CLOTHING } from "./clothing";
+import { TRAVEL_AND_PLACES } from "./travel-places";
 
-export const VOCABULARIES: VocabList[] = [
+export const VOCABULARIES: PageList[] = [
     {
         image: "https://dummyimage.com/400x400/000/fff",
         korean: "숫자에 관한 단어",
@@ -27,19 +24,27 @@ export const VOCABULARIES: VocabList[] = [
     },
     {
         image: "https://dummyimage.com/400x400/000/fff",
-        korean: "직업에 관한 말",
-        lao: "ຄໍາສັບກ່ຽວກັບອາຊີບ",
-        route: "/korean-vocabulary-lists/jobs",
-        slug: "jobs",
-        data: JOBS,
-    },
-    {
-        image: "https://dummyimage.com/400x400/000/fff",
         korean: "일에 관한 말",
         lao: "ຄໍາ​ສັບ​ຕ່າງໆ​ກ່ຽວ​ກັບ​ວັນ​",
         route: "/korean-vocabulary-lists/days",
         slug: "days",
         data: DAYS,
+    },
+    {
+        image: "https://dummyimage.com/400x400/000/fff",
+        korean: "날짜에 관한 말",
+        lao: "ຄໍາສັບກ່ຽວກັບວັນທີ",
+        route: "/korean-vocabulary-lists/dates",
+        slug: "dates",
+        data: DATES,
+    },
+    {
+        image: "https://dummyimage.com/400x400/000/fff",
+        korean: "직업에 관한 말",
+        lao: "ຄໍາສັບກ່ຽວກັບອາຊີບ",
+        route: "/korean-vocabulary-lists/jobs",
+        slug: "jobs",
+        data: JOBS,
     },
     {
         image: "https://dummyimage.com/400x400/000/fff",
@@ -84,9 +89,25 @@ export const VOCABULARIES: VocabList[] = [
     {
         image: "https://dummyimage.com/400x400/000/fff",
         korean: "날짜에 관한 말",
-        lao: "ຄໍາສັບກ່ຽວກັບວັນທີ",
-        route: "/korean-vocabulary-lists/dates",
-        slug: "dates",
-        data: DATES,
+        lao: "ຄໍາສັບກ່ຽວກັບເຮືອນຄົວ",
+        route: "/korean-vocabulary-lists/kitchen",
+        slug: "kitchen",
+        data: KITCHEN,
+    },
+    {
+        image: "https://dummyimage.com/400x400/000/fff",
+        korean: "날짜에 관한 말",
+        lao: "ຄໍາສັບກ່ຽວກັບເຄື່ອງນຸ່ງຫົ່ມ",
+        route: "/korean-vocabulary-lists/clothing",
+        slug: "clothing",
+        data: CLOTHING,
+    },
+    {
+        image: "https://dummyimage.com/400x400/000/fff",
+        korean: "날짜에 관한 말",
+        lao: "ຄໍາສັບກ່ຽວກັບພາຫະນະ ແລະ ສະຖານທີ",
+        route: "/korean-vocabulary-lists/travel-and-places",
+        slug: "travel-and-places",
+        data: TRAVEL_AND_PLACES,
     },
 ];

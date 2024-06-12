@@ -3,7 +3,7 @@
         <div>
             <div class="flex items-center">
                 <button
-                    class="rounded-full p-2 border"
+                    class="rounded-full p-2 border hover:bg-gray-100"
                     type="button"
                     @click="speakKorean(props.item.korean)"
                 >
@@ -11,7 +11,9 @@
                 </button>
                 <div class="ml-4 flex">
                     <p>{{ props.item.korean }}</p>
-                    <p v-if="props.romanization" class="ml-2">{{ props.item.read }}</p>
+                    <p v-if="props.romanization" class="ml-2">
+                        {{ props.item.read }}
+                    </p>
                 </div>
             </div>
         </div>
@@ -19,7 +21,7 @@
             <div class="flex items-center">
                 <button
                     v-if="props.english"
-                    class="rounded-full p-2 border"
+                    class="rounded-full p-2 border hover:bg-gray-100"
                     type="button"
                     @click="speakEnglish(props.item.english)"
                 >
@@ -39,28 +41,34 @@ const props = defineProps({
         type: Object,
         default: () => {},
     },
-    english:{
-        type:Boolean,
+    english: {
+        type: Boolean,
         default: true,
     },
-    lao:{
-        type:Boolean,
+    lao: {
+        type: Boolean,
         default: true,
     },
-    romanization:{
-        type:Boolean,
+    romanization: {
+        type: Boolean,
         default: true,
+    },
+    speechRate:{
+        type: Number,
+        default: 1,
     }
 });
 
 function speakKorean(text: string) {
     const utterance = new SpeechSynthesisUtterance(text);
     utterance.lang = "ko-KR"; // Korean language
+    utterance.rate = props.speechRate
     window.speechSynthesis.speak(utterance);
 }
 function speakEnglish(text: string) {
     const utterance = new SpeechSynthesisUtterance(text);
     utterance.lang = "en-US"; // English language
+    utterance.rate = props.speechRate
     window.speechSynthesis.speak(utterance);
 }
 </script>
