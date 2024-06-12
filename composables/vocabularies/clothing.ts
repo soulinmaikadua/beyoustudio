@@ -8,7 +8,7 @@ export const CLOTHING: WordModel[] = [
         english: "clothes",
         lao: "ເຄື່ອງນຸ່ງ",
         speech: "n",
-        emoji: "🐓",
+        emoji: "👘",
         examples: [
             {
                 id: 1,

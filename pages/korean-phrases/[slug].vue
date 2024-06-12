@@ -23,9 +23,11 @@
                 />
                 <button
                     class="ml-4 bg-blue-500 rounded-full border-blue-500 text-white border p-2 h-10 w-10"
-                    @click="speechRate === 1 ? speechRate = 0.5 : speechRate = 1"
+                    @click="
+                        speechRate === 1 ? (speechRate = 0.5) : (speechRate = 1)
+                    "
                 >
-                    {{speechRate}}
+                    {{ speechRate }}
                 </button>
                 <div class="ml-4 items-center">
                     <input
@@ -56,6 +58,7 @@
                 :english="englishChecked"
                 :lao="laoChecked"
                 :speech-rate="speechRate"
+                :class="index < data?.data.length - 1 ? 'border-b' : ''"
             />
         </div>
     </main>
