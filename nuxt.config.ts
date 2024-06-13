@@ -53,7 +53,7 @@ export default defineNuxtConfig({
         url: "https://beyoustudio.pro",
         trailingSlash: true,
     },
-    modules: ["@nuxtjs/tailwindcss", "@nuxtjs/sitemap"],
+    modules: ["@nuxtjs/tailwindcss", "@nuxtjs/sitemap", "@nuxt/content"],
     sitemap: {
         sources: ["/api/__sitemaps__/urls"],
     },

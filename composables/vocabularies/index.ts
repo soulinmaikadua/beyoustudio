@@ -40,19 +40,19 @@ export const VOCABULARIES: PageList[] = [
     },
     {
         image: "https://dummyimage.com/400x400/000/fff",
-        korean: "직업에 관한 말",
-        lao: "ຄໍາສັບກ່ຽວກັບອາຊີບ",
-        route: "/korean-vocabulary-lists/jobs",
-        slug: "jobs",
-        data: JOBS,
-    },
-    {
-        image: "https://dummyimage.com/400x400/000/fff",
         korean: "개월에 관한 단어",
         lao: "ຄໍາ​ສັບ​ຕ່າງໆ​ກ່ຽວ​ກັບ​ເດືອນ​",
         route: "/korean-vocabulary-lists/months",
         slug: "months",
         data: MONTHS,
+    },
+    {
+        image: "https://dummyimage.com/400x400/000/fff",
+        korean: "직업에 관한 말",
+        lao: "ຄໍາສັບກ່ຽວກັບອາຊີບ",
+        route: "/korean-vocabulary-lists/jobs",
+        slug: "jobs",
+        data: JOBS,
     },
     {
         image: "https://dummyimage.com/400x400/000/fff",

@@ -66,10 +66,10 @@ export const ANIMALS: WordModel[] = [
         examples: [
             {
                 id: 1,
-                korean: "나는 닭고기와 밥을 먹어요",
-                read: "naneun dalg-gogiwa bab-eul meog-eoyo",
-                english: "I eat chicken and rice",
-                lao: "ຂ້ອຍກິນໄກ່ແລະເຂົ້າ",
+                korean: "우리는 공원에서 오리들에게 빵을 먹였습니다.",
+                read: "U-ri-neun gong-won-e-seo o-ri-deul-e-ge ppang-eul meo-gyeot-seum-ni-da.",
+                english: "We fed the ducks at the park with some bread.",
+                lao: "ພວກເຮົາໃຫ້ອາຫານເປັດຢູ່ສວນສາທາລະນະດ້ວຍເຂົ້າຈີ່.",
             },
         ],
     },
@@ -95,17 +95,17 @@ export const ANIMALS: WordModel[] = [
         id: 6,
         korean: "염소",
         read: "yeom-so",
-        english: "pig",
+        english: "goat",
         lao: "ແບ້",
         speech: "n",
         emoji: "🐐",
         examples: [
             {
                 id: 1,
-                korean: "나는 닭고기와 밥을 먹어요",
-                read: "naneun dalg-gogiwa bab-eul meog-eoyo",
-                english: "I eat chicken and rice",
-                lao: "ຂ້ອຍກິນໄກ່ແລະເຂົ້າ",
+                korean: "농부는 매일 아침 염소들을 젖을 짭니다.",
+                read: "Nong-bu-neun mae-il a-chim yeom-so-deul-eul jeot-eul jjam-ni-da.",
+                english: "The farmer milks the goats every morning.",
+                lao: "ຊາວກະສິກອນໃຫ້ນົມແບ້ທຸກໆເຊົ້າ.",
             },
         ],
     },
@@ -156,10 +156,10 @@ export const ANIMALS: WordModel[] = [
         examples: [
             {
                 id: 1,
-                korean: "나는 닭고기와 밥을 먹어요",
-                read: "naneun dalg-gogiwa bab-eul meog-eoyo",
-                english: "I eat chicken and rice",
-                lao: "ຂ້ອຍກິນໄກ່ແລະເຂົ້າ",
+                korean: "물소는 넓은 들판에서 평화롭게 풀을 뜯고 있었습니다.",
+                read: "Mul-so-neun neol-beun deul-pan-e-seo pyeong-hwa-rop-ge pul-eul tteut-go it-seum-ni-da.",
+                english: "The buffalo grazed peacefully in the open field.",
+                lao: "ຄວາຍ​ໄດ້​ກິນ​ຫຍ້າ​ຢ່າງ​ສະຫງົບ​ສຸກ​ໃນ​ທົ່ງ​ນາ.",
             },
         ],
     },
@@ -176,7 +176,8 @@ export const ANIMALS: WordModel[] = [
                 id: 1,
                 korean: "나는 닭고기와 밥을 먹어요",
                 read: "naneun dalg-gogiwa bab-eul meog-eoyo",
-                english: "I eat chicken and rice",
+                english:
+                    "The turkey strutted around the farmyard, showing off its feathers.",
                 lao: "ຂ້ອຍກິນໄກ່ແລະເຂົ້າ",
             },
         ],
@@ -192,10 +193,11 @@ export const ANIMALS: WordModel[] = [
         examples: [
             {
                 id: 1,
-                korean: "나는 닭고기와 밥을 먹어요",
-                read: "naneun dalg-gogiwa bab-eul meog-eoyo",
-                english: "I eat chicken and rice",
-                lao: "ຂ້ອຍກິນໄກ່ແລະເຂົ້າ",
+                korean: "그녀는 새가 정원에 둥지를 짓는 것을 지켜보았습니다.",
+                read: "Geu-nyeo-neun sae-ga jeong-won-e dung-ji-reul jit-neun geo-seul ji-kyeo-bo-at-seum-ni-da.",
+                english:
+                    "She watched the bird building its nest in the garden.",
+                lao: "ນາງໄດ້ເບິ່ງນົກທີ່ສ້າງຮັງຂອງມັນຢູ່ໃນສວນ.",
             },
         ],
     },
@@ -210,10 +212,10 @@ export const ANIMALS: WordModel[] = [
         examples: [
             {
                 id: 1,
-                korean: "나는 닭고기와 밥을 먹어요",
-                read: "naneun dalg-gogiwa bab-eul meog-eoyo",
-                english: "I eat chicken and rice",
-                lao: "ຂ້ອຍກິນໄກ່ແລະເຂົ້າ",
+                korean: "우리는 동물원에서 바나나를 먹는 원숭이를 보았습니다.",
+                read: "U-ri-neun dong-mul-won-e-seo ba-na-na-reul meok-neun won-sung-i-reul bo-at-seum-ni-da.",
+                english: "We saw a monkey eating bananas at the zoo.",
+                lao: "ພວກເຮົາເຫັນລີງກິນກ້ວຍຢູ່ສວນສັດ.",
             },
         ],
     },
@@ -228,10 +230,11 @@ export const ANIMALS: WordModel[] = [
         examples: [
             {
                 id: 1,
-                korean: "나는 닭고기와 밥을 먹어요",
-                read: "naneun dalg-gogiwa bab-eul meog-eoyo",
-                english: "I eat chicken and rice",
-                lao: "ຂ້ອຍກິນໄກ່ແລະເຂົ້າ",
+                korean: "호랑이는 강한 존재감을 드러내며 크게 포효했습니다.",
+                read: "Ho-rang-i-neun gang-han jon-jae-gam-eul deu-reo-nae-myeo keu-ge po-hyo-haet-seum-ni-da.",
+                english:
+                    "The tiger roared loudly, showing its powerful presence.",
+                lao: "ເສືອ​ຮ້ອງ​ດັງ​ຂຶ້ນ, ສະ​ແດງ​ໃຫ້​ເຫັນ​ທີ່​ມີ​ພະລັງ​ຂອງ​ມັນ.",
             },
         ],
     },
@@ -246,10 +249,10 @@ export const ANIMALS: WordModel[] = [
         examples: [
             {
                 id: 1,
-                korean: "나는 닭고기와 밥을 먹어요",
-                read: "naneun dalg-gogiwa bab-eul meog-eoyo",
-                english: "I eat chicken and rice",
-                lao: "ຂ້ອຍກິນໄກ່ແລະເຂົ້າ",
+                korean: "우리는 강에서 목욕하는 코끼리들을 구경했습니다.",
+                read: "U-ri-neun gang-e-seo mog-yok-ha-neun ko-kki-ri-deul-eul gu-kyeong-haet-seum-ni-da.",
+                english: "We watched the elephants bathing in the river.",
+                lao: "ພວກ​ເຮົາ​ໄດ້​ເບິ່ງ​ຊ້າງ​ອາບ​ນ​້​ໍາ​.",
             },
         ],
     },
@@ -264,10 +267,11 @@ export const ANIMALS: WordModel[] = [
         examples: [
             {
                 id: 1,
-                korean: "나는 닭고기와 밥을 먹어요",
-                read: "naneun dalg-gogiwa bab-eul meog-eoyo",
-                english: "I eat chicken and rice",
-                lao: "ຂ້ອຍກິນໄກ່ແລະເຂົ້າ",
+                korean: "기린은 긴 목을 가지고 있어 나무의 높은 가지에 있는 잎을 먹을 수 있습니다.",
+                read: "Gi-rin-eun gin mog-eul ga-ji-go iss-eo na-mu-e noh-eun ga-ji-e iss-neun ip-eul meo-geul su iss-seum-ni-da.",
+                english:
+                    "Giraffes have long necks that help them reach high branches for leaves.",
+                lao: "ຈີຣາຟມີຄໍຍາວທີ່ຊ່ວຍໃຫ້ພວກເຂົາສາມາດບັນລຸກິ່ງງ່າສູງສໍາລັບໃບ.",
             },
         ],
     },
