@@ -12,6 +12,7 @@ import { DATES } from "./dates";
 import { KITCHEN } from "./kitchen";
 import { CLOTHING } from "./clothing";
 import { TRAVEL_AND_PLACES } from "./travel-places";
+import { HANDYMAN } from "./handyman";
 
 export const VOCABULARIES: PageList[] = [
     {
@@ -109,5 +110,13 @@ export const VOCABULARIES: PageList[] = [
         route: "/korean-vocabulary-lists/travel-and-places",
         slug: "travel-and-places",
         data: TRAVEL_AND_PLACES,
+    },
+    {
+        image: "https://dummyimage.com/400x400/000/fff",
+        korean: "날짜에 관한 말",
+        lao: "ຄໍາສັບກ່ຽວກັບພາຫະນະ ແລະ ສະຖານທີ",
+        route: "/korean-vocabulary-lists/travel-and-places",
+        slug: "travel-and-places",
+        data: HANDYMAN,
     },
 ];
