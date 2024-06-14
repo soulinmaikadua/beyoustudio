@@ -10,6 +10,7 @@
                             ? 'bg-blue-500 text-white border-blue-500'
                             : 'bg-white'
                     "
+                    aria-label="block grid"
                     @click="viewGrid = true"
                 >
                     <IconSquare />
@@ -21,6 +22,7 @@
                             ? 'bg-white'
                             : 'bg-blue-500 text-white border-blue-500'
                     "
+                    aria-label="list grid"
                     @click="viewGrid = false"
                 >
                     <IconListBullet />
@@ -38,6 +40,7 @@
                         :src="item.image"
                         style="width: 100%"
                         class="rounded-t"
+                        :alt="item.lao"
                     />
                 </nuxt-link>
                 <div class="p-2 text-center">
@@ -60,6 +63,7 @@
                             :src="item.image"
                             style="width: 100%"
                             class="rounded"
+                            :alt="item.lao"
                         />
                     </nuxt-link>
                 </div>

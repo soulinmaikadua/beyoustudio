@@ -7,6 +7,7 @@
                     ? 'bg-white hover:bg-gray-100'
                     : 'bg-blue-500 text-white border-blue-500'
             "
+            aria-label="korean"
             @click="emit('click2')"
         >
             가
@@ -18,6 +19,7 @@
                     ? 'bg-blue-500 text-white border-blue-500'
                     : 'bg-white hover:bg-gray-100'
             "
+            aria-label="english"
             @click="emit('click1')"
         >
             Aa
