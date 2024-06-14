@@ -8,7 +8,15 @@ export const MONTHS: WordModel[] = [
         english: "January",
         lao: "ເດືອນມັງກອນ",
         speech: "n",
-        examples: [],
+        examples: [
+            {
+                id: 1,
+                korean: "일월에는 새해가 시작됩니다.",
+                read: "Il-wol-e-neun sae-hae-ga si-jak-doem-ni-da.",
+                english: "The new year begins in January.",
+                lao: "ເດືອນມັງກອນແມ່ນການເລີ່ມຕົ້ນປີໃຫມ່.",
+            },
+        ],
     },
     {
         id: 2,
@@ -17,7 +25,15 @@ export const MONTHS: WordModel[] = [
         english: "February",
         lao: "ເດືອນກຸມພາ",
         speech: "n",
-        examples: [],
+        examples: [
+            {
+                id: 1,
+                korean: "이월은 한 해에서 가장 짧은 달입니다.",
+                read: "I-wol-eun han-hae-e-seo ga-jang jjalb-eun dal-im-ni-da.",
+                english: "February is the shortest month of the year.",
+                lao: "ເດືອນກຸມພາແມ່ນເດືອນທີ່ສັ້ນທີ່ສຸດໃນປີ.",
+            },
+        ],
     },
     {
         id: 3,
@@ -26,7 +42,15 @@ export const MONTHS: WordModel[] = [
         english: "March",
         lao: "ເດືອນມີນາ",
         speech: "n",
-        examples: [],
+        examples: [
+            {
+                id: 1,
+                korean: "삼월에는 봄이 시작됩니다.",
+                read: "Sam-wol-e-neun bom-i si-jak-doem-ni-da.",
+                english: "Spring begins in March.",
+                lao: "ລະດູໃບໄມ້ຜົດເລີ່ມຕົ້ນໃນເດືອນມີນາ.",
+            },
+        ],
     },
     {
         id: 4,
@@ -35,16 +59,32 @@ export const MONTHS: WordModel[] = [
         english: "April",
         lao: "ເດືອນເມສາ",
         speech: "n",
-        examples: [],
+        examples: [
+            {
+                id: 1,
+                korean: "사월에는 날씨가 따뜻해집니다.",
+                read: "Sa-wol-e-neun nal-ssi-ga dda-ddeut-hae-jip-ni-da.",
+                english: "The weather becomes warmer in April.",
+                lao: "ອາກາດເລີ່ມອຸ່ນຂຶ້ນໃນເດືອນເມສາ.",
+            },
+        ],
     },
     {
         id: 5,
         korean: "오월",
         read: "o-wol",
         english: "May",
-        lao: "ພຶດສະພາ",
+        lao: "ເດືອນພຶດສະພາ",
         speech: "n",
-        examples: [],
+        examples: [
+            {
+                id: 1,
+                korean: "오월에는 꽃이 많이 핍니다.",
+                read: "O-wol-e-neun kkoch-i manh-i pim-ni-da.",
+                english: "Many flowers bloom in May.",
+                lao: "ມີດອກໄມ້ຫລາຍດອກບານໃນເດືອນພຶດສະພາ.",
+            },
+        ],
     },
     {
         id: 6,
@@ -53,7 +93,15 @@ export const MONTHS: WordModel[] = [
         english: "June",
         lao: "ເດືອນມິຖຸນາ",
         speech: "n",
-        examples: [],
+        examples: [
+            {
+                id: 1,
+                korean: "유월에는 날씨가 더워집니다.",
+                read: "Yu-wol-e-neun nal-ssi-ga deo-wo-jip-ni-da.",
+                english: "The weather gets hotter in June.",
+                lao: "ອາກາດເລີ່ມຮ້ອນໃນເດືອນມິຖຸນາ.",
+            },
+        ],
     },
     {
         id: 7,
@@ -62,7 +110,15 @@ export const MONTHS: WordModel[] = [
         english: "July",
         lao: "ເດືອນກໍລະກົດ",
         speech: "n",
-        examples: [],
+        examples: [
+            {
+                id: 1,
+                korean: "칠월에는 여름 방학이 있습니다.",
+                read: "Chil-wol-e-neun yeo-reum bang-hak-i its-seum-ni-da.",
+                english: "There is summer vacation in July.",
+                lao: "ມີວັນພັກຮ້ອນໃນເດືອນກໍລະກົດ.",
+            },
+        ],
     },
     {
         id: 8,
@@ -71,7 +127,15 @@ export const MONTHS: WordModel[] = [
         english: "August",
         lao: "ເດືອນສິງຫາ",
         speech: "n",
-        examples: [],
+        examples: [
+            {
+                id: 1,
+                korean: "팔월에는 날씨가 매우 덥습니다.",
+                read: "Pal-wol-e-neun nal-ssi-ga mae-u deop-seum-ni-da.",
+                english: "The weather is very hot in August.",
+                lao: "ອາກາດຮ້ອນຫລາຍໃນເດືອນສິງຫາ.",
+            },
+        ],
     },
     {
         id: 9,
@@ -80,7 +144,15 @@ export const MONTHS: WordModel[] = [
         english: "September",
         lao: "ເດືອນກັນຍາ",
         speech: "n",
-        examples: [],
+        examples: [
+            {
+                id: 1,
+                korean: "구월에는 학교가 다시 시작됩니다.",
+                read: "Gu-wol-e-neun hak-gyo-ga da-si si-jak-doem-ni-da.",
+                english: "School starts again in September.",
+                lao: "ໂຮງຮຽນເລີ່ມຕົ້ນອີກຄັ້ງໃນເດືອນກັນຍາ.",
+            },
+        ],
     },
     {
         id: 10,
@@ -89,7 +161,15 @@ export const MONTHS: WordModel[] = [
         english: "October",
         lao: "ເດືອນຕຸລາ",
         speech: "n",
-        examples: [],
+        examples: [
+            {
+                id: 1,
+                korean: "십월에는 날씨가 시원해집니다.",
+                read: "Sib-wol-e-neun nal-ssi-ga si-won-hae-jip-ni-da.",
+                english: "The weather becomes cooler in October.",
+                lao: "ອາກາດເລີ່ມເຢັນໃນເດືອນຕຸລາ.",
+            },
+        ],
     },
     {
         id: 11,
@@ -98,15 +178,31 @@ export const MONTHS: WordModel[] = [
         english: "November",
         lao: "ເດືອນພະຈິກ",
         speech: "n",
-        examples: [],
+        examples: [
+            {
+                id: 1,
+                korean: "십일월에는 낙엽이 많이 떨어집니다.",
+                read: "Sib-il-wol-e-neun nag-yeob-i manh-i tteol-eo-jip-ni-da.",
+                english: "Many leaves fall in November.",
+                lao: "ມີໃບໄມ້ຕົກຫລາຍໃນເດືອນພະຈິກ.",
+            },
+        ],
     },
     {
         id: 12,
-        korean: "십이 월",
-        read: "sib-i wol",
+        korean: "십이월",
+        read: "sib-i-wol",
         english: "December",
         lao: "ເດືອນທັນວາ",
         speech: "n",
-        examples: [],
+        examples: [
+            {
+                id: 1,
+                korean: "십이월에는 크리스마스가 있습니다.",
+                read: "Sib-i-wol-e-neun keu-ri-seu-ma-seu-ga its-seum-ni-da.",
+                english: "Christmas is in December.",
+                lao: "ມີຄຣິສມາດໃນເດືອນທັນວາ.",
+            },
+        ],
     },
 ];

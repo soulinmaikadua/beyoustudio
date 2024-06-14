@@ -84,10 +84,10 @@ export const JOBS: WordModel[] = [
         examples: [
             {
                 id: 1,
-                korean: "내 아들은 선생님이야",
-                read: "nae adeul-eun seonsaengnim-iya",
-                english: "My son is a teacher",
-                lao: "ລູກຊາຍຂອງຂ້ອຍເປັນຄູສອນ",
+                korean: "내 아들은 선생님이야.",
+                read: "nae adeul-eun seonsaengnim-iya.",
+                english: "My son is a teacher.",
+                lao: "ລູກຊາຍຂອງຂ້ອຍເປັນຄູສອນ.",
             },
         ],
     },
@@ -120,10 +120,10 @@ export const JOBS: WordModel[] = [
         examples: [
             {
                 id: 1,
-                korean: "그의 아버지는 경찰관이다",
-                read: "geuui abeojineun gyeongchalgwan-ida",
-                english: "His father is a policeman",
-                lao: "ພໍ່ຂອງລາວເປັນຕໍາຫຼວດ",
+                korean: "그의 아버지는 경찰관이다.",
+                read: "geuui abeojineun gyeongchalgwan-ida.",
+                english: "His father is a policeman.",
+                lao: "ພໍ່ຂອງລາວເປັນຕຳຫຼວດ.",
             },
         ],
     },
@@ -158,13 +158,14 @@ export const JOBS: WordModel[] = [
                 id: 1,
                 korean: "제 회계사는 제 지출과 청구서를 저보다 더 잘 압니다.",
                 read: "Je hoegyesaneun je jichulgwa cheongguseoreul jeoboda deo jal amnida.",
-                english: "My accountant understands my expenses and bills better than I do.",
+                english:
+                    "My accountant understands my expenses and bills better than I do.",
                 lao: "ນັກບັນຊີຂອງຂ້ອຍເຂົ້າໃຈຄ່າໃຊ້ຈ່າຍ ແລະ ໃບບິນຄ່າຂອງຂ້ອຍດີກ່ວາຂ້ອຍ.",
             },
         ],
     },
     {
-        id: 9,
+        id: 10,
         korean: "요리사",
         read: "yo-li-sa",
         english: "chef",
@@ -182,7 +183,7 @@ export const JOBS: WordModel[] = [
         ],
     },
     {
-        id: 10,
+        id: 11,
         korean: "공장 노동자",
         read: "gong-jang no-dong-ja",
         english: "factory worker",
@@ -194,13 +195,14 @@ export const JOBS: WordModel[] = [
                 id: 1,
                 korean: "공장의 효율성은 공장 노동자의 능력에 달려 있습니다.",
                 read: "Gongjangui hyoyulseongeun gongjang nodongjaui neungnyeoge dallyeo itseumnida.",
-                english: "The efficiency of the plant relies on the ability of the factory worker.",
+                english:
+                    "The efficiency of the plant relies on the ability of the factory worker.",
                 lao: "ປະສິດທິພາບຂອງໂຮງງານແມ່ນຂຶ້ນກັບຄວາມສາມາດຂອງພະນັກງານໂຮງງານ.",
             },
         ],
     },
     {
-        id: 11,
+        id: 12,
         korean: "비서",
         read: "bi-seo",
         english: "secretary",
@@ -213,12 +215,12 @@ export const JOBS: WordModel[] = [
                 korean: "바쁜 비서",
                 read: "bappeun biseo",
                 english: "busy secretary",
-                lao: "ເລຂານຸການວຽກຫລາຍ",
+                lao: "ເລຂານຸການທີ່ວຽກຫລາຍ",
             },
         ],
     },
     {
-        id: 12,
+        id: 13,
         korean: "주부",
         read: "ju-bu",
         english: "housewife",
@@ -236,7 +238,7 @@ export const JOBS: WordModel[] = [
         ],
     },
     {
-        id: 13,
+        id: 14,
         korean: "변호사",
         read: "byeo-nho-sa",
         english: "lawyer",
@@ -246,8 +248,8 @@ export const JOBS: WordModel[] = [
         examples: [
             {
                 id: 1,
-                korean: "회사 변호사",
-                read: "hoesa byeonhosa",
+                korean: "회사의 변호사",
+                read: "hoesa-ui byeonhosa",
                 english: "company lawyer",
                 lao: "ທະນາຍຄວາມບໍລິສັດ",
             },

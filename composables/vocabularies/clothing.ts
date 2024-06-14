@@ -13,7 +13,7 @@ export const CLOTHING: WordModel[] = [
             {
                 id: 1,
                 korean: "바닥에 있는 옷은 더럽습니다.",
-                read: "Badage inneun oseun deoreopsseumnida.",
+                read: "Badage inneun oseun deoreopseumnida.",
                 english: "The clothes on the floor are dirty.",
                 lao: "ເຄື່ອງນຸ່ງຢູ່ເທິງພື້ນແມ່ນເປື້ອນ.",
             },
@@ -85,7 +85,7 @@ export const CLOTHING: WordModel[] = [
             {
                 id: 1,
                 korean: "오늘은 빨간 드레스를 입고 내일은 파란 드레스를 입을 것입니다.",
-                read: "Oneureun ppalgan deureseureul ipkko naeireun paran deuresseureul ibeul ggeosimnida.",
+                read: "Oneureun ppalgan deureseureul ipkko naeireun paran deuresseureul ibeul geosimnida.",
                 english:
                     "I'll wear the red dress today, and the blue one tomorrow.",
                 lao: "ຂ້ອຍຈະໃສ່ຊຸດສີແດງໃນມື້ນີ້ ແລະ ສີຟ້າໃນມື້ອື່ນ.",
@@ -104,7 +104,7 @@ export const CLOTHING: WordModel[] = [
             {
                 id: 1,
                 korean: "물이 빠진 청바지",
-                read: "muri ppajin cheongbaji",
+                read: "Muri ppajin cheongbaji",
                 english: "faded jeans",
                 lao: "ໂສ້ງຢີນຈືດໆ",
             },
@@ -122,7 +122,7 @@ export const CLOTHING: WordModel[] = [
             {
                 id: 1,
                 korean: "파란 티셔츠",
-                read: "paran tisyeocheu",
+                read: "Paran tisyeocheu",
                 english: "blue T-shirt",
                 lao: "ເສື້ອຍືດສີຟ້າ",
             },
@@ -130,9 +130,9 @@ export const CLOTHING: WordModel[] = [
     },
     {
         id: 8,
-        korean: "짧은",
-        read: "danlag",
-        english: "short",
+        korean: "반바지",
+        read: "banbaji",
+        english: "shorts",
         lao: "ໂສ້ງຂາສັ້ນ",
         speech: "n",
         emoji: "🩳",
@@ -140,8 +140,8 @@ export const CLOTHING: WordModel[] = [
             {
                 id: 1,
                 korean: "그는 빨간색 반바지를 입는다.",
-                read: "Geuneun ppalgansaeg banbajileul ibneunda.",
-                english: "The cows are grazing in the field.",
+                read: "Geuneun ppalgansaek banbajileul ibneunda.",
+                english: "He is wearing red shorts.",
                 lao: "ລາວນຸ່ງໂສ້ງຂາສັ້ນສີແດງ.",
             },
         ],
@@ -150,7 +150,7 @@ export const CLOTHING: WordModel[] = [
         id: 9,
         korean: "구두",
         read: "gudu",
-        english: "shoe",
+        english: "shoes",
         lao: "ເກີບ",
         speech: "n",
         emoji: "👟",
@@ -158,16 +158,16 @@ export const CLOTHING: WordModel[] = [
             {
                 id: 1,
                 korean: "나는 새 신발을 산다.",
-                read: "Naneun sae sinbal-eul sanda.",
-                english: "I buy a new shoe.",
-                lao: "ຂ້ອຍຊື້ເກີບໃຫມ່.",
+                read: "Naneun sae sinbaleul sanda.",
+                english: "I buy new shoes.",
+                lao: "ຂ້ອຍຊື້ເກີບໃໝ່.",
             },
         ],
     },
     {
         id: 10,
         korean: "양말",
-        read: "yang-mal",
+        read: "yangmal",
         english: "socks",
         lao: "ຖົງຕີນ",
         speech: "n",
@@ -175,17 +175,17 @@ export const CLOTHING: WordModel[] = [
         examples: [
             {
                 id: 1,
-                korean: "나는 새 신발을 산다.",
-                read: "Na-neun sae sin-bal-eul san-da.",
-                english: "I buy a new shoe.",
-                lao: "ຂ້ອຍຊື້ເກີບໃຫມ່.",
+                korean: "나는 새 양말을 신는다.",
+                read: "Naneun sae yangmaleul sinneunda.",
+                english: "I wear new socks.",
+                lao: "ຂ້ອຍໃສ່ຖົງຕີນໃໝ່.",
             },
         ],
     },
     {
         id: 11,
         korean: "장갑",
-        read: "jang-gab",
+        read: "janggab",
         english: "gloves",
         lao: "ຖົງມື",
         speech: "n",
@@ -194,8 +194,8 @@ export const CLOTHING: WordModel[] = [
             {
                 id: 1,
                 korean: "괜찮아요, 이 장갑을 끼세요.",
-                read: "Gwaen-chanh-ayo, i jang-gab-eul kkiseyo.",
-                english: "It's cool, please wear this gloves.",
+                read: "Gwaenchanayo, i janggabeul kkiseyo.",
+                english: "It's cold, please wear these gloves.",
                 lao: "ມັນເຢັນ, ກະລຸນາໃສ່ຖົງມືນີ້.",
             },
         ],
@@ -211,10 +211,10 @@ export const CLOTHING: WordModel[] = [
         examples: [
             {
                 id: 1,
-                korean: "괜찮아요, 이 장갑을 끼세요.",
-                read: "Gwaenchanh-ayo, i jang-gab-eul kkiseyo.",
-                english: "It's cool, please wear this gloves.",
-                lao: "ມັນເຢັນ, ກະລຸນາໃສ່ຖົງມືນີ້.",
+                korean: "나는 새 슬리퍼를 신는다.",
+                read: "Naneun sae seullipeoreul sinneunda.",
+                english: "I wear new slippers.",
+                lao: "ຂ້ອຍໃສ່ເກີບແຕະໃໝ່.",
             },
         ],
     },
@@ -223,16 +223,16 @@ export const CLOTHING: WordModel[] = [
         korean: "하이힐",
         read: "haihil",
         english: "high-heels",
-        lao: "ເກີບສົ້ນ​ສູງ",
+        lao: "ເກີບສົ້ນສູງ",
         speech: "n",
         emoji: "👠",
         examples: [
             {
                 id: 1,
-                korean: "괜찮아요, 이 장갑을 끼세요.",
-                read: "gwaenchanh-ayo, i jang-gab-eul kkiseyo.",
-                english: "It's cool, please wear this gloves.",
-                lao: "ມັນເຢັນ, ກະລຸນາໃສ່ຖົງມືນີ້.",
+                korean: "나는 하이힐을 신는다.",
+                read: "Naneun haihileul sinneunda.",
+                english: "I wear high-heels.",
+                lao: "ຂ້ອຍໃສ່ເກີບສົ້ນສູງ.",
             },
         ],
     },
@@ -247,15 +247,15 @@ export const CLOTHING: WordModel[] = [
         examples: [
             {
                 id: 1,
-                korean: "괜찮아요, 이 장갑을 끼세요.",
-                read: "gwaenchanh-ayo, i jang-gab-eul kkiseyo.",
-                english: "It's cool, please wear this gloves.",
-                lao: "ມັນເຢັນ, ກະລຸນາໃສ່ຖົງມືນີ້.",
+                korean: "나는 새 모자를 쓴다.",
+                read: "Naneun sae mojaleul sseunda.",
+                english: "I wear my new hat.",
+                lao: "ຂ້ອຍໃສ່ໝວກໃໝ່ຂອງຂ້ອຍ.",
             },
         ],
     },
     {
-        id: 14,
+        id: 15,
         korean: "캡",
         read: "kaeb",
         english: "cap",
@@ -273,7 +273,7 @@ export const CLOTHING: WordModel[] = [
         ],
     },
     {
-        id: 14,
+        id: 16,
         korean: "우산",
         read: "usan",
         english: "umbrella",
@@ -284,14 +284,14 @@ export const CLOTHING: WordModel[] = [
             {
                 id: 1,
                 korean: "비가 온다, 우산을 가지고 가세요.",
-                read: "Biga onda, usan-eul gajigo gaseyo.",
-                english: "It's raining, take a umbrella with you.",
-                lao: "ຝົນຕົກເອົາຄັນຮົ່ມໄປນຳເຈົ້າ.",
+                read: "Biga onda, usaneul gajigo gaseyo.",
+                english: "It's raining, take an umbrella with you.",
+                lao: "ຝົນຕົກ, ເອົາຄັນຮົ່ມໄປນຳເຈົ້າ.",
             },
         ],
     },
     {
-        id: 15,
+        id: 17,
         korean: "가방",
         read: "gabang",
         english: "bag",
@@ -301,15 +301,15 @@ export const CLOTHING: WordModel[] = [
         examples: [
             {
                 id: 1,
-                korean: "비가 온다, 우산을 가지고 가세요.",
-                read: "Biga onda, usan-eul gajigo gaseyo.",
-                english: "It's raining, take a umbrella with you.",
-                lao: "ຝົນຕົກເອົາຄັນຮົ່ມໄປນຳເຈົ້າ.",
+                korean: "나는 새 가방을 산다.",
+                read: "Naneun sae gabangeul sanda.",
+                english: "I buy a new bag.",
+                lao: "ຂ້ອຍຊື້ກະເປົ໋າໃໝ່.",
             },
         ],
     },
     {
-        id: 16,
+        id: 18,
         korean: "스카프",
         read: "seukapeu",
         english: "scarf",
@@ -319,15 +319,15 @@ export const CLOTHING: WordModel[] = [
         examples: [
             {
                 id: 1,
-                korean: "비가 온다, 우산을 가지고 가세요.",
-                read: "Biga onda, usan-eul gajigo gaseyo.",
-                english: "It's raining, take a umbrella with you.",
-                lao: "ຝົນຕົກເອົາຄັນຮົ່ມໄປນຳເຈົ້າ.",
+                korean: "나는 새 스카프를 산다.",
+                read: "Naneun sae seukapeureul sanda.",
+                english: "I buy a new scarf.",
+                lao: "ຂ້ອຍຊື້ຜ້າພັນຄໍໃໝ່.",
             },
         ],
     },
     {
-        id: 17,
+        id: 19,
         korean: "색안경",
         read: "saeg-angyeong",
         english: "sunglasses",
@@ -337,15 +337,15 @@ export const CLOTHING: WordModel[] = [
         examples: [
             {
                 id: 1,
-                korean: "비가 온다, 우산을 가지고 가세요.",
-                read: "Biga onda, usan-eul gajigo gaseyo.",
-                english: "It's raining, take a umbrella with you.",
-                lao: "ຝົນຕົກເອົາຄັນຮົ່ມໄປນຳເຈົ້າ.",
+                korean: "나는 새 색안경을 쓴다.",
+                read: "Naneun sae saeg-angyeongeul sseunda.",
+                english: "I wear my new sunglasses.",
+                lao: "ຂ້ອຍໃສ່ແວ່ນຕາກັນແດດໃໝ່.",
             },
         ],
     },
     {
-        id: 18,
+        id: 20,
         korean: "비키니",
         read: "bikini",
         english: "bikini",
@@ -356,14 +356,14 @@ export const CLOTHING: WordModel[] = [
             {
                 id: 1,
                 korean: "비키니 상의.",
-                read: "bikini tab",
-                english: "A bikini top",
-                lao: "ລາວມີກະທູ້ວ່າງໃສ່ເສື້ອຂອງລາວ.",
+                read: "Bikini sangui.",
+                english: "A bikini top.",
+                lao: "ເສື້ອອາບນໍ້າບິກິນີ.",
             },
         ],
     },
     {
-        id: 19,
+        id: 21,
         korean: "실",
         read: "sil",
         english: "thread",
@@ -374,14 +374,14 @@ export const CLOTHING: WordModel[] = [
             {
                 id: 1,
                 korean: "그 사람 셔츠에 실이 헐거워졌어.",
-                read: "Geu salam syeocheue sil-i heolgeowojyeoss-eo.",
+                read: "Geu saram syeocheue sili heolgeowojyeosseoyo.",
                 english: "He had a loose thread on his shirt.",
-                lao: "ລາວມີກະທູ້ວ່າງໃສ່ເສື້ອຂອງລາວ.",
+                lao: "ລາວມີກະທູ້ຫຼອມຢູ່ເສື້ອຂອງລາວ.",
             },
         ],
     },
     {
-        id: 20,
+        id: 22,
         korean: "재봉 바늘",
         read: "jaebong baneul",
         english: "sewing needle",
@@ -391,10 +391,10 @@ export const CLOTHING: WordModel[] = [
         examples: [
             {
                 id: 1,
-                korean: "그 사람 셔츠에 실이 헐거워졌어.",
-                read: "Geu salam syeocheue sil-i heolgeowojyeoss-eo.",
-                english: "He had a loose thread on his shirt.",
-                lao: "ລາວມີກະທູ້ວ່າງໃສ່ເສື້ອຂອງລາວ.",
+                korean: "재봉 바늘을 사용하여 옷을 꿰매세요.",
+                read: "Jaebong baneureul sayonghayeo oseul kkwemaeseyo.",
+                english: "Use the sewing needle to mend the clothes.",
+                lao: "ໃຊ້ເຂັມຫຍິບເພື່ອຢຽບເຄື່ອງນຸ່ງ.",
             },
         ],
     },

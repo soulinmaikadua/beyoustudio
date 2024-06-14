@@ -10,9 +10,9 @@ import { GREETING_CONVERSATIONS } from "./greeting-conversations";
 export const CONVERSATIONS: VocabList[] = [
     {
         image: "https://dummyimage.com/400x400/000/fff",
-        korean: "인사말 문구",
-        lao: "ປະໂຫຍກທັກທາຍ",
-        route: "/korean-phrases/greeting-conversations",
+        korean: "어디서 오셨나요",
+        lao: "ເຈົ້າ​ມາ​ຈາກ​ໃສ",
+        route: "/korean-conversations/greeting-conversations",
         slug: "greeting-conversations",
         data: GREETING_CONVERSATIONS,
     },

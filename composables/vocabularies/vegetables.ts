@@ -7,6 +7,15 @@ export const VEGETABLES: WordModel[] = [
         read: "dang-geun",
         english: "carrot",
         lao: "ແຄລອດ",
+        examples: [
+            {
+                id: 1,
+                korean: "당근은 건강에 좋아요.",
+                read: "danggeuneun geongange joayo",
+                english: "Carrots are good for health.",
+                lao: "ແຄລອດດີຕໍ່ສຸຂະພາບ.",
+            },
+        ],
     },
     {
         id: 2,
@@ -14,13 +23,31 @@ export const VEGETABLES: WordModel[] = [
         read: "gam-ja",
         english: "potato",
         lao: "ມັນຝຣັ່ງ",
+        examples: [
+            {
+                id: 1,
+                korean: "감자를 삶아서 먹어요.",
+                read: "gamjareul salmaseo meogeoyo",
+                english: "Boil the potatoes and eat them.",
+                lao: "ຕົ້ມມັນຝຣັ່ງແລະກິນ.",
+            },
+        ],
     },
     {
         id: 3,
         korean: "양파",
         read: "yang-pa",
-        english: "Onion",
+        english: "onion",
         lao: "ຫອມບົ່ວ",
+        examples: [
+            {
+                id: 1,
+                korean: "양파를 썰어서 요리에 넣으세요.",
+                read: "yangpareul sseoreoseo yorie neoeuseyo",
+                english: "Chop the onions and add them to the dish.",
+                lao: "ຊອຍຫອມບົ່ວແລະໃສ່ໃນເມນີ.",
+            },
+        ],
     },
     {
         id: 4,
@@ -28,6 +55,15 @@ export const VEGETABLES: WordModel[] = [
         read: "ma-neul",
         english: "garlic",
         lao: "ຫອມວຽນ",
+        examples: [
+            {
+                id: 1,
+                korean: "마늘을 갈아서 넣으세요.",
+                read: "maneureul garaseo neoeuseyo",
+                english: "Grate the garlic and add it.",
+                lao: "ຂູດຫອມວຽນແລະເພີ່ມເຂົາ.",
+            },
+        ],
     },
     {
         id: 5,
@@ -35,6 +71,15 @@ export const VEGETABLES: WordModel[] = [
         read: "to-ma-to",
         english: "tomato",
         lao: "ເຂືອ",
+        examples: [
+            {
+                id: 1,
+                korean: "토마토는 샐러드에 좋아요.",
+                read: "tomatoneun saelleodeue joayo",
+                english: "Tomatoes are good in salads.",
+                lao: "ເຂືອເຂົ້າກັບສະຫຼັດເປັນໄດ້ດີ.",
+            },
+        ],
     },
     {
         id: 6,
@@ -42,6 +87,15 @@ export const VEGETABLES: WordModel[] = [
         read: "yang-bae-chu",
         english: "cabbage",
         lao: "ກະລໍ້າປີ",
+        examples: [
+            {
+                id: 1,
+                korean: "양배추를 씻어서 준비하세요.",
+                read: "yangbaechureul ssiseoseo junbihaseyo",
+                english: "Wash the cabbage and prepare it.",
+                lao: "ລ້າງກະລໍ້າປີແລະກະເຕີມຮອດ.",
+            },
+        ],
     },
     {
         id: 7,
@@ -49,6 +103,15 @@ export const VEGETABLES: WordModel[] = [
         read: "sang-chu",
         english: "lettuce",
         lao: "ຜັກສະຫຼຽງ",
+        examples: [
+            {
+                id: 1,
+                korean: "상추를 샐러드에 넣어요.",
+                read: "sangchureul saelleodeue neoeoyo",
+                english: "Add lettuce to the salad.",
+                lao: "ໃສ່ຜັກສະຫຼຽງໃນສະຫຼັດ.",
+            },
+        ],
     },
     {
         id: 8,
@@ -56,6 +119,15 @@ export const VEGETABLES: WordModel[] = [
         read: "si-geum-chi",
         english: "spinach",
         lao: "ຜັກຂະຫນາດ",
+        examples: [
+            {
+                id: 1,
+                korean: "시금치는 건강에 좋아요.",
+                read: "sigeumchineun geongange joayo",
+                english: "Spinach is good for health.",
+                lao: "ຜັກຂະຫນາດດີຕໍ່ສຸຂະພາບ.",
+            },
+        ],
     },
     {
         id: 9,
@@ -63,6 +135,15 @@ export const VEGETABLES: WordModel[] = [
         read: "beu-ro-kol-li",
         english: "broccoli",
         lao: "ບຣອກໂຄລີ",
+        examples: [
+            {
+                id: 1,
+                korean: "브로콜리를 찌세요.",
+                read: "beurokollireul jjiseoyo",
+                english: "Steam the broccoli.",
+                lao: "ນຶ້ງບຣອກໂຄລີ.",
+            },
+        ],
     },
     {
         id: 10,
@@ -70,6 +151,15 @@ export const VEGETABLES: WordModel[] = [
         read: "kol-li-peul-la-wo",
         english: "cauliflower",
         lao: "ດອກກະລໍ່າດອກ",
+        examples: [
+            {
+                id: 1,
+                korean: "콜리플라워는 다양한 요리에 사용됩니다.",
+                read: "kollipeullawo-neun daya-han yorie sayong-doemnida",
+                english: "Cauliflower is used in various dishes.",
+                lao: "ດອກກະລໍ່າດອກນີ້ໃຊ້ໃນເມນີຕ່າງໆ.",
+            },
+        ],
     },
     {
         id: 11,
@@ -77,6 +167,15 @@ export const VEGETABLES: WordModel[] = [
         read: "o-i",
         english: "cucumber",
         lao: "ແຕງ",
+        examples: [
+            {
+                id: 1,
+                korean: "오이를 잘라서 샐러드에 넣어요.",
+                read: "oireul jallaseo saelleodeue neoeoyo",
+                english: "Cut the cucumber and add it to the salad.",
+                lao: "ຊອຍແຕງແລະໃສ່ໃນສະຫຼັດ.",
+            },
+        ],
     },
     {
         id: 12,
@@ -84,6 +183,15 @@ export const VEGETABLES: WordModel[] = [
         read: "pi-mang",
         english: "bell pepper",
         lao: "ໝາກເພັດຫວານ",
+        examples: [
+            {
+                id: 1,
+                korean: "피망을 볶아서 요리에 사용하세요.",
+                read: "pimangeul bokeoseo yorie sayonghaseyo",
+                english: "Stir-fry the bell pepper and use it in the dish.",
+                lao: "ຂົ້ວໝາກເພັດຫວານແລະໃຊ້ໃນເມນີ.",
+            },
+        ],
     },
     {
         id: 13,
@@ -91,6 +199,15 @@ export const VEGETABLES: WordModel[] = [
         read: "cheong-yang-go-chu",
         english: "green pepper",
         lao: "ໝາກເພັດຂຽວ",
+        examples: [
+            {
+                id: 1,
+                korean: "청양고추는 매우 매워요.",
+                read: "cheongyanggochuneun mae-u mae-woyo",
+                english: "Green peppers are very spicy.",
+                lao: "ໝາກເພັດຂຽວມີລົດຊາດແສບຫລາຍ.",
+            },
+        ],
     },
     {
         id: 14,
@@ -98,6 +215,15 @@ export const VEGETABLES: WordModel[] = [
         read: "ga-ji",
         english: "eggplant",
         lao: "ມັງ",
+        examples: [
+            {
+                id: 1,
+                korean: "가지를 구워서 먹어요.",
+                read: "gajireul guwoseo meogeoyo",
+                english: "Grill the eggplant and eat it.",
+                lao: "ຢ່າງມັງແລະກິນ.",
+            },
+        ],
     },
     {
         id: 15,
@@ -105,6 +231,15 @@ export const VEGETABLES: WordModel[] = [
         read: "ae-ho-bak",
         english: "zucchini",
         lao: "ໝາກແຝນ",
+        examples: [
+            {
+                id: 1,
+                korean: "애호박을 찌거나 볶아서 먹어요.",
+                read: "ae-hobakeul jjigeona bokeoseo meogeoyo",
+                english: "Steam or stir-fry the zucchini and eat it.",
+                lao: "ນຶ້ງຫລືຂົ້ວໝາກແຝນແລະກິນ.",
+            },
+        ],
     },
     {
         id: 16,
@@ -112,6 +247,15 @@ export const VEGETABLES: WordModel[] = [
         read: "ho-bak",
         english: "pumpkin",
         lao: "ໝາກອຶ",
+        examples: [
+            {
+                id: 1,
+                korean: "호박 파이를 만들어요.",
+                read: "hobak paireul mandeureoyo",
+                english: "Make pumpkin pie.",
+                lao: "ເຮັດເຄັກຫມາກອຶ.",
+            },
+        ],
     },
     {
         id: 17,
@@ -119,6 +263,15 @@ export const VEGETABLES: WordModel[] = [
         read: "go-gu-ma",
         english: "sweet potato",
         lao: "ມັນໝາກລິ້ງ",
+        examples: [
+            {
+                id: 1,
+                korean: "고구마를 구워서 먹어요.",
+                read: "gogumareul guwoseo meogeoyo",
+                english: "Bake the sweet potatoes and eat them.",
+                lao: "ປີ້ງມັນໝາກລິ້ງແລະກິນ.",
+            },
+        ],
     },
     {
         id: 18,
@@ -126,6 +279,15 @@ export const VEGETABLES: WordModel[] = [
         read: "mu",
         english: "radish",
         lao: "ປາກເທົາ",
+        examples: [
+            {
+                id: 1,
+                korean: "무를 썰어서 김치에 넣어요.",
+                read: "mureul sseoreoseo gimchie neoeoyo",
+                english: "Chop the radish and add it to the kimchi.",
+                lao: "ຊອຍປາກເທົາແລະໃສ່ໃນກິມຈິ.",
+            },
+        ],
     },
     {
         id: 19,
@@ -133,6 +295,15 @@ export const VEGETABLES: WordModel[] = [
         read: "bi-teu",
         english: "beet",
         lao: "ຜັກບີດ",
+        examples: [
+            {
+                id: 1,
+                korean: "비트는 샐러드에 좋아요.",
+                read: "biteuneun saelleodeue joayo",
+                english: "Beets are good in salads.",
+                lao: "ຜັກບີດເຂົ້າກັບສະຫຼັດເປັນໄດ້ດີ.",
+            },
+        ],
     },
     {
         id: 20,
@@ -140,6 +311,15 @@ export const VEGETABLES: WordModel[] = [
         read: "beo-seot",
         english: "mushroom",
         lao: "ເຫັດ",
+        examples: [
+            {
+                id: 1,
+                korean: "버섯을 볶아서 먹어요.",
+                read: "beoseoteul bokeoseo meogeoyo",
+                english: "Stir-fry the mushrooms and eat them.",
+                lao: "ຂົ້ວເຫັດແລະກິນ.",
+            },
+        ],
     },
     {
         id: 21,
@@ -147,33 +327,78 @@ export const VEGETABLES: WordModel[] = [
         read: "wan-du-kong",
         english: "peas",
         lao: "ເຖົ່າຖົ່ວອອກ",
+        examples: [
+            {
+                id: 1,
+                korean: "완두콩을 삶아서 먹어요.",
+                read: "wandukongeul salmaseo meogeoyo",
+                english: "Boil the peas and eat them.",
+                lao: "ຕົ້ມເຖົ່າຖົ່ວອອກແລະກິນ.",
+            },
+        ],
     },
     {
         id: 22,
         korean: "옥수수",
         read: "ok-su-su",
-        english: "Corn",
+        english: "corn",
         lao: "ໝາກພວງ",
+        examples: [
+            {
+                id: 1,
+                korean: "옥수수를 구워서 먹어요.",
+                read: "oksusureul guwoseo meogeoyo",
+                english: "Grill the corn and eat it.",
+                lao: "ຢ່າງໝາກພວງແລະກິນ.",
+            },
+        ],
     },
     {
         id: 23,
         korean: "아스파라거스",
-        read: "A-seu-pa-ra-geo-seu",
-        english: "Asparagus",
+        read: "a-seu-pa-ra-geo-seu",
+        english: "asparagus",
         lao: "ໜໍ່ໄມ້ຝຣັ່ງ",
+        examples: [
+            {
+                id: 1,
+                korean: "아스파라거스를 구워서 먹어요.",
+                read: "aseuparageoseureul guwoseo meogeoyo",
+                english: "Grill the asparagus and eat it.",
+                lao: "ຢ່າງໜໍ່ໄມ້ຝຣັ່ງແລະກິນ.",
+            },
+        ],
     },
     {
         id: 24,
         korean: "케일",
-        read: "Ke-il",
-        english: "Kale",
+        read: "ke-il",
+        english: "kale",
         lao: "ເຄວ",
+        examples: [
+            {
+                id: 1,
+                korean: "케일은 샐러드에 좋아요.",
+                read: "keireun saelleodeue joayo",
+                english: "Kale is good in salads.",
+                lao: "ເຄວເຂົ້າກັບສະຫຼັດເປັນໄດ້ດີ.",
+            },
+        ],
     },
     {
         id: 25,
         korean: "셀러리",
-        read: "Sel-leo-ri",
-        english: "Celery",
+        read: "sel-leo-ri",
+        english: "celery",
         lao: "ຜັກກັກ",
+        examples: [
+            {
+                id: 1,
+                korean: "셀러리를 샐러드에 넣어요.",
+                read: "sellerireul saelleodeue neoeoyo",
+                english: "Add celery to the salad.",
+                lao: "ໃສ່ຜັກກັກໃນສະຫຼັດ.",
+            },
+        ],
     },
 ];
