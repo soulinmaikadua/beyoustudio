@@ -61,6 +61,7 @@
                 :class="index < data?.data.length - 1 ? 'border-b' : ''"
             />
         </div>
+        <ShareSection />
     </main>
 </template>
 <script setup lang="ts">

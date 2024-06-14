@@ -65,6 +65,7 @@
                 "
             />
         </div>
+        <ShareSection />
     </main>
 </template>
 <script setup lang="ts">

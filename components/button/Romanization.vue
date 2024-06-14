@@ -1,10 +1,10 @@
 <template>
     <div>
         <button
-            class="border p-2 h-10 w-10"
+            class="border border-blue-200 p-2 h-10 w-10"
             :class="
                 romanization
-                    ? 'bg-white hover:bg-gray-100'
+                    ? 'bg-white hover:bg-blue-100'
                     : 'bg-blue-500 text-white border-blue-500'
             "
             aria-label="korean"
@@ -13,11 +13,11 @@
             가
         </button>
         <button
-            class="border-t border-r border-b p-2 h-10 w-10"
+            class="border-t border-r border-b border-blue-200 p-2 h-10 w-10"
             :class="
                 romanization
                     ? 'bg-blue-500 text-white border-blue-500'
-                    : 'bg-white hover:bg-gray-100'
+                    : 'bg-white hover:bg-blue-100'
             "
             aria-label="english"
             @click="emit('click1')"
