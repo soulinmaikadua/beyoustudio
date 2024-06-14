@@ -19,7 +19,7 @@
             </div>
         </div>
         <div
-            class="grid grid-cols-1 md:grid-cols-4 gap-4 text-center md:text-left"
+            class="grid grid-cols-1 md:grid-cols-3 gap-4 text-center"
         >
             <div class="mb-6 md:mb-0">
                 <h4 class="text-3xl font-bold">ຄຳສັບ</h4>
@@ -27,51 +27,52 @@
                 <div class="mt-4">
                     <nuxt-link
                         to="/korean-vocabulary-lists"
-                        class="px-4 py-2 border transition-5s hover:bg-gray-200"
+                        class="px-4 py-2 border transition-5s rounded border-blue-200 transition-5s hover:bg-blue-100"
                         >ຮຽນອ່ານເລີຍ</nuxt-link
                     >
                 </div>
+                <div class="mt-6">
+                    <img src="/logo.png" class="mx-auto" />
+                </div>
             </div>
-            <div class="mb-6 md:mb-0">
-                <img src="/logo.png" class="mx-auto" />
-            </div>
+
             <div class="mb-6 md:mb-0">
                 <h4 class="text-3xl font-bold">ປະໂຫຍກ</h4>
                 <p>ມີຫລາກລາຍຄປະໂຫຍກທີ່ຄົນນີຍົມເວົ້າກັນສຸດໆ</p>
                 <div class="mt-4">
                     <nuxt-link
                         to="/korean-phrases"
-                        class="px-4 py-2 border transition-5s hover:bg-gray-200"
+                        class="px-4 py-2 border transition-5s rounded border-blue-200 transition-5s hover:bg-blue-100"
                         >ຮຽນເວົ້າເລີຍ</nuxt-link
                     >
                 </div>
+                <div class="mt-6">
+                    <img src="/logo.png" class="mx-auto" />
+                </div>
             </div>
+
             <div class="mb-6 md:mb-0">
-                <img src="/logo.png" class="mx-auto" />
-            </div>
-            <div class="mb-6 md:mb-0">
-                <h4 class="text-3xl font-bold">ປະໂຫຍກ</h4>
+                <h4 class="text-3xl font-bold">ບົດສົນທະນາ</h4>
                 <p>ມີຫລາກລາຍຄປະໂຫຍກທີ່ຄົນນີຍົມເວົ້າກັນສຸດໆ</p>
                 <div class="mt-4">
                     <nuxt-link
                         to="/korean-conversations"
-                        class="px-4 py-2 border transition-5s hover:bg-gray-200"
+                        class="px-4 py-2 border transition-5s rounded border-blue-200 transition-5s hover:bg-blue-100"
                         >ຮຽນເວົ້າເລີຍ</nuxt-link
                     >
                 </div>
-            </div>
-            <div class="mb-6 md:mb-0">
-                <img src="/logo.png" class="mx-auto" />
+                <div class="mt-6">
+                    <img src="/logo.png" class="mx-auto" />
+                </div>
             </div>
         </div>
         <div class="mt-32">
             <div class="text-center">
                 <h4 class="text-3xl font-bold">
-                    ຮຽນ​ຮູ້​ໄດ້​ທຸກ​ເວ​ລາ​, ທຸກ​ແຫ່ງ​ຫົນ​
+                    ສາມາດຮຽນ​ຮູ້​ໄດ້​ທຸກ​ເວ​ລາ​, ທຸກ​ແຫ່ງ​ຫົນ​.
                 </h4>
             </div>
         </div>
     </main>
 </template>
-<script setup lang="ts">
-</script>
+<script setup lang="ts"></script>

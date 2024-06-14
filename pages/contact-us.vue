@@ -4,7 +4,7 @@
             <div class="grid grid-cols-1">
                 <div class="col-span-2">
                     <h1 class="text-2xl font-bold border-b-2 py-5 md:py-32">
-                        Contact BeYou Studio
+                        ຕິດ​ຕໍ່​ BeYou Studio
                     </h1>
 
                     <div class="mt-5">

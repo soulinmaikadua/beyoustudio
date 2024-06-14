@@ -33,7 +33,7 @@
             <div
                 v-for="(item, index) in PHRASES"
                 :key="index"
-                class="rounded border"
+                class="rounded border hover:shadow"
             >
                 <nuxt-link :to="item.route">
                     <img
@@ -51,7 +51,7 @@
                 </div>
             </div>
         </div>
-        <div v-else class="">
+        <div v-else>
             <div
                 v-for="(item, index) in PHRASES"
                 :key="index"
@@ -79,7 +79,6 @@
 </template>
 <script setup lang="ts">
 import { PHRASES } from "~/composables/phrases";
-const router = useRouter();
 const viewGrid = ref<boolean>(true);
 useHead({
     title: "구절 ປະໂຫຍກ" + " - " + SITE_TITLE,

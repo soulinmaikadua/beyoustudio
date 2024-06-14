@@ -3,13 +3,17 @@
       <div>
         <div class="grid grid-cols-1">
           <div class="col-span-2">
-            <h1 class="text-2xl font-bold border-b-2 py-5 md:py-32">About BeYou Studio</h1>
-            <h2 class="text-xl font-bold mt-5">Who We Are</h2>
+            <h1 class="text-2xl font-bold border-b-2 py-5 md:py-32">ກ່ຽວ​ກັບ​ BeYou Studio</h1>
+            <h2 class="text-xl font-bold mt-5">ພວກເຮົາແມ່ນໃຜ</h2>
             <p>
               We are a passionate team of music enthusiasts dedicated to
               bringing you the best of hmong song lyrics.
             </p>
+            <p>
+              ພວກເຮົາເປັນທີມຫນຶ່ງທີ່ມີຄວາມຕັ້ງໃຈ
+            </p>
             <h2 class="text-xl font-bold mt-10">Our Mission</h2>
+            <h2 class="text-xl font-bold mt-10">ເປົ້າໝາຍຂອງເຮົາ</h2>
             <p>
               To delve into the depths of melodies and uncover the stories
               behind the lyrics.

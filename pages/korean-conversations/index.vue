@@ -1,7 +1,7 @@
 <template>
     <div class="min-h-screen">
         <div class="flex justify-between items-center border-b my-4">
-            <h1 class="text-xl font-bold my-2">구절 ປະໂຫຍກ</h1>
+            <h1 class="text-xl font-bold my-2">대화 ບົດສົນທະນາ</h1>
             <div>
                 <button
                     class="border p-2 h-10 w-10"
@@ -31,7 +31,7 @@
             <div
                 v-for="(item, index) in CONVERSATIONS"
                 :key="index"
-                class="rounded border"
+                class="rounded border hover:shadow"
             >
                 <nuxt-link :to="item.route">
                     <img
@@ -48,7 +48,7 @@
                 </div>
             </div>
         </div>
-        <div v-else class="">
+        <div v-else>
             <div
                 v-for="(item, index) in CONVERSATIONS"
                 :key="index"
@@ -75,27 +75,26 @@
 </template>
 <script setup lang="ts">
 import { CONVERSATIONS } from "~/composables/conversations";
-const router = useRouter();
 const viewGrid = ref<boolean>(true);
 useHead({
     meta: [
         // Open Graph / Facebook
         {
             property: "og:title",
-            content: "구절 ປະໂຫຍກ" + " - " + SITE_TITLE,
+            content: "대화 ບົດສົນທະນາ" + " - " + SITE_TITLE,
         },
         {
             property: "og:description",
-            content: "구절 ປະໂຫຍກ",
+            content: "대화 ບົດສົນທະນາ",
         },
         //  Twitter
         {
             property: "twitter:title",
-            content: "구절 ປະໂຫຍກ" + " - " + SITE_TITLE,
+            content: "대화 ບົດສົນທະນາ" + " - " + SITE_TITLE,
         },
         {
             property: "twitter:description",
-            content: "구절 ປະໂຫຍກ",
+            content: "대화 ບົດສົນທະນາ",
         },
     ],
 });
