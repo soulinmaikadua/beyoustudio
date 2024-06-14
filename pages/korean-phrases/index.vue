@@ -31,13 +31,20 @@
             <div
                 v-for="(item, index) in PHRASES"
                 :key="index"
-                class="rounded border cursor-pointer"
-                @click="router.push(item.route)"
+                class="rounded border"
             >
-                <img :src="item.image" style="width: 100%" class="rounded-t" />
+                <nuxt-link :to="item.route">
+                    <img
+                        :src="item.image"
+                        style="width: 100%"
+                        class="rounded-t"
+                    />
+                </nuxt-link>
                 <div class="p-2 text-center">
-                    <h1 class="text-xl">{{ item.korean }}</h1>
-                    <p>{{ item.lao }}</p>
+                    <nuxt-link :to="item.route">
+                        <h1 class="text-xl">{{ item.korean }}</h1>
+                        <p>{{ item.lao }}</p>
+                    </nuxt-link>
                 </div>
             </div>
         </div>
@@ -46,18 +53,21 @@
                 v-for="(item, index) in PHRASES"
                 :key="index"
                 class="flex items-center"
-                @click="router.push(item.route)"
             >
                 <div class="w-16 h-16 my-1">
-                    <img
-                        :src="item.image"
-                        style="width: 100%"
-                        class="rounded"
-                    />
+                    <nuxt-link :to="item.route">
+                        <img
+                            :src="item.image"
+                            style="width: 100%"
+                            class="rounded"
+                        />
+                    </nuxt-link>
                 </div>
                 <div class="ml-4 border-b w-full">
-                    <h1 class="text-xl">{{ item.korean }}</h1>
-                    <p>{{ item.lao }}</p>
+                    <nuxt-link :to="item.route">
+                        <h1 class="text-xl">{{ item.korean }}</h1>
+                        <p>{{ item.lao }}</p>
+                    </nuxt-link>
                 </div>
             </div>
         </div>
@@ -68,6 +78,7 @@ import { PHRASES } from "~/composables/phrases";
 const router = useRouter();
 const viewGrid = ref<boolean>(true);
 useHead({
+    title: "구절 ປະໂຫຍກ" + " - " + SITE_TITLE,
     meta: [
         // Open Graph / Facebook
         {
