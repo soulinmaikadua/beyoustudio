@@ -13,10 +13,10 @@ import { KITCHEN } from "./kitchen";
 import { CLOTHING } from "./clothing";
 import { TRAVEL_AND_PLACES } from "./travel-places";
 import { HANDYMAN } from "./handyman";
-
+const URL = `https://beyoustudio.pro/vocabularies`;
 export const VOCABULARIES: PageList[] = [
     {
-        image: "https://dummyimage.com/400x400/000/fff",
+        image: `${URL}/numeric.png`,
         korean: "숫자에 관한 단어",
         lao: "ຄໍາສັບກ່ຽວກັບຕົວເລກ",
         route: "/korean-vocabulary-lists/numeric",
@@ -24,7 +24,7 @@ export const VOCABULARIES: PageList[] = [
         data: NUMERIC,
     },
     {
-        image: "https://dummyimage.com/400x400/000/fff",
+        image: `${URL}/days.png`,
         korean: "일에 관한 말",
         lao: "ຄໍາ​ສັບ​ຕ່າງໆ​ກ່ຽວ​ກັບ​ວັນ​",
         route: "/korean-vocabulary-lists/days",
@@ -32,7 +32,7 @@ export const VOCABULARIES: PageList[] = [
         data: DAYS,
     },
     {
-        image: "https://dummyimage.com/400x400/000/fff",
+        image: `${URL}/dates.png`,
         korean: "날짜에 관한 말",
         lao: "ຄໍາສັບກ່ຽວກັບວັນທີ",
         route: "/korean-vocabulary-lists/dates",
@@ -40,7 +40,7 @@ export const VOCABULARIES: PageList[] = [
         data: DATES,
     },
     {
-        image: "https://dummyimage.com/400x400/000/fff",
+        image: `${URL}/months.png`,
         korean: "개월에 관한 단어",
         lao: "ຄໍາ​ສັບ​ຕ່າງໆ​ກ່ຽວ​ກັບ​ເດືອນ​",
         route: "/korean-vocabulary-lists/months",
@@ -48,7 +48,7 @@ export const VOCABULARIES: PageList[] = [
         data: MONTHS,
     },
     {
-        image: "https://dummyimage.com/400x400/000/fff",
+        image: `${URL}/jobs.png`,
         korean: "직업에 관한 말",
         lao: "ຄໍາສັບກ່ຽວກັບອາຊີບ",
         route: "/korean-vocabulary-lists/jobs",
@@ -56,7 +56,7 @@ export const VOCABULARIES: PageList[] = [
         data: JOBS,
     },
     {
-        image: "https://dummyimage.com/400x400/000/fff",
+        image: `${URL}/fruits.png`,
         korean: "과일에 관한 말",
         lao: "ຄໍາ​ສັບ​ຕ່າງໆ​ກ່ຽວ​ກັບ​ຫມາກ​ໄມ້​",
         route: "/korean-vocabulary-lists/fruit",
@@ -64,7 +64,7 @@ export const VOCABULARIES: PageList[] = [
         data: FRUIT,
     },
     {
-        image: "https://dummyimage.com/400x400/000/fff",
+        image: `${URL}/animals.png`,
         korean: "동물에 관한 말",
         lao: "ຄໍາ​ສັບ​ຕ່າງໆ​ກ່ຽວ​ກັບ​ປະເພດສັດ",
         route: "/korean-vocabulary-lists/animals",
@@ -72,7 +72,7 @@ export const VOCABULARIES: PageList[] = [
         data: ANIMALS,
     },
     {
-        image: "https://dummyimage.com/400x400/000/fff",
+        image: `${URL}/sports.png`,
         korean: "스포츠에 관한 말",
         lao: "ຄໍາ​ສັບ​ຕ່າງໆ​ກ່ຽວ​ກັບ​ການ​ກິ​ລາ​",
         route: "/korean-vocabulary-lists/sports",
@@ -80,7 +80,7 @@ export const VOCABULARIES: PageList[] = [
         data: SPORTS,
     },
     {
-        image: "https://dummyimage.com/400x400/000/fff",
+        image: `${URL}/vegetables.png`,
         korean: "야채에 관한 말",
         lao: "ຄໍາ​ສັບ​ຕ່າງໆ​ກ່ຽວ​ກັບ​ຜັກ​",
         route: "/korean-vocabulary-lists/vegetables",
@@ -88,7 +88,7 @@ export const VOCABULARIES: PageList[] = [
         data: VEGETABLES,
     },
     {
-        image: "https://dummyimage.com/400x400/000/fff",
+        image: `${URL}/kitchen.png`,
         korean: "날짜에 관한 말",
         lao: "ຄໍາສັບກ່ຽວກັບເຮືອນຄົວ",
         route: "/korean-vocabulary-lists/kitchen",
@@ -96,7 +96,7 @@ export const VOCABULARIES: PageList[] = [
         data: KITCHEN,
     },
     {
-        image: "https://dummyimage.com/400x400/000/fff",
+        image: `${URL}/clothing.png`,
         korean: "날짜에 관한 말",
         lao: "ຄໍາສັບກ່ຽວກັບເຄື່ອງນຸ່ງຫົ່ມ",
         route: "/korean-vocabulary-lists/clothing",
@@ -104,7 +104,7 @@ export const VOCABULARIES: PageList[] = [
         data: CLOTHING,
     },
     {
-        image: "https://dummyimage.com/400x400/000/fff",
+        image: `${URL}/travel-places.png`,
         korean: "날짜에 관한 말",
         lao: "ຄໍາສັບກ່ຽວກັບພາຫະນະ ແລະ ສະຖານທີ",
         route: "/korean-vocabulary-lists/travel-and-places",
@@ -112,11 +112,11 @@ export const VOCABULARIES: PageList[] = [
         data: TRAVEL_AND_PLACES,
     },
     {
-        image: "https://dummyimage.com/400x400/000/fff",
+        image: `${URL}/handyman.png`,
         korean: "날짜에 관한 말",
         lao: "ຄໍາສັບກ່ຽວກັບພາຫະນະ ແລະ ສະຖານທີ",
-        route: "/korean-vocabulary-lists/travel-and-places",
-        slug: "travel-and-places",
+        route: "/korean-vocabulary-lists/handyman",
+        slug: "handyman",
         data: HANDYMAN,
     },
 ];
