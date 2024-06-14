@@ -8,7 +8,7 @@ export const CLOTHING: WordModel[] = [
         english: "clothes",
         lao: "ເຄື່ອງນຸ່ງ",
         speech: "n",
-        emoji: "🐓",
+        emoji: "👘",
         examples: [
             {
                 id: 1,
@@ -176,7 +176,7 @@ export const CLOTHING: WordModel[] = [
             {
                 id: 1,
                 korean: "나는 새 신발을 산다.",
-                read: "Naneun sae sinbal-eul sanda.",
+                read: "Na-neun sae sin-bal-eul san-da.",
                 english: "I buy a new shoe.",
                 lao: "ຂ້ອຍຊື້ເກີບໃຫມ່.",
             },
@@ -194,7 +194,7 @@ export const CLOTHING: WordModel[] = [
             {
                 id: 1,
                 korean: "괜찮아요, 이 장갑을 끼세요.",
-                read: "gwaenchanh-ayo, i jang-gab-eul kkiseyo.",
+                read: "Gwaen-chanh-ayo, i jang-gab-eul kkiseyo.",
                 english: "It's cool, please wear this gloves.",
                 lao: "ມັນເຢັນ, ກະລຸນາໃສ່ຖົງມືນີ້.",
             },
@@ -212,7 +212,7 @@ export const CLOTHING: WordModel[] = [
             {
                 id: 1,
                 korean: "괜찮아요, 이 장갑을 끼세요.",
-                read: "gwaenchanh-ayo, i jang-gab-eul kkiseyo.",
+                read: "Gwaenchanh-ayo, i jang-gab-eul kkiseyo.",
                 english: "It's cool, please wear this gloves.",
                 lao: "ມັນເຢັນ, ກະລຸນາໃສ່ຖົງມືນີ້.",
             },

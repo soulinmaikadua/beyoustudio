@@ -1,5 +1,5 @@
 <template>
-    <div class="grid grid-cols-1 md:grid-cols-2 my-1 mx-4 p-1 border-b">
+    <div class="grid grid-cols-1 md:grid-cols-2 my-1 mx-4 p-1" :class="class">
         <div>
             <div class="flex items-center">
                 <button
@@ -53,22 +53,26 @@ const props = defineProps({
         type: Boolean,
         default: true,
     },
-    speechRate:{
+    speechRate: {
         type: Number,
         default: 1,
-    }
+    },
+    class: {
+        type: String,
+        default: "",
+    },
 });
 
 function speakKorean(text: string) {
     const utterance = new SpeechSynthesisUtterance(text);
     utterance.lang = "ko-KR"; // Korean language
-    utterance.rate = props.speechRate
+    utterance.rate = props.speechRate;
     window.speechSynthesis.speak(utterance);
 }
 function speakEnglish(text: string) {
     const utterance = new SpeechSynthesisUtterance(text);
     utterance.lang = "en-US"; // English language
-    utterance.rate = props.speechRate
+    utterance.rate = props.speechRate;
     window.speechSynthesis.speak(utterance);
 }
 </script>

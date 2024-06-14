@@ -201,7 +201,7 @@ export const DAYS: WordModel[] = [
         ],
     },
     {
-        id: 12,
+        id: 13,
         korean: "모레",
         read: "mo-re",
         english: "the day after tomorrow",

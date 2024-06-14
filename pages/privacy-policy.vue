@@ -1,7 +1,7 @@
 <template>
     <main class="max-w-screen-xl mx-auto px-4 min-h-screen">
-        <div class="mt-12">
-            <h1 class="text-2xl font-bold border-b-2 pb-5">PRIVACY POLICY</h1>
+        <div>
+            <h1 class="text-2xl font-bold border-b-2 py-5 md:py-32">PRIVACY POLICY</h1>
             <div class="mt-6">
                 <p>
                     Be You Gaming create and publish mobile games and

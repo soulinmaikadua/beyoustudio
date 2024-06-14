@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="bg-blue-100 p-4 flex items-center border-b border-blue-200">
+        <div class="bg-blue-100 p-4 flex items-center" :class="class">
             <button
                 class="rounded-full p-2 border border-blue-200 hover:bg-blue-200"
                 type="button"
@@ -27,6 +27,7 @@
             v-for="(example, index) in props.item.examples"
             :key="index"
             class="bg-white p-4"
+            :class="index > 0 ? 'border-t' : ''"
         >
             <div class="flex items-center">
                 <button
@@ -76,21 +77,25 @@ const props = defineProps({
         type: Boolean,
         default: true,
     },
-    speechRate:{
+    speechRate: {
         type: Number,
         default: 1,
-    }
+    },
+    class: {
+        type: String,
+        default: "",
+    },
 });
 
 function speakKorean(text: string) {
     const utterance = new SpeechSynthesisUtterance(text);
-    utterance.rate = props.speechRate
+    utterance.rate = props.speechRate;
     utterance.lang = "ko-KR"; // Korean language
     window.speechSynthesis.speak(utterance);
 }
 function speakEnglish(text: string) {
     const utterance = new SpeechSynthesisUtterance(text);
-    utterance.rate = props.speechRate
+    utterance.rate = props.speechRate;
     utterance.lang = "en-US"; // English language
     window.speechSynthesis.speak(utterance);
 }

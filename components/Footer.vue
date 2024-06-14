@@ -1,5 +1,5 @@
 <template>
-    <div class="max-w-screen-xl mx-auto my-10 px-4 md:px-0">
+    <div class="max-w-screen-xl mx-auto my-10 px-4">
         <div class="my-4">
             <img
                 src="/logo.png"
@@ -33,6 +33,9 @@
                     </li>
                     <li class="text-blue-500 hover:underline">
                         <nuxt-link to="/contact-us/">ຕິດ​ຕໍ່​ພວກ​ເຮົາ</nuxt-link>
+                    </li>
+                    <li class="text-blue-500 hover:underline">
+                        <nuxt-link to="/blog/">blog</nuxt-link>
                     </li>
                 </ul>
             </div>

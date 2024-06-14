@@ -39,7 +39,7 @@ export default defineNuxtConfig({
                 //crossorigin="anonymous"></script>
                 {
                     src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5349802525175772",
-                    crossorigin: "anonymous"
+                    crossorigin: "anonymous",
                 },
                 {
                     children:
@@ -53,7 +53,7 @@ export default defineNuxtConfig({
         url: "https://beyoustudio.pro",
         trailingSlash: true,
     },
-    modules: ["@nuxtjs/tailwindcss", "@nuxtjs/sitemap"],
+    modules: ["@nuxtjs/tailwindcss", "@nuxtjs/sitemap", "@nuxt/content"],
     sitemap: {
         sources: ["/api/__sitemaps__/urls"],
     },
