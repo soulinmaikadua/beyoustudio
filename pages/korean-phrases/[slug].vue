@@ -3,7 +3,7 @@
         <div class="mt-16 mb-6">
             <div class="flex mt-6 items-center">
                 <div class="h-20 w-20">
-                    <img src="/assets/images/fruit.jpg" />
+                    <img :src="data?.image" :alt="data?.lao" />
                 </div>
                 <div class="ml-4">
                     <h1 class="text-xl">{{ data?.korean }}</h1>

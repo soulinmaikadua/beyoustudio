@@ -4,7 +4,7 @@ export const KITCHEN: WordModel[] = [
     {
         id: 1,
         korean: "접시",
-        read: "jeo-psi",
+        read: "jeop-si",
         english: "plate",
         lao: "ຈານ",
         speech: "n",
@@ -22,7 +22,7 @@ export const KITCHEN: WordModel[] = [
     {
         id: 2,
         korean: "그릇",
-        read: "geureut",
+        read: "geu-reut",
         english: "bowl",
         lao: "ຖ້ວຍ",
         speech: "n",
@@ -48,24 +48,6 @@ export const KITCHEN: WordModel[] = [
         examples: [
             {
                 id: 1,
-                korean: "파란 그릇",
-                read: "paran geureut",
-                english: "blue bowl",
-                lao: "ຖ້ວຍສີຟ້າ",
-            },
-        ],
-    },
-    {
-        id: 4,
-        korean: "냄비",
-        read: "naembi",
-        english: "pot",
-        lao: "ຫມໍ້",
-        speech: "n",
-        emoji: "🥘",
-        examples: [
-            {
-                id: 1,
                 korean: "냄비에 밥을 합니다",
                 read: "naembie babeul hamnida",
                 english: "cook rice in a pot",
@@ -76,18 +58,18 @@ export const KITCHEN: WordModel[] = [
     {
         id: 4,
         korean: "프라이팬",
-        read: "peuraipaen",
+        read: "peu-ra-i-paen",
         english: "frying pan",
-        lao: "ຫມໍ້",
+        lao: "ກະທະ",
         speech: "n",
         emoji: "🍳",
         examples: [
             {
                 id: 1,
                 korean: "양파가 프라이팬에서 볶아지고 있습니다.",
-                read: "Yangpaga peuraipaeneseo bokkajigo itsseumnida.",
+                read: "yangpaga peuraipaeneseo bokkajigo itsseumnida",
                 english: "The onions are being sautéed in the frying pan.",
-                lao: "ຜັກບົ່ວຖືກຈືນໃນເຕົາຂົ້ວ.",
+                lao: "ຜັກບົ່ວຖືກຈືນໃນກະທະ.",
             },
         ],
     },
@@ -98,12 +80,12 @@ export const KITCHEN: WordModel[] = [
         english: "knife",
         lao: "ມີດ",
         speech: "n",
-        emoji: "🍴",
+        emoji: "🔪",
         examples: [
             {
                 id: 1,
                 korean: "나이프 좀 건네 주시겠어요?",
-                read: "Naipeu jom geonne jusigesseoyo?",
+                read: "naipeu jom geonne jusigesseoyo",
                 english: "Could you pass me the knife?",
                 lao: "ເຈົ້າສາມາດເອົາມີດໃຫ້ຂ້ອຍໄດ້ບໍ?",
             },
@@ -112,18 +94,18 @@ export const KITCHEN: WordModel[] = [
     {
         id: 6,
         korean: "숟가락",
-        read: "sug-ga-rak",
+        read: "sut-ggarak",
         english: "spoon",
-        lao: "ມີດ",
+        lao: "ບ່ວງ",
         speech: "n",
         emoji: "🥄",
         examples: [
             {
                 id: 1,
                 korean: "물약, 숟가락 그리고 작은 플라스틱 컵",
-                read: "muryak, sutkkarak geurigo jageun peullaseutik keop",
+                read: "muryak, sutggarak geurigo jageun peullaseutik keop",
                 english: "liquid medicine, a spoon and a small plastic cup",
-                lao: "ຢາ, ບ່ວງ ແລະ ຈອກຢາງນ້ອຍໆ",
+                lao: "ຢານ້ຳ, ບ່ວງ ແລະ ຈອກພລາສຕິກນ້ອຍ",
             },
         ],
     },
@@ -148,7 +130,7 @@ export const KITCHEN: WordModel[] = [
     {
         id: 8,
         korean: "젓가락",
-        read: "jeo-sga-lag",
+        read: "jeo-ggarak",
         english: "chopsticks",
         lao: "ໄມ້ທູ່",
         speech: "n",
@@ -156,10 +138,10 @@ export const KITCHEN: WordModel[] = [
         examples: [
             {
                 id: 1,
-                korean: "나무 도마",
-                read: "namu doma",
-                english: "wooden cutting board",
-                lao: "ຂຽນໄມ້",
+                korean: "젓가락을 사용하여 음식을 먹습니다.",
+                read: "jeoggakakeul sayonghayeo eumsigeul meokseumnida",
+                english: "Use chopsticks to eat food.",
+                lao: "ໃຊ້ໄມ້ທູ່ເພື່ອກິນອາຫານ.",
             },
         ],
     },
@@ -170,6 +152,7 @@ export const KITCHEN: WordModel[] = [
         english: "cutting board",
         lao: "ຂຽນ",
         speech: "n",
+        emoji: "🔪",
         examples: [
             {
                 id: 1,
@@ -191,28 +174,28 @@ export const KITCHEN: WordModel[] = [
         examples: [
             {
                 id: 1,
-                korean: "나무 도마",
-                read: "namu doma",
-                english: "wooden cutting board",
-                lao: "ຂຽນໄມ້",
+                korean: "소금을 요리에 넣습니다.",
+                read: "sogeumeul yorie neotseumnida",
+                english: "Add salt to the dish.",
+                lao: "ເພີ່ມເກືອໃສ່ອາຫານ.",
             },
         ],
     },
     {
         id: 11,
         korean: "냉장고",
-        read: "naeng jang go",
+        read: "naeng-jang-go",
         english: "refrigerator",
-        lao: "ເກືອ",
+        lao: "ຕູ້ເຢັນ",
         speech: "n",
         emoji: "❄️",
         examples: [
             {
                 id: 1,
-                korean: "나무 도마",
-                read: "namu doma",
-                english: "wooden cutting board",
-                lao: "ຂຽນໄມ້",
+                korean: "음식을 냉장고에 넣으세요.",
+                read: "eumsigeul naengjanggoe neoeuseyo",
+                english: "Put the food in the refrigerator.",
+                lao: "ເອົາອາຫານໃສ່ຕູ້ເຢັນ.",
             },
         ],
     },

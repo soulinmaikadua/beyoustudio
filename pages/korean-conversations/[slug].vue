@@ -8,11 +8,6 @@
                 <div class="ml-4">
                     <h1 class="text-xl">{{ data?.korean }}</h1>
                     <h2 class="text-xl">{{ data?.lao }}</h2>
-                    <p>
-                        {{ data?.data?.length }} 단어.
-                        {{ data?.data?.length }} words.
-                        {{ data?.data?.length }} ຄໍາສັບ.
-                    </p>
                 </div>
             </div>
             <div class="my-2 flex items-center">
@@ -21,14 +16,6 @@
                     @click1="romanization = true"
                     @click2="romanization = false"
                 />
-                <button
-                    class="ml-4 bg-blue-500 rounded-full border-blue-500 text-white border p-2 h-10 w-10"
-                    @click="
-                        speechRate === 1 ? (speechRate = 0.5) : (speechRate = 1)
-                    "
-                >
-                    {{ speechRate }}
-                </button>
                 <div class="ml-4 items-center">
                     <input
                         v-model="englishChecked"
@@ -50,7 +37,7 @@
             </div>
         </div>
         <div class="rounded border">
-            <WordComponent
+            <ConversationComponent
                 v-for="(item, index) in data?.data"
                 :key="index"
                 :item="item"
@@ -58,17 +45,16 @@
                 :english="englishChecked"
                 :lao="laoChecked"
                 :speech-rate="speechRate"
-                :class="
-                    index < data?.data.length - 1
-                        ? 'border-b border-blue-200'
-                        : ''
-                "
+                :class="[
+                    index < data?.data.length - 1 ? 'border-b' : '',
+                    index % 2 === 0 ? 'font-bold' : '',
+                ]"
             />
         </div>
     </main>
 </template>
 <script setup lang="ts">
-import { VOCABULARIES } from "~/composables/vocabularies";
+import { CONVERSATIONS } from "~/composables/conversations";
 const route = useRoute();
 
 const romanization = ref<boolean>(true);
@@ -77,7 +63,7 @@ const englishChecked = ref<boolean>(true);
 const laoChecked = ref<boolean>(true);
 
 const data = computed(() => {
-    const data = VOCABULARIES.find((el: any) => el.slug === route.params.slug);
+    const data = CONVERSATIONS.find((el: any) => el.slug === route.params.slug);
     return data;
 });
 useHead({
