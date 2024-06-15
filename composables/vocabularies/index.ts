@@ -13,6 +13,11 @@ import { KITCHEN } from "./kitchen";
 import { CLOTHING } from "./clothing";
 import { TRAVEL_AND_PLACES } from "./travel-places";
 import { HANDYMAN } from "./handyman";
+import { ABOUT_BODY } from "./about-body";
+import { ABOUT_MEATS } from "./about-meats";
+import { ABOUT_SCHOOLS } from "./about-schools";
+import { ABOUT_COLORS } from "./about-colors";
+import { ABOUT_FOOTBALL } from "./about-football";
 const URL = `https://beyoustudio.pro/vocabularies`;
 export const VOCABULARIES: PageList[] = [
     {
@@ -80,6 +85,14 @@ export const VOCABULARIES: PageList[] = [
         data: SPORTS,
     },
     {
+        image: `${URL}/about-football.png`,
+        korean: "축구에 관한 어휘",
+        lao: "ຄຳສັບກ່ຽວກັບກິລາບານເຕະ​",
+        route: "/korean-vocabulary-lists/about-football",
+        slug: "about-football",
+        data: ABOUT_FOOTBALL,
+    },
+    {
         image: `${URL}/vegetables.png`,
         korean: "야채에 관한 말",
         lao: "ຄໍາ​ສັບ​ຕ່າງໆ​ກ່ຽວ​ກັບ​ຜັກ​",
@@ -113,10 +126,42 @@ export const VOCABULARIES: PageList[] = [
     },
     {
         image: `${URL}/handyman.png`,
-        korean: "날짜에 관한 말",
-        lao: "ຄໍາສັບກ່ຽວກັບພາຫະນະ ແລະ ສະຖານທີ",
+        korean: "기계공의 어휘",
+        lao: "ຄໍາສັບກ່ຽວກັບນາຍຊ່າງ",
         route: "/korean-vocabulary-lists/handyman",
         slug: "handyman",
         data: HANDYMAN,
+    },
+    {
+        image: `${URL}/about-body.png`,
+        korean: "신체에 관한 어휘",
+        lao: "ຄໍາ​ສັບ​ຕ່າງໆ​ກ່ຽວ​ກັບ​ຮ່າງ​ກາຍ​",
+        route: "/korean-vocabulary-lists/about-body",
+        slug: "about-body",
+        data: ABOUT_BODY,
+    },
+    {
+        image: `${URL}/about-meats.png`,
+        korean: "고기에 관한 용어",
+        lao: "ຄຳສັບກ່ຽວກັບຊີ້ນ",
+        route: "/korean-vocabulary-lists/about-meats",
+        slug: "about-meats",
+        data: ABOUT_MEATS,
+    },
+    {
+        image: `${URL}/about-schools.png`,
+        korean: "학교에 관한 어휘",
+        lao: "ຄໍາ​ສັບ​ຕ່າງໆ​ກ່ຽວ​ກັບ​ໂຮງ​ຮຽນ​",
+        route: "/korean-vocabulary-lists/about-schools",
+        slug: "about-schools",
+        data: ABOUT_SCHOOLS,
+    },
+    {
+        image: `${URL}/about-colors.png`,
+        korean: "색상에 관한 용어",
+        lao: "ຄໍາ​ສັບ​ຕ່າງໆ​ກ່ຽວ​ກັບ​ສີ​​",
+        route: "/korean-vocabulary-lists/about-colors",
+        slug: "about-colors",
+        data: ABOUT_COLORS,
     },
 ];
