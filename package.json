@@ -1,24 +1,25 @@
 {
-  "name": "nuxt-app",
-  "private": true,
-  "type": "module",
-  "scripts": {
-    "build": "nuxt build",
-    "dev": "nuxt dev --port=4321",
-    "generate": "nuxt generate",
-    "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
-  },
-  "dependencies": {
-    "@nuxt/content": "^2.12.1",
-    "@nuxtjs/sitemap": "^5.2.0",
-    "@nuxtjs/tailwindcss": "^6.12.0",
-    "nuxt": "^3.11.2",
-    "sitemap": "^8.0.0",
-    "vue": "^3.4.27",
-    "vue-router": "^4.3.2"
-  },
-  "devDependencies": {
-    "prettier": "^3.3.0"
-  }
+    "name": "nuxt-app",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "build": "nuxt build",
+        "dev": "nuxt dev --port=4321",
+        "generate": "nuxt generate",
+        "preview": "nuxt preview",
+        "postinstall": "nuxt prepare"
+    },
+    "dependencies": {
+        "@nuxt/content": "^2.12.1",
+        "@nuxtjs/sitemap": "^5.2.0",
+        "@nuxtjs/tailwindcss": "^6.12.0",
+        "nuxt": "^3.11.2",
+        "sitemap": "^8.0.0",
+        "vue": "^3.4.27",
+        "vue-router": "^4.3.2"
+    },
+    "devDependencies": {
+        "prettier": "^3.3.0",
+        "typescript": "^5.4.5"
+    }
 }

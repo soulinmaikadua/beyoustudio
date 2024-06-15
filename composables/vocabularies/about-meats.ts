@@ -1,0 +1,208 @@
+import type { WordModel } from "~/models";
+
+export const ABOUT_MEATS: WordModel[] = [
+    {
+        id: 1,
+        korean: "닭고기",
+        read: "dak-go-gi",
+        english: "chicken",
+        lao: "ຊີ້ນໄກ່",
+        speech: "n",
+        examples: [
+            {
+                id: 1,
+                korean: "저녁으로 닭고기를 구워 먹었어요.",
+                read: "Jeonyeog-euro dak-gogi-reul guwo meog-eosseoyo.",
+                english: "I grilled chicken for dinner.",
+                lao: "ຂ້ອຍຍ່າງໄກ່ກິນໃນມື້ແລງ.",
+            },
+        ],
+    },
+    {
+        id: 2,
+        korean: "돼지고기",
+        read: "dwae-ji-go-gi",
+        english: "pork",
+        lao: "ຊີ້ນໝູ",
+        speech: "n",
+        examples: [
+            {
+                id: 1,
+                korean: "돼지고기 볶음을 만들었어요.",
+                read: "Dwaeji-gogi bokkeum-eul mandeul-eosseoyo.",
+                english: "I made stir-fried pork.",
+                lao: "ຂ້ອຍເຮັດໝູຜັດ.",
+            },
+        ],
+    },
+    {
+        id: 3,
+        korean: "소고기",
+        read: "so-go-gi",
+        english: "beef",
+        lao: "ຊີ້ນງົວ",
+        speech: "n",
+        examples: [
+            {
+                id: 1,
+                korean: "소고기 스테이크를 구웠어요.",
+                read: "Sogogi seuteikeu-reul guwosseoyo.",
+                english: "I grilled a beef steak.",
+                lao: "ຂ້ອຍຍ່າງສະເຕັກງົວ.",
+            },
+        ],
+    },
+    {
+        id: 4,
+        korean: "양고기",
+        read: "yang-go-gi",
+        english: "lamb",
+        lao: "ຊີ້ນແກະ",
+        speech: "n",
+        examples: [
+            {
+                id: 1,
+                korean: "양고기 구이를 먹었어요.",
+                read: "Yang-gogi gu-ireul meog-eosseoyo.",
+                english: "I ate grilled lamb.",
+                lao: "ຂ້ອຍກິນແກະຍ່າງ.",
+            },
+        ],
+    },
+    {
+        id: 5,
+        korean: "오리고기",
+        read: "o-ri-go-gi",
+        english: "duck",
+        lao: "ຊີ້ນເປັດ",
+        speech: "n",
+        examples: [
+            {
+                id: 1,
+                korean: "오리고기 요리는 맛있어요.",
+                read: "Ori-gogi yo-rineun mas-isseoyo.",
+                english: "Duck dishes are delicious.",
+                lao: "ອາຫານເປັດອິ່ມອຫຼາຍ.",
+            },
+        ],
+    },
+    {
+        id: 6,
+        korean: "칠면조 고기",
+        read: "chil-myeon-jo go-gi",
+        english: "turkey",
+        lao: "ຊີ້ນໄກ່ງວງ",
+        speech: "n",
+        examples: [
+            {
+                id: 1,
+                korean: "추수감사절에는 칠면조 고기를 먹어요.",
+                read: "Chusugam-sajeol-eneun chil-myeon-jo go-gi-reul meog-eoyo.",
+                english: "We eat turkey on Thanksgiving.",
+                lao: "ພວກເຮົາກິນໄກ່ງວງໃນວັນຂອບໃຈພື້ນ.",
+            },
+        ],
+    },
+    {
+        id: 7,
+        korean: "돼지갈비",
+        read: "dwae-ji-gal-bi",
+        english: "pork ribs",
+        lao: "ແຖບໝູ",
+        speech: "n",
+        examples: [
+            {
+                id: 1,
+                korean: "돼지갈비를 구웠어요.",
+                read: "Dwaeji-galbi-reul guwosseoyo.",
+                english: "I grilled pork ribs.",
+                lao: "ຂ້ອຍຍ່າງແຖບໝູ.",
+            },
+        ],
+    },
+    {
+        id: 8,
+        korean: "소시지",
+        read: "so-si-ji",
+        english: "sausage",
+        lao: "ໄສ້ກອກ",
+        speech: "n",
+        examples: [
+            {
+                id: 1,
+                korean: "아침에 소시지를 먹었어요.",
+                read: "Achim-e sosiji-reul meog-eosseoyo.",
+                english: "I ate sausage for breakfast.",
+                lao: "ຂ້ອຍກິນໄສ້ກອກໃນອາຫານເຊົ້າ.",
+            },
+        ],
+    },
+    {
+        id: 9,
+        korean: "베이컨",
+        read: "be-i-keon",
+        english: "bacon",
+        lao: "ເນື້ອໝູແຫ້ງ",
+        speech: "n",
+        examples: [
+            {
+                id: 1,
+                korean: "베이컨과 달걀을 먹었어요.",
+                read: "Beikon-gwa dalg-ya-reul meog-eosseoyo.",
+                english: "I ate bacon and eggs.",
+                lao: "ຂ້ອຍກິນເນື້ອໝູແຫ້ງແລະໄຂ່.",
+            },
+        ],
+    },
+    {
+        id: 10,
+        korean: "햄",
+        read: "haem",
+        english: "ham",
+        lao: "ແຮມ",
+        speech: "n",
+        examples: [
+            {
+                id: 1,
+                korean: "샌드위치에 햄을 넣었어요.",
+                read: "Saendeuwichi-e haemeul neoeosseoyo.",
+                english: "I put ham in the sandwich.",
+                lao: "ຂ້ອຍເອົາແຮມໃສ່ໃນແຊນວິດ.",
+            },
+        ],
+    },
+    {
+        id: 11,
+        korean: "양고기",
+        read: "yang-go-gi",
+        english: "mutton",
+        lao: "ເນື້ອແກະ",
+        speech: "n",
+        examples: [
+            {
+                id: 1,
+                korean: "양고기 스튜를 만들었어요.",
+                read: "Yang-gogi seu-tyu-reul mandeul-eosseoyo.",
+                english: "I made mutton stew.",
+                lao: "ຂ້ອຍເຮັດຊຸບເນື້ອແກະ.",
+            },
+        ],
+    },
+    {
+        id: 12,
+        korean: "갈비",
+        read: "gal-bi",
+        english: "ribs",
+        lao: "ແຖບຊີ້ນ",
+        speech: "n",
+        examples: [
+            {
+                id: 1,
+                korean: "갈비를 구워 먹었어요.",
+                read: "Galbi-reul guwosseoyo.",
+                english: "I grilled ribs and ate them.",
+                lao: "ຂ້ອຍຍ່າງແຖບຊີ້ນແລະກິນ.",
+            },
+        ],
+    },
+];
