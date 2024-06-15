@@ -1,29 +1,38 @@
 <template>
     <main class="max-w-screen-xl mx-auto min-h-screen">
         <div class="w-full h-screen flex flex-col justify-center items-cente">
-            <div class="grid grid-cols-1 md:grid-cols-2">
-                <div class="m-0 md:-mt-20">
+            <div class="grid grid-cols-1">
+                <div>
                     <img src="/gif/giphy.gif" class="mx-auto" />
                 </div>
-                <div class="m-0 md:-mt-10">
-                    <h1 class="text-xl mb-10">
-                        Start learning korean from zero to advanced
+                <div class="mt-10">
+                    <h1 class="text-xl">
+                        Welcome! Our website helps Lao speakers learn Korean
+                        easily and enjoyably. Whether you're a beginner or
+                        looking to improve, we offer lessons and practice tools
+                        tailored just for you. Join our community and start
+                        mastering Korean today!
                     </h1>
-                    <h2 class="text-xl mb-10">
-                        0부터 고급까지 한국어를 배우기 시작하세요
+
+                    <h2 class="mt-6 text-xl">
+                        ຍິນດີຕ້ອນຮັບ!
+                        ເວັບໄຊທ໌ຂອງພວກເຮົາຊ່ວຍໃຫ້ຜູ້ເວົ້າພາສາລາວຮຽນພາສາເກົາຫລີຢ່າງງ່າຍດາຍແລະມີຄວາມສົນຸກ.
+                        ບໍ່ວ່າທ່ານຈະເປັນມືໃໝ່ຫລືຕ້ອງການປັບປຸງ,
+                        ພວກເຮົາມີບົດຮຽນແລະເຄື່ອງມືຝຶກຝົນສໍາລັບທ່ານ.
+                        ເຂົ້າຮ່ວມຊຸມຊົນຂອງພວກເຮົາແລະເລີ່ມຕົ້ນຮຽນພາສາເກົາຫລີໃນມື້ນີ້!
                     </h2>
-                    <h3 class="text-xl">
-                        ເລີ່ມຮຽນພາສາເກົາຫຼີຕັ້ງແຕ່ສູນເຖິງຂັ້ນຂັ້ນສູງ
-                    </h3>
                 </div>
             </div>
         </div>
-        <div
-            class="grid grid-cols-1 md:grid-cols-3 gap-4 text-center"
-        >
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-center">
             <div class="mb-6 md:mb-0">
-                <h4 class="text-3xl font-bold">ຄຳສັບ</h4>
-                <p>ເລີ່ມຮຽນຄຳສັບແບບງາຍໆ, ມີຫລາກລາຍຄຳຄັບ</p>
+                <h4 class="text-3xl font-bold">ຄໍາສັບພາສາເກົາຫລີ</h4>
+                <p>
+                    ຮຽນຄໍາສັບແລະປະໂຫຍກພາສາເກົາຫລີທີ່ອອກແບບມາສໍາຫລັບຜູ້ເວົ້າພາສາລາວ.
+                    ແຕ່ລະລາຍການປະກອບດ້ວຍຄໍາເກົາຫລີ, ການອ່ານອອກສຽງ,
+                    ແລະການແປພາສາລາວ.
+                    ສ້າງພື້ນຖານຄໍາສັບເພື່ອການສື່ສານທີ່ມີປະສິດທິພາບໃນຊີວິດປະຈໍາວັນຂອງທ່ານ.
+                </p>
                 <div class="mt-4">
                     <nuxt-link
                         to="/korean-vocabulary-lists"
@@ -31,14 +40,15 @@
                         >ຮຽນອ່ານເລີຍ</nuxt-link
                     >
                 </div>
-                <div class="mt-6">
-                    <img src="/logo.png" class="mx-auto" />
-                </div>
             </div>
 
             <div class="mb-6 md:mb-0">
                 <h4 class="text-3xl font-bold">ປະໂຫຍກ</h4>
-                <p>ມີຫລາກລາຍຄປະໂຫຍກທີ່ຄົນນີຍົມເວົ້າກັນສຸດໆ</p>
+                <p>
+                    ຮຽນຮູ້ຄໍາສັບແລະປະໂຫຍກພາສາເກົາຫລີທີ່ໃຊ້ປະຈໍາວັນ.
+                    ພາກນີ້ມີຄໍາແສດງຄວາມຄິດທີ່ພົບຫຼາຍກັບການອ່ານອອກສຽງແລະການແປພາສາລາວ,
+                    ທໍາໃຫ້ທ່ານສາມາດສື່ສານໃນສະຖານະການຕ່າງໆໄດ້ຢ່າງມີປະສິດທິພາບ.
+                </p>
                 <div class="mt-4">
                     <nuxt-link
                         to="/korean-phrases"
@@ -46,23 +56,22 @@
                         >ຮຽນເວົ້າເລີຍ</nuxt-link
                     >
                 </div>
-                <div class="mt-6">
-                    <img src="/logo.png" class="mx-auto" />
-                </div>
             </div>
 
             <div class="mb-6 md:mb-0">
                 <h4 class="text-3xl font-bold">ບົດສົນທະນາ</h4>
-                <p>ມີຫລາກລາຍຄປະໂຫຍກທີ່ຄົນນີຍົມເວົ້າກັນສຸດໆ</p>
+                <p>
+                    ປັບປຸງທັກສະການເວົ້າພາສາເກົາຫລີຂອງທ່ານດ້ວຍບົດສົນທະນາຈາກຊີວິດຈິງ.
+                    ແຕ່ລະບົດປະກອບດ້ວຍຂໍ້ຄວາມພາສາເກົາຫລີ, ການແປພາສາລາວ,
+                    ແລະສຽງອາດີໂອທີ່ແມ່ນຍໍາ.
+                    ຝຶກຝົນແລະເຂົ້າຮ່ວມກັບນັກເວົ້າພາສາເກົາຫລີເພື່ອສື່ສານທີ່ມີຄວາມໝາຍໄດ້ຢ່າງມັ່ນໃຈ.
+                </p>
                 <div class="mt-4">
                     <nuxt-link
                         to="/korean-conversations"
                         class="px-4 py-2 border transition-5s rounded border-blue-200 transition-5s hover:bg-blue-100"
                         >ຮຽນເວົ້າເລີຍ</nuxt-link
                     >
-                </div>
-                <div class="mt-6">
-                    <img src="/logo.png" class="mx-auto" />
                 </div>
             </div>
         </div>

@@ -24,7 +24,9 @@
                         <nuxt-link to="/korean-phrases/">ປະໂຫຍກ</nuxt-link>
                     </li>
                     <li class="text-blue-500 hover:underline">
-                        <nuxt-link to="/korean-conversations/">ບົດສົນທະນາ</nuxt-link>
+                        <nuxt-link to="/korean-conversations/"
+                            >ບົດສົນທະນາ</nuxt-link
+                        >
                     </li>
                 </ul>
             </div>
@@ -35,7 +37,9 @@
                         <nuxt-link to="/about-us/">ກ່ຽວ​ກັບ​ພວກ​ເຮົາ</nuxt-link>
                     </li>
                     <li class="text-blue-500 hover:underline">
-                        <nuxt-link to="/contact-us/">ຕິດ​ຕໍ່​ພວກ​ເຮົາ</nuxt-link>
+                        <nuxt-link to="/contact-us/"
+                            >ຕິດ​ຕໍ່​ພວກ​ເຮົາ</nuxt-link
+                        >
                     </li>
                     <li class="text-blue-500 hover:underline">
                         <nuxt-link to="/blog/">ບົດຄວາມ</nuxt-link>
@@ -58,7 +62,7 @@
         </div>
         <div class="mt-10 text-center">
             <p class="flex justify-center items-center">
-                ສ້າງດ້ວຍ
+                ຮວບຮວມດ້ວຍ
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
@@ -72,7 +76,7 @@
                 ຕັ້ງແຕ່ປີ 2024
             </p>
             <nuxt-link to="/privacy-policy" class="hover:underline"
-                >Terms & Policy</nuxt-link
+                >Terms & Policy (ຂໍ້ກຳນົດ ແລະນະໂຍບາຍ)</nuxt-link
             >
         </div>
     </div>
