@@ -13,15 +13,15 @@
             type="button"
             @click="copy"
         >
-            <IconSpeakerWave />
+            <IconShare />
         </button>
     </div>
 </template>
 <script setup lang="ts">
 const route = useRoute();
 
-const copy = () =>{
+const copy = () => {
     const url = SITE_URL + route.fullPath;
     navigator.clipboard.writeText(url);
-}
+};
 </script>

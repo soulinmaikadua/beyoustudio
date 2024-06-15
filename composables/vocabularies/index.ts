@@ -13,6 +13,7 @@ import { KITCHEN } from "./kitchen";
 import { CLOTHING } from "./clothing";
 import { TRAVEL_AND_PLACES } from "./travel-places";
 import { HANDYMAN } from "./handyman";
+import { ABOUT_BODY } from "./about-body";
 const URL = `https://beyoustudio.pro/vocabularies`;
 export const VOCABULARIES: PageList[] = [
     {
@@ -113,10 +114,18 @@ export const VOCABULARIES: PageList[] = [
     },
     {
         image: `${URL}/handyman.png`,
-        korean: "날짜에 관한 말",
-        lao: "ຄໍາສັບກ່ຽວກັບພາຫະນະ ແລະ ສະຖານທີ",
+        korean: "기계공의 어휘",
+        lao: "ຄໍາສັບກ່ຽວກັບນາຍຊ່າງ",
         route: "/korean-vocabulary-lists/handyman",
         slug: "handyman",
         data: HANDYMAN,
+    },
+    {
+        image: `${URL}/about-body.png`,
+        korean: "신체에 관한 어휘",
+        lao: "ຄໍາ​ສັບ​ຕ່າງໆ​ກ່ຽວ​ກັບ​ຮ່າງ​ກາຍ​",
+        route: "/korean-vocabulary-lists/about-body",
+        slug: "about-body",
+        data: ABOUT_BODY,
     },
 ];
