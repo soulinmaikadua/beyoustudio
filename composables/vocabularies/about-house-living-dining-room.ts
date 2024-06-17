@@ -31,7 +31,7 @@ export const ABOUT_HOUSE_LIVING_DINING: WordModel[] = [
                 korean: "소파에 앉아서 책을 읽었어요.",
                 read: "So-pa-e an-ja-seo chaek-eul il-geoss-eo-yo.",
                 english: "I sat on the sofa and read a book.",
-                lao: "ຂ້ອຍນັ່ງໂຊຟາແລະອ່ານປື້ມ.",
+                lao: "ຂ້ອຍນັ່ງໂຊຟາ ແລະ ອ່ານປື້ມ.",
             },
         ],
     },
