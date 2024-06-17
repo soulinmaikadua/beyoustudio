@@ -140,7 +140,7 @@ export const FRUIT: WordModel[] = [
                 korean: "딸기는 맛있고 몸에도 좋습니다.",
                 read: "ttalgineun masikko momedo jotsseumnida",
                 english: "Strawberries are delicious and good for the body.",
-                lao: "ສະຕໍເບີຣີມີລົດຊາດແຊບ ແລະດີຕໍ່ຮ່າງກາຍ.",
+                lao: "ສະຕໍເບີຣີມີລົດຊາດແຊບ ແລະ ດີຕໍ່ຮ່າງກາຍ.",
             },
         ],
     },

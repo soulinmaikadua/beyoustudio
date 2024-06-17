@@ -7,6 +7,15 @@ export const DATES: WordModel[] = [
         read: "Cheot beon-jjae",
         english: "First",
         lao: "ວັນທີ 1",
+        examples: [
+            {
+                id: 1,
+                korean: "저는 첫 번째 날에 도착했습니다.",
+                read: "Jeoneun cheot beonjjae nare dochakhaetseumnida.",
+                english: "I arrived on the first day.",
+                lao: "ຂ້ອຍມາເຖິງວັນທີ 1.",
+            },
+        ],
     },
     {
         id: 2,
@@ -14,6 +23,15 @@ export const DATES: WordModel[] = [
         read: "Du beon-jjae",
         english: "Second",
         lao: "ວັນທີ 2",
+        examples: [
+            {
+                id: 1,
+                korean: "우리는 두 번째 주에 만나기로 했습니다.",
+                read: "Urineun du beonjjae jue mannagiro haetseumnida.",
+                english: "We decided to meet on the second week.",
+                lao: "ພວກເຮົາຕົກລົງທີ່ຈະເຈີກັນໃນວັນທີ 2.",
+            },
+        ],
     },
     {
         id: 3,
@@ -21,6 +39,15 @@ export const DATES: WordModel[] = [
         read: "Se beon-jjae",
         english: "Third",
         lao: "ວັນທີ 3",
+        examples: [
+            {
+                id: 1,
+                korean: "세 번째 날은 비가 왔습니다.",
+                read: "Se beonjjae nareun biga watseumnida.",
+                english: "It rained on the third day.",
+                lao: "ຝົນຕົກໃນວັນທີ 3.",
+            },
+        ],
     },
     {
         id: 4,
@@ -28,6 +55,15 @@ export const DATES: WordModel[] = [
         read: "Ne beon-jjae",
         english: "Fourth",
         lao: "ວັນທີ 4",
+        examples: [
+            {
+                id: 1,
+                korean: "네 번째 날에 회의를 가졌습니다.",
+                read: "Ne beonjjae nare hoeuileul gajyeotseumnida.",
+                english: "We had a meeting on the fourth day.",
+                lao: "ພວກເຮົາມີການປະຊຸມໃນວັນທີ 4.",
+            },
+        ],
     },
     {
         id: 5,
@@ -35,6 +71,15 @@ export const DATES: WordModel[] = [
         read: "Daseot beon-jjae",
         english: "Fifth",
         lao: "ວັນທີ 5",
+        examples: [
+            {
+                id: 1,
+                korean: "다섯 번째 날에 친구를 만났습니다.",
+                read: "Daseot beonjjae nare chingureul mannasseumnida.",
+                english: "I met my friend on the fifth day.",
+                lao: "ຂ້ອຍໄດ້ເຈີເພື່ອນຂອງຂ້ອຍໃນວັນທີ 5.",
+            },
+        ],
     },
     {
         id: 6,
@@ -42,6 +87,15 @@ export const DATES: WordModel[] = [
         read: "Yeoseot beon-jjae",
         english: "Sixth",
         lao: "ວັນທີ 6",
+        examples: [
+            {
+                id: 1,
+                korean: "여섯 번째 날에 산책을 했습니다.",
+                read: "Yeoseot beonjjae nare sanchaegeul haetseumnida.",
+                english: "We went for a walk on the sixth day.",
+                lao: "ພວກເຮົາໄປຍ່າງໃນວັນທີ 6.",
+            },
+        ],
     },
     {
         id: 7,
@@ -49,6 +103,15 @@ export const DATES: WordModel[] = [
         read: "Ilgop beon-jjae",
         english: "Seventh",
         lao: "ວັນທີ 7",
+        examples: [
+            {
+                id: 1,
+                korean: "일곱 번째 날에 쇼핑을 갔습니다.",
+                read: "Ilgop beonjjae nare syopingeul gasseumnida.",
+                english: "We went shopping on the seventh day.",
+                lao: "ພວກເຮົາໄປຊື້ເຄື່ອງໃນວັນທີ 7.",
+            },
+        ],
     },
     {
         id: 8,
@@ -56,6 +119,15 @@ export const DATES: WordModel[] = [
         read: "Yeodeol beon-jjae",
         english: "Eighth",
         lao: "ວັນທີ 8",
+        examples: [
+            {
+                id: 1,
+                korean: "여덟 번째 날에 영화관에 갔습니다.",
+                read: "Yeodeol beonjjae nare yeonghwagwane gasseumnida.",
+                english: "We went to the cinema on the eighth day.",
+                lao: "ພວກເຮົາໄປເບິ່ງຮູບເງົາໃນວັນທີ 8.",
+            },
+        ],
     },
     {
         id: 9,
@@ -63,6 +135,15 @@ export const DATES: WordModel[] = [
         read: "Ahop beon-jjae",
         english: "Ninth",
         lao: "ວັນທີ 9",
+        examples: [
+            {
+                id: 1,
+                korean: "아홉 번째 날에 해변에 갔습니다.",
+                read: "Ahop beonjjae nare haebyeone gasseumnida.",
+                english: "We went to the beach on the ninth day.",
+                lao: "ພວກເຮົາໄປຫາດຊາຍໃນວັນທີ 9.",
+            },
+        ],
     },
     {
         id: 10,
@@ -70,6 +151,15 @@ export const DATES: WordModel[] = [
         read: "Yeol beon-jjae",
         english: "Tenth",
         lao: "ວັນທີ 10",
+        examples: [
+            {
+                id: 1,
+                korean: "열 번째 날에 저녁 식사를 했습니다.",
+                read: "Yeol beonjjae nare jeonyeok sigsareul haetseumnida.",
+                english: "We had dinner on the tenth day.",
+                lao: "ພວກເຮົາກິນເຂົ້າແລງໃນວັນທີ 10.",
+            },
+        ],
     },
     {
         id: 11,
@@ -77,6 +167,15 @@ export const DATES: WordModel[] = [
         read: "Yeolhan beon-jjae",
         english: "Eleventh",
         lao: "ວັນທີ 11",
+        examples: [
+            {
+                id: 1,
+                korean: "열한 번째 날에 산을 등반했습니다.",
+                read: "Yeolhan beonjjae nare saneul deungban haetseumnida.",
+                english: "We hiked up a mountain on the eleventh day.",
+                lao: "ພວກເຮົາໄດ້ຂື້ນຜາເຂົາໃນວັນທີ 11.",
+            },
+        ],
     },
     {
         id: 12,
@@ -84,6 +183,15 @@ export const DATES: WordModel[] = [
         read: "Yeoldu beon-jjae",
         english: "Twelfth",
         lao: "ວັນທີ 12",
+        examples: [
+            {
+                id: 1,
+                korean: "열두 번째 날에 박물관에 갔습니다.",
+                read: "Yeoldu beonjjae nare bangmulgwane gasseumnida.",
+                english: "We went to the museum on the twelfth day.",
+                lao: "ພວກເຮົາໄປພິພິທະພັນໃນວັນທີ 12.",
+            },
+        ],
     },
     {
         id: 13,
@@ -91,6 +199,15 @@ export const DATES: WordModel[] = [
         read: "Yeolse beon-jjae",
         english: "Thirteenth",
         lao: "ວັນທີ 13",
+        examples: [
+            {
+                id: 1,
+                korean: "열세 번째 날에 친구 집을 방문했습니다.",
+                read: "Yeolse beonjjae nare chingu jibeul bangmun haetseumnida.",
+                english: "We visited a friend's house on the thirteenth day.",
+                lao: "ພວກເຮົາໄດ້ໄປເຢືອນເພື່ອນໃນວັນທີ 13.",
+            },
+        ],
     },
     {
         id: 14,
@@ -98,6 +215,15 @@ export const DATES: WordModel[] = [
         read: "Yeolne beon-jjae",
         english: "Fourteenth",
         lao: "ວັນທີ 14",
+        examples: [
+            {
+                id: 1,
+                korean: "열네 번째 날에 쇼핑몰에 갔습니다.",
+                read: "Yeolne beonjjae nare syopingmole gasseumnida.",
+                english: "We went to the shopping mall on the fourteenth day.",
+                lao: "ພວກເຮົາໄປຫ້າງສະພາສິນຄ້າໃນວັນທີ 14.",
+            },
+        ],
     },
     {
         id: 15,
@@ -105,6 +231,15 @@ export const DATES: WordModel[] = [
         read: "Yeoldaseot beon-jjae",
         english: "Fifteenth",
         lao: "ວັນທີ 15",
+        examples: [
+            {
+                id: 1,
+                korean: "열다섯 번째 날에 도서관에 갔습니다.",
+                read: "Yeoldaseot beonjjae nare doseogwane gasseumnida.",
+                english: "We went to the library on the fifteenth day.",
+                lao: "ພວກເຮົາໄປຫ້ອງສະໝຸດໃນວັນທີ 15.",
+            },
+        ],
     },
     {
         id: 16,
@@ -112,6 +247,15 @@ export const DATES: WordModel[] = [
         read: "Yeolyeoseot beon-jjae",
         english: "Sixteenth",
         lao: "ວັນທີ 16",
+        examples: [
+            {
+                id: 1,
+                korean: "열여섯 번째 날에 공원에 갔습니다.",
+                read: "Yeolyeoseot beonjjae nare gongwone gasseumnida.",
+                english: "We went to the park on the sixteenth day.",
+                lao: "ພວກເຮົາໄປສວນສາທາລະນະໃນວັນທີ 16.",
+            },
+        ],
     },
     {
         id: 17,
@@ -119,6 +263,15 @@ export const DATES: WordModel[] = [
         read: "Yeolilgop beon-jjae",
         english: "Seventeenth",
         lao: "ວັນທີ 17",
+        examples: [
+            {
+                id: 1,
+                korean: "열일곱 번째 날에 박물관에 갔습니다.",
+                read: "Yeolilgop beonjjae nare bangmulgwane gasseumnida.",
+                english: "We went to the museum on the seventeenth day.",
+                lao: "ພວກເຮົາໄດ້ໄປພິພິທະພັນໃນວັນທີ 17.",
+            },
+        ],
     },
     {
         id: 18,
@@ -126,6 +279,15 @@ export const DATES: WordModel[] = [
         read: "Yeolyeodeol beon-jjae",
         english: "Eighteenth",
         lao: "ວັນທີ 18",
+        examples: [
+            {
+                id: 1,
+                korean: "열여덟 번째 날에 콘서트에 갔습니다.",
+                read: "Yeolyeodeol beonjjae nare konseote gasseumnida.",
+                english: "We went to a concert on the eighteenth day.",
+                lao: "ພວກເຮົາໄດ້ໄປຄອນເສີດໃນວັນທີ 18.",
+            },
+        ],
     },
     {
         id: 19,
@@ -133,6 +295,15 @@ export const DATES: WordModel[] = [
         read: "Yeolahop beon-jjae",
         english: "Nineteenth",
         lao: "ວັນທີ 19",
+        examples: [
+            {
+                id: 1,
+                korean: "열아홉 번째 날에 친구를 만났습니다.",
+                read: "Yeolahop beonjjae nare chingureul mannasseumnida.",
+                english: "We met friends on the nineteenth day.",
+                lao: "ພວກເຮົາໄດ້ເຈີເພື່ອນໃນວັນທີ 19.",
+            },
+        ],
     },
     {
         id: 20,
@@ -140,6 +311,15 @@ export const DATES: WordModel[] = [
         read: "Seumu beon-jjae",
         english: "Twentieth",
         lao: "ວັນທີ 20",
+        examples: [
+            {
+                id: 1,
+                korean: "스무 번째 날에 등산을 했습니다.",
+                read: "Seumu beonjjae nare deungsaneul haetseumnida.",
+                english: "We went hiking on the twentieth day.",
+                lao: "ພວກເຮົາໄປເດີນຜາໃນວັນທີ 20.",
+            },
+        ],
     },
     {
         id: 21,
@@ -147,6 +327,15 @@ export const DATES: WordModel[] = [
         read: "Seumulhan beon-jjae",
         english: "Twenty-first",
         lao: "ວັນທີ 21",
+        examples: [
+            {
+                id: 1,
+                korean: "스물한 번째 날에 영화관에 갔습니다.",
+                read: "Seumulhan beonjjae nare yeonghwagwane gasseumnida.",
+                english: "We went to the cinema on the twenty-first day.",
+                lao: "ພວກເຮົາໄດ້ໄປເບິ່ງຮູບເງົາໃນວັນທີ 21.",
+            },
+        ],
     },
     {
         id: 22,
@@ -154,6 +343,15 @@ export const DATES: WordModel[] = [
         read: "Seumuldu beon-jjae",
         english: "Twenty-second",
         lao: "ວັນທີ 22",
+        examples: [
+            {
+                id: 1,
+                korean: "스물두 번째 날에 도서관에 갔습니다.",
+                read: "Seumuldu beonjjae nare doseogwane gasseumnida.",
+                english: "We went to the library on the twenty-second day.",
+                lao: "ພວກເຮົາໄດ້ໄປຫ້ອງສະໝຸດໃນວັນທີ 22.",
+            },
+        ],
     },
     {
         id: 23,
@@ -161,6 +359,15 @@ export const DATES: WordModel[] = [
         read: "Seumulse beon-jjae",
         english: "Twenty-third",
         lao: "ວັນທີ 23",
+        examples: [
+            {
+                id: 1,
+                korean: "스물세 번째 날에 친구를 만났습니다.",
+                read: "Seumulse beonjjae nare chingureul mannasseumnida.",
+                english: "We met friends on the twenty-third day.",
+                lao: "ພວກເຮົາໄດ້ເຈີເພື່ອນໃນວັນທີ 23.",
+            },
+        ],
     },
     {
         id: 24,
@@ -168,6 +375,15 @@ export const DATES: WordModel[] = [
         read: "Seumulne beon-jjae",
         english: "Twenty-fourth",
         lao: "ວັນທີ 24",
+        examples: [
+            {
+                id: 1,
+                korean: "스물네 번째 날에 가족과 함께 시간을 보냈습니다.",
+                read: "Seumulne beonjjae nare gajokgwa hamkke siganeul bonaetseumnida.",
+                english: "We spent time with family on the twenty-fourth day.",
+                lao: "ພວກເຮົາໃຊ້ເວລາກັບຄອບຄົວໃນວັນທີ 24.",
+            },
+        ],
     },
     {
         id: 25,
@@ -175,6 +391,15 @@ export const DATES: WordModel[] = [
         read: "Seumuldaseot beon-jjae",
         english: "Twenty-fifth",
         lao: "ວັນທີ 25",
+        examples: [
+            {
+                id: 1,
+                korean: "스물다섯 번째 날에 해변에서 수영했습니다.",
+                read: "Seumuldaseot beonjjae nare haebyeoneseo suyeonghaetseumnida.",
+                english: "We swam at the beach on the twenty-fifth day.",
+                lao: "ພວກເຮົາໄດ້ລອຍນໍ້າທີ່ຫາດໃນວັນທີ 25.",
+            },
+        ],
     },
     {
         id: 26,
@@ -182,6 +407,16 @@ export const DATES: WordModel[] = [
         read: "Seumulyeoseot beon-jjae",
         english: "Twenty-sixth",
         lao: "ວັນທີ 26",
+        examples: [
+            {
+                id: 1,
+                korean: "스물여섯 번째 날에 놀이공원에 갔습니다.",
+                read: "Seumulyeoseot beonjjae nare norigongwone gasseumnida.",
+                english:
+                    "We went to the amusement park on the twenty-sixth day.",
+                lao: "ພວກເຮົາໄດ້ໄປສວນສົນໃນວັນທີ 26.",
+            },
+        ],
     },
     {
         id: 27,
@@ -189,6 +424,15 @@ export const DATES: WordModel[] = [
         read: "Seumulilgop beon-jjae",
         english: "Twenty-seventh",
         lao: "ວັນທີ 27",
+        examples: [
+            {
+                id: 1,
+                korean: "스물일곱 번째 날에 등산을 했습니다.",
+                read: "Seumulilgop beonjjae nare deungsaneul haetseumnida.",
+                english: "We went hiking on the twenty-seventh day.",
+                lao: "ພວກເຮົາໄດ້ໄປຍ່າງຜາໃນວັນທີ 27.",
+            },
+        ],
     },
     {
         id: 28,
@@ -196,6 +440,15 @@ export const DATES: WordModel[] = [
         read: "Seumulyeodeol beon-jjae",
         english: "Twenty-eighth",
         lao: "ວັນທີ 28",
+        examples: [
+            {
+                id: 1,
+                korean: "스물여덟 번째 날에 친구들과 저녁을 먹었습니다.",
+                read: "Seumulyeodeol beonjjae nare chingudeulgwa jeonyeogeul meogeotseumnida.",
+                english: "We had dinner with friends on the twenty-eighth day.",
+                lao: "ພວກເຮົາກິນເຂົ້າແລງກັບເພື່ອນໃນວັນທີ 28.",
+            },
+        ],
     },
     {
         id: 29,
@@ -203,6 +456,15 @@ export const DATES: WordModel[] = [
         read: "Seumulahop beon-jjae",
         english: "Twenty-ninth",
         lao: "ວັນທີ 29",
+        examples: [
+            {
+                id: 1,
+                korean: "스물아홉 번째 날에 시내를 구경했습니다.",
+                read: "Seumulahop beonjjae nare sinaereul gugyeonghaetseumnida.",
+                english: "We explored the city on the twenty-ninth day.",
+                lao: "ພວກເຮົາໄດ້ສຳຫຼວດຕົວເມືອງໃນວັນທີ 29.",
+            },
+        ],
     },
     {
         id: 30,
@@ -210,6 +472,15 @@ export const DATES: WordModel[] = [
         read: "Seoreun beon-jjae",
         english: "Thirtieth",
         lao: "ວັນທີ 30",
+        examples: [
+            {
+                id: 1,
+                korean: "서른 번째 날에 저녁 식사를 했습니다.",
+                read: "Seoreun beonjjae nare jeonyeok sigsareul haetseumnida.",
+                english: "We had dinner on the thirtieth day.",
+                lao: "ພວກເຮົາກິນເຂົ້າແລງໃນວັນທີ 30.",
+            },
+        ],
     },
     {
         id: 31,
@@ -217,5 +488,14 @@ export const DATES: WordModel[] = [
         read: "Seoreunhan beon-jjae",
         english: "Thirty-first",
         lao: "ວັນທີ 31",
+        examples: [
+            {
+                id: 1,
+                korean: "서른한 번째 날에 파티를 열었습니다.",
+                read: "Seoreunhan beonjjae nare patireul yeoreotseumnida.",
+                english: "We had a party on the thirty-first day.",
+                lao: "ພວກເຮົາມີງານເລີດໃນວັນທີ 31.",
+            },
+        ],
     },
 ];
