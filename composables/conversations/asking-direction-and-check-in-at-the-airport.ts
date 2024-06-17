@@ -1,0 +1,103 @@
+import type { PhraseModel } from "~/models";
+
+export const ASKING_DIRECTION_AT_AIRPORT: PhraseModel[] = [
+    {
+        id: 1,
+        korean: "실례합니다, 체크인 카운터는 어디에 있나요?",
+        read: "Sillyehamnida, chekeuin kaunteoneun eodie itsnayo?",
+        english: "Excuse me, where is the check-in counter?",
+        lao: "ຂໍໂທດ, ເຄົາເຕີສຳລັບການລົງທະບຽນຢູ່ໃສ?",
+    },
+    {
+        id: 2,
+        korean: "직진해서 왼쪽에 있습니다.",
+        read: "Jikjinhaeseo oenjjoge itseumnida.",
+        english: "It's straight ahead and to the left.",
+        lao: "ຕົງໄປຂ້າງໜ້າແລະຫັນຊ້າຍ.",
+    },
+    {
+        id: 3,
+        korean: "안녕하세요, 서울행 비행기 체크인 하고 싶습니다.",
+        read: "Annyeonghaseyo, seoulhaeng bihaenggi chekeuin hago sipseumnida.",
+        english: "Hello, I’d like to check in for my flight to Seoul.",
+        lao: "ສະບາຍດີ, ຂ້ອຍຢາກລົງທະບຽນເພື່ອຂຶ້ນເຮືອບິນໄປຫາໂຊວ.",
+    },
+    {
+        id: 4,
+        korean: "여권과 티켓을 보여주시겠어요?",
+        read: "Yeogwon-gwa tiket-eul boyeojusigesseoyo?",
+        english: "May I see your passport and ticket, please?",
+        lao: "ຂ້ອຍຂໍເຫັນຫມົດແລະປີ້ຂອງທ່ານແນ່?",
+    },
+    {
+        id: 5,
+        korean: "여기 있습니다.",
+        read: "Yeogi itseumnida.",
+        english: "Here they are.",
+        lao: "ຢູ່ນີ້.",
+    },
+    {
+        id: 6,
+        korean: "감사합니다. 수하물 맡기실 거 있나요?",
+        read: "Gamsahamnida. Suhamul matgisil geo itsnayo?",
+        english: "Thank you. Do you have any luggage to check in?",
+        lao: "ຂອບໃຈ. ທ່ານມີກະເປົາທີ່ຕ້ອງລົງທະບຽນບໍ?",
+    },
+    {
+        id: 7,
+        korean: "네, 가방 하나 있습니다.",
+        read: "Ne, gabang hana itseumnida.",
+        english: "Yes, I have one suitcase.",
+        lao: "ແມ່ນແລ້ວ, ຂ້ອຍມີກະເປົາໃບດຽວ.",
+    },
+    {
+        id: 8,
+        korean: "가방을 저울에 올려주세요.",
+        read: "Gabang-eul jeoul-e ollyeojuseyo.",
+        english: "Please place your suitcase on the scale.",
+        lao: "ກະລຸນາວາງກະເປົາຂອງທ່ານໃນຕູ້ປຸ່ມ.",
+    },
+    {
+        id: 9,
+        korean: "여기 탑승권입니다. 게이트 번호는 15번입니다. 좋은 여행 되세요!",
+        read: "Yeogi tapsungkwon-imnida. Geiteu beonhoneun sibobeon-imnida. Joeun yeohaeng doeseyo!",
+        english:
+            "Here is your boarding pass. Your gate number is 15. Have a nice flight!",
+        lao: "ນີ້ແມ່ນບັດຜ່ານຂອງທ່ານ. ເລກເກດຂອງທ່ານແມ່ນ 15. ຂໍໃຫ້ທ່ານເດີນທາງດ້ວຍຄວາມສຸກ!",
+    },
+    {
+        id: 10,
+        korean: "감사합니다!",
+        read: "Gamsahamnida!",
+        english: "Thank you!",
+        lao: "ຂອບໃຈ!",
+    },
+    {
+        id: 11,
+        korean: "안녕하세요, 이 비행기는 서울에 도착했습니다.",
+        read: "Annyeonghaseyo, i bihaenggineun seoure dochakhaetseumnida.",
+        english: "Hello, this plane has arrived in Seoul.",
+        lao: "ສະບາຍດີ, ເຮືອບິນລໍກຳລັງມາຮອດໂຊວແລ້ວ.",
+    },
+    {
+        id: 12,
+        korean: "어디에서 수하물을 찾을 수 있나요?",
+        read: "Eodie-eseo suhamul-eul chajeul su itsnayo?",
+        english: "Where can I find my luggage?",
+        lao: "ຂ້ອຍສາມາດເຫັນກະເປົາຂອງຂ້ອຍໃນໃສ?",
+    },
+    {
+        id: 13,
+        korean: "수하물 찾는 곳은 저쪽에 있습니다.",
+        read: "Suhamul chatneun gos-eun jeojjoge itseumnida.",
+        english: "The baggage claim area is over there.",
+        lao: "ບ່ອນຮັບກະເປົາຢູ່ທາງນີ້.",
+    },
+    {
+        id: 14,
+        korean: "감사합니다.",
+        read: "Gamsahamnida.",
+        english: "Thank you.",
+        lao: "ຂອບໃຈ.",
+    },
+];

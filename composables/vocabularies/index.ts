@@ -18,7 +18,14 @@ import { ABOUT_MEATS } from "./about-meats";
 import { ABOUT_SCHOOLS } from "./about-schools";
 import { ABOUT_COLORS } from "./about-colors";
 import { ABOUT_FOOTBALL } from "./about-football";
+import { ABOUT_HOUSE } from "./about-house";
+import { ABOUT_HOUSE_BEDROOM } from "./about-house-bedroom";
+import { ABOUT_HOUSE_BATHROOM } from "./about-house-bathroom";
+import { ABOUT_HOUSE_LIVING_DINING } from "./about-house-living-dining-room";
+import { ABOUT_HOUSE_GARDEN } from "./about-house-garden";
+
 const URL = `https://beyoustudio.pro/vocabularies`;
+
 export const VOCABULARIES: PageList[] = [
     {
         image: `${URL}/numeric.png`,
@@ -101,12 +108,52 @@ export const VOCABULARIES: PageList[] = [
         data: VEGETABLES,
     },
     {
+        image: `${URL}/about-house.png`,
+        korean: "날짜에 관한 말",
+        lao: "ຄໍາສັບກ່ຽວກັບເຮືອນ",
+        route: "/korean-vocabulary-lists/about-house",
+        slug: "about-house",
+        data: ABOUT_HOUSE,
+    },
+    {
+        image: `${URL}/about-house-bedroom.png`,
+        korean: "침실에 관한 단어",
+        lao: "ຄຳສັບກ່ຽວກັບຫ້ອງນອນ",
+        route: "/korean-vocabulary-lists/about-house-bedroom",
+        slug: "about-house-bedroom",
+        data: ABOUT_HOUSE_BEDROOM,
+    },
+    {
         image: `${URL}/kitchen.png`,
         korean: "날짜에 관한 말",
         lao: "ຄໍາສັບກ່ຽວກັບເຮືອນຄົວ",
         route: "/korean-vocabulary-lists/kitchen",
         slug: "kitchen",
         data: KITCHEN,
+    },
+    {
+        image: `${URL}/about-house-living-dining-room.png`,
+        korean: "거실과 식당에 관한 어휘",
+        lao: "ຄຳສັບກ່ຽວກັບຫ້ອງຮັບແຂກ ແລະ ຫ້ອງຮັບປະທານອາຫານ",
+        route: "/korean-vocabulary-lists/about-house-living-dining-room",
+        slug: "about-house-living-dining-room",
+        data: ABOUT_HOUSE_LIVING_DINING,
+    },
+    {
+        image: `${URL}/about-house-bathroom.png`,
+        korean: "화장실에 관한 단어",
+        lao: "ຄໍາສັບກ່ຽວກັບຫ້ອງນ້ໍາ",
+        route: "/korean-vocabulary-lists/about-house-bathroom",
+        slug: "about-house-bathroom",
+        data: ABOUT_HOUSE_BATHROOM,
+    },
+    {
+        image: `${URL}/about-house-garden.png`,
+        korean: "정원에 관한 단어",
+        lao: "ຄຳສັບກ່ຽວກັບສວນ",
+        route: "/korean-vocabulary-lists/about-house-garden",
+        slug: "about-house-garden",
+        data: ABOUT_HOUSE_GARDEN,
     },
     {
         image: `${URL}/clothing.png`,
