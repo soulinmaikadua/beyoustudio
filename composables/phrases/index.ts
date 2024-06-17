@@ -32,11 +32,11 @@ export const PHRASES: PageList[] = [
         data: INTRODUCE_SMALL_TALK,
     },
     {
-        image: `${URL}/small-talk.png`,
+        image: `${URL}/daily-routines.png`,
         korean: "일상에 관한 문장",
         lao: "ປະໂຫຍກກ່ຽວກັບກິດຈະວັດປະຈໍາວັນ",
-        route: "/korean-phrases/small-talk",
-        slug: "small-talk",
+        route: "/korean-phrases/daily-routines",
+        slug: "daily-routines",
         data: INTRODUCE_DAILY_ROUTINES,
     },
 ];

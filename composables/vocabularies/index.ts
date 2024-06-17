@@ -28,6 +28,15 @@ import { ABOUT_FAMILY } from "./about-family";
 import { ABOUT_PRONOUNS } from "./about-pronouns";
 import { ABOUT_SIZE_BEAUTY } from "./about-size-beauty-and-more";
 import { ABOUT_MATHS } from "./about-maths";
+import { ABOUT_RENTING_APARTMENT } from "./about-renting-apartment";
+import { ABOUT_AIRPORT } from "./about-airport";
+import { ABOUT_BUS_STOP_STATION } from "./about-bus-stop-and-station";
+import { ABOUT_PHARMACY } from "./about-pharmacy";
+import { ABOUT_CLINIC } from "./about-clinic";
+import { ABOUT_HOSPITAL } from "./about-hospital";
+import { ABOUT_SHOPPING } from "./about-shopping";
+import { ABOUT_PARK } from "./about-park";
+import { ABOUT_RESTAURANT } from "./about-restaurant";
 
 const URL = `https://beyoustudio.pro/vocabularies`;
 
@@ -255,5 +264,77 @@ export const VOCABULARIES: PageList[] = [
         route: "/korean-vocabulary-lists/about-size-beauty-and-more",
         slug: "about-size-beauty-and-more",
         data: ABOUT_SIZE_BEAUTY,
+    },
+    {
+        image: `${URL}/about-renting-apartment.png`,
+        korean: "아파트 임대에 관한 어휘",
+        lao: "ຄໍາສັບກ່ຽວກັບການເຊົ່າອາພາດເມັນ",
+        route: "/korean-vocabulary-lists/about-renting-apartment",
+        slug: "about-renting-apartment",
+        data: ABOUT_RENTING_APARTMENT,
+    },
+    {
+        image: `${URL}/about-airport.png`,
+        korean: "공항에 관한 어휘",
+        lao: "ຄໍາ​ສັບ​ຕ່າງໆ​ກ່ຽວ​ກັບ​ສະ​ຫນາມ​ບິນ​",
+        route: "/korean-vocabulary-lists/about-airport",
+        slug: "about-airport",
+        data: ABOUT_AIRPORT,
+    },
+    {
+        image: `${URL}/about-bus-stop-and-station.png`,
+        korean: "버스 정류장과 버스 정류장에 대한 어휘",
+        lao: "ຄຳສັບກ່ຽວກັບປ້າຍລົດເມ ແລະ ສະຖານີລົດເມ",
+        route: "/korean-vocabulary-lists/about-bus-stop-and-station",
+        slug: "about-bus-stop-and-station",
+        data: ABOUT_BUS_STOP_STATION,
+    },
+    {
+        image: `${URL}/about-pharmacy.png`,
+        korean: "약국에 관한 단어",
+        lao: "ຄຄຳສັບກ່ຽວກັບຮ້ານຂາຍຢາ",
+        route: "/korean-vocabulary-lists/about-pharmacy",
+        slug: "about-pharmacy",
+        data: ABOUT_PHARMACY,
+    },
+    {
+        image: `${URL}/about-clinic.png`,
+        korean: "진료소에 대한 단어",
+        lao: "ຄຳສັບກ່ຽວກັບຄລີນິກ",
+        route: "/korean-vocabulary-lists/about-clinic",
+        slug: "about-clinic",
+        data: ABOUT_CLINIC,
+    },
+    {
+        image: `${URL}/about-hospital.png`,
+        korean: "병원에 관한 단어",
+        lao: "ຄໍາ​ສັບ​ຕ່າງໆ​ກ່ຽວ​ກັບ​ໂຮງ​ຫມໍ​",
+        route: "/korean-vocabulary-lists/about-hospital",
+        slug: "about-hospital",
+        data: ABOUT_HOSPITAL,
+    },
+    {
+        image: `${URL}/about-shopping.png`,
+        korean: "쇼핑에 관한 어휘",
+        lao: "ຄໍາສັບກ່ຽວກັບການຊື້ເຄື່ອງ",
+        route: "/korean-vocabulary-lists/about-shopping",
+        slug: "about-shopping",
+        data: ABOUT_SHOPPING,
+    },
+    {
+        image: `${URL}/about-park.png`,
+        korean: "공원에 관한 어휘",
+        lao: "ຄຳສັບກ່ຽວກັບສວນສາທາລະນະ",
+        route: "/korean-vocabulary-lists/about-park",
+        slug: "about-park",
+        data: ABOUT_PARK,
+    },
+    {
+        image: `${URL}/about-restaurant.png`,
+        korean: "레스토랑에 대한 단어",
+        lao: "ຄຳສັບກ່ຽວກັບຮ້ານອາຫານ",
+        route: "/korean-vocabulary-lists/about-restaurant",
+        slug: "about-restaurant",
+        data: ABOUT_RESTAURANT,
     },
 ];
