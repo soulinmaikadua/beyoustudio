@@ -23,10 +23,23 @@ import { ABOUT_HOUSE_BEDROOM } from "./about-house-bedroom";
 import { ABOUT_HOUSE_BATHROOM } from "./about-house-bathroom";
 import { ABOUT_HOUSE_LIVING_DINING } from "./about-house-living-dining-room";
 import { ABOUT_HOUSE_GARDEN } from "./about-house-garden";
+import { ABOUT_TIMING } from "./about-timing";
+import { ABOUT_FAMILY } from "./about-family";
+import { ABOUT_PRONOUNS } from "./about-pronouns";
+import { ABOUT_SIZE_BEAUTY } from "./about-size-beauty-and-more";
+import { ABOUT_MATHS } from "./about-maths";
 
 const URL = `https://beyoustudio.pro/vocabularies`;
 
 export const VOCABULARIES: PageList[] = [
+    {
+        image: `${URL}/about-pronouns.png`,
+        korean: "대명사에 관한 어휘",
+        lao: "ຄຳສັບກ່ຽວກັບຄຳນາມ",
+        route: "/korean-vocabulary-lists/about-pronouns",
+        slug: "about-pronouns",
+        data: ABOUT_PRONOUNS,
+    },
     {
         image: `${URL}/numeric.png`,
         korean: "숫자에 관한 단어",
@@ -34,6 +47,14 @@ export const VOCABULARIES: PageList[] = [
         route: "/korean-vocabulary-lists/numeric",
         slug: "numeric",
         data: NUMERIC,
+    },
+    {
+        image: `${URL}/about-maths.png`,
+        korean: "수학에 관한 어휘",
+        lao: "ຄໍາ​ສັບ​ຕ່າງໆ​ກ່ຽວ​ກັບ​ຄະ​ນິດ​ສາດ​",
+        route: "/korean-vocabulary-lists/about-maths",
+        slug: "about-maths",
+        data: ABOUT_MATHS,
     },
     {
         image: `${URL}/days.png`,
@@ -204,11 +225,35 @@ export const VOCABULARIES: PageList[] = [
         data: ABOUT_SCHOOLS,
     },
     {
+        image: `${URL}/about-timing.png`,
+        korean: "타이밍에 관한 용어",
+        lao: "ຄຳສັບກ່ຽວກັບເວລາ",
+        route: "/korean-vocabulary-lists/about-timing",
+        slug: "about-timing",
+        data: ABOUT_TIMING,
+    },
+    {
         image: `${URL}/about-colors.png`,
         korean: "색상에 관한 용어",
         lao: "ຄໍາ​ສັບ​ຕ່າງໆ​ກ່ຽວ​ກັບ​ສີ​​",
         route: "/korean-vocabulary-lists/about-colors",
         slug: "about-colors",
         data: ABOUT_COLORS,
+    },
+    {
+        image: `${URL}/about-family.png`,
+        korean: "가족에 관한 용어",
+        lao: "ຄໍາ​ສັບ​ຕ່າງໆ​ກ່ຽວ​ກັບ​ຄອບ​ຄົວ​",
+        route: "/korean-vocabulary-lists/about-family",
+        slug: "about-family",
+        data: ABOUT_FAMILY,
+    },
+    {
+        image: `${URL}/about-size-beauty-and-more.png`,
+        korean: "크기, 아름다움 등에 관한 어휘",
+        lao: "ຄໍາສັບກ່ຽວກັບຂະຫນາດ, ຄວາມງາມ ແລະ ອື່ນໆ",
+        route: "/korean-vocabulary-lists/about-size-beauty-and-more",
+        slug: "about-size-beauty-and-more",
+        data: ABOUT_SIZE_BEAUTY,
     },
 ];
