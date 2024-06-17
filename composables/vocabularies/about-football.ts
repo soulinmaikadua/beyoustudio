@@ -23,7 +23,7 @@ export const ABOUT_FOOTBALL: WordModel[] = [
         korean: "수비수",
         read: "su-bi-su",
         english: "Defender",
-        lao: "ກົມປ້ອງກັນ",
+        lao: "ຜູ້ຫລີ້ນກອງຫລັງ",
         speech: "n",
         examples: [
             {
@@ -31,7 +31,7 @@ export const ABOUT_FOOTBALL: WordModel[] = [
                 korean: "수비수가 상대 팀의 공격을 막았어요.",
                 read: "Su-bi-su-ga sang-dae tim-ui gong-gyeok-eul mag-ass-eo-yo.",
                 english: "The defender blocked the opposing team's attack.",
-                lao: "ກົມປ້ອງກັນໄດ້ປ້ອງກັນການໂຈມຕີຂອງທີມຕົວຕູ່.",
+                lao: "ຜູ້ຫລີ້ນກອງຫລັງໄດ້ປ້ອງກັນການໂຈມຕີຂອງທີມຄູ່ຕໍ່ສູ້.",
             },
         ],
     },
@@ -40,7 +40,7 @@ export const ABOUT_FOOTBALL: WordModel[] = [
         korean: "미드필더",
         read: "mi-deu-pil-deo",
         english: "Midfielder",
-        lao: "ກົມກາງ",
+        lao: "ຜູ້ຫລີ້ນກອງກາງ",
         speech: "n",
         examples: [
             {
@@ -48,7 +48,7 @@ export const ABOUT_FOOTBALL: WordModel[] = [
                 korean: "미드필더가 패스를 잘 했어요.",
                 read: "Mi-deu-pil-deo-ga pae-seu-reul jal haess-eo-yo.",
                 english: "The midfielder made a great pass.",
-                lao: "ກົມກາງໄດ້ປາສສີ່ດີ.",
+                lao: "ຜູ້ຫລີ້ນກອງກາງສົ່ງບານໄດ້ດີ",
             },
         ],
     },
@@ -57,7 +57,7 @@ export const ABOUT_FOOTBALL: WordModel[] = [
         korean: "공격수",
         read: "gong-gyeok-su",
         english: "Forward",
-        lao: "ກົມໂຈມຕີ",
+        lao: "ຜູ້ຫລີ້ນກອງຫນ້າ",
         speech: "n",
         examples: [
             {
@@ -65,7 +65,7 @@ export const ABOUT_FOOTBALL: WordModel[] = [
                 korean: "공격수가 골을 넣었어요.",
                 read: "Gong-gyeok-su-ga gol-eul neo-eoss-eo-yo.",
                 english: "The forward scored a goal.",
-                lao: "ກົມໂຈມຕີໄດ້ເຕະປະຕູ.",
+                lao: "ຜູ້ຫລີ້ນກອງຫນ້າຍິ່ງໄດ້ເຕະປະຕູ.",
             },
         ],
     },
@@ -116,7 +116,7 @@ export const ABOUT_FOOTBALL: WordModel[] = [
                 korean: "심판이 경기를 주재해요.",
                 read: "Sim-pan-i gyeong-gi-reul ju-jae-hae-yo.",
                 english: "The referee oversees the match.",
-                lao: "ຜູ້ຕັດສິນໄດ້ຄຸ້ມຄອງການແຂ່ງຂັນ.",
+                lao: "ຜູ້ຕັດສິນໄດ້ຄຸ້ມເກມການແຂ່ງຂັນ.",
             },
         ],
     },
@@ -150,7 +150,7 @@ export const ABOUT_FOOTBALL: WordModel[] = [
                 korean: "그가 골을 넣었어요.",
                 read: "Geu-ga gol-eul neo-eoss-eo-yo.",
                 english: "He scored a goal.",
-                lao: "ລາວໄດ້ເຕະປະຕູ.",
+                lao: "ລາວຍິ່ງໄດ້ເຕະປະຕູ.",
             },
         ],
     },
@@ -159,7 +159,7 @@ export const ABOUT_FOOTBALL: WordModel[] = [
         korean: "패널티",
         read: "pae-neol-ti",
         english: "Penalty",
-        lao: "ບົດລົງໂທດ",
+        lao: "ຈຸດໂທດ",
         speech: "n",
         examples: [
             {
@@ -167,7 +167,7 @@ export const ABOUT_FOOTBALL: WordModel[] = [
                 korean: "패널티 킥을 얻었어요.",
                 read: "Pae-neol-ti kig-eul eod-eoss-eo-yo.",
                 english: "We got a penalty kick.",
-                lao: "ພວກເຮົາໄດ້ເຕະບົດລົງໂທດ.",
+                lao: "ພວກເຮົາໄດ້ເຕະຈຸດໂທດ.",
             },
         ],
     },

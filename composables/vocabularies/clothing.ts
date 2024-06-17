@@ -78,7 +78,7 @@ export const CLOTHING: WordModel[] = [
         korean: "드레스",
         read: "deureseu",
         english: "dress",
-        lao: "ກະໂປ່ງ",
+        lao: "ຊຸດ",
         speech: "n",
         emoji: "👗",
         examples: [
