@@ -1,0 +1,208 @@
+import type { WordModel } from "~/models";
+
+export const ABOUT_SHOPPING: WordModel[] = [
+    {
+        id: 1,
+        korean: "쇼핑",
+        read: "syoping",
+        english: "shopping",
+        lao: "ການຊື້ຂອງ",
+        speech: "n",
+        examples: [
+            {
+                id: 1,
+                korean: "저는 주말에 쇼핑을 갑니다.",
+                read: "Jeoneun jumal-e syoping-eul gamnida.",
+                english: "I go shopping on the weekend.",
+                lao: "ຂ້ອຍໄປຊື້ຂອງໃນວັນສຸດສັປດາ.",
+            },
+        ],
+    },
+    {
+        id: 2,
+        korean: "가격",
+        read: "gagyeok",
+        english: "price",
+        lao: "ລາຄາ",
+        speech: "n",
+        examples: [
+            {
+                id: 1,
+                korean: "이 제품의 가격은 얼마입니까?",
+                read: "I jepum-ui gagyeog-eun eolmaimnikka?",
+                english: "What is the price of this product?",
+                lao: "ລາຄາຂອງສິນຄ້ານີ້ເທົ່າໃດ?",
+            },
+        ],
+    },
+    {
+        id: 3,
+        korean: "할인",
+        read: "halin",
+        english: "discount",
+        lao: "ສ່ວນຫຼຸດ",
+        speech: "n",
+        examples: [
+            {
+                id: 1,
+                korean: "이 가게는 할인 중입니다.",
+                read: "I gagen-eun halin jung-imnida.",
+                english: "This store is having a discount.",
+                lao: "ຮ້ານນີ້ກຳລັງມີສ່ວນຫຼຸດ.",
+            },
+        ],
+    },
+    {
+        id: 4,
+        korean: "쇼핑몰",
+        read: "syopingmol",
+        english: "shopping mall",
+        lao: "ຫ້າງສະປິນຄ້າ",
+        speech: "n",
+        examples: [
+            {
+                id: 1,
+                korean: "우리는 쇼핑몰에 갔습니다.",
+                read: "Urineun syopingmol-e gass-eum-nida.",
+                english: "We went to the shopping mall.",
+                lao: "ພວກເຮົາໄດ້ໄປຫ້າງສະປິນຄ້າ.",
+            },
+        ],
+    },
+    {
+        id: 5,
+        korean: "상품",
+        read: "sangpum",
+        english: "product",
+        lao: "ສິນຄ້າ",
+        speech: "n",
+        examples: [
+            {
+                id: 1,
+                korean: "이 상품은 인기가 많습니다.",
+                read: "I sangpum-eun ingi-ga manhseumnida.",
+                english: "This product is very popular.",
+                lao: "ສິນຄ້ານີ້ເປັນທີ່ນິຍົມຫຼາຍ.",
+            },
+        ],
+    },
+    {
+        id: 6,
+        korean: "장바구니",
+        read: "jangbaguni",
+        english: "shopping basket",
+        lao: "ຕະກ້າໃສ່ຂອງ",
+        speech: "n",
+        examples: [
+            {
+                id: 1,
+                korean: "장바구니에 물건을 담았습니다.",
+                read: "Jangbaguni-e mulgeon-eul dam-assseumnida.",
+                english: "I put items in the shopping basket.",
+                lao: "ຂ້ອຍໄດ້ໃສ່ຂອງລົງໃນຕະກ້າໃສ່ຂອງ.",
+            },
+        ],
+    },
+    {
+        id: 7,
+        korean: "계산대",
+        read: "gyesandae",
+        english: "checkout counter",
+        lao: "ເຄົາເຕີເກັບເງິນ",
+        speech: "n",
+        examples: [
+            {
+                id: 1,
+                korean: "계산대에서 돈을 지불했습니다.",
+                read: "Gyesandae-eseo don-eul jibulhaessseumnida.",
+                english: "I paid at the checkout counter.",
+                lao: "ຂ້ອຍໄດ້ຈ່າຍເງິນຢູ່ເຄົາເຕີເກັບເງິນ.",
+            },
+        ],
+    },
+    {
+        id: 8,
+        korean: "영수증",
+        read: "yeongsujeung",
+        english: "receipt",
+        lao: "ໃບເສັງ",
+        speech: "n",
+        examples: [
+            {
+                id: 1,
+                korean: "영수증을 받았습니다.",
+                read: "Yeongsujeung-eul bad-assseumnida.",
+                english: "I received a receipt.",
+                lao: "ຂ້ອຍໄດ້ຮັບໃບເສັງ.",
+            },
+        ],
+    },
+    {
+        id: 9,
+        korean: "환불",
+        read: "hwanbul",
+        english: "refund",
+        lao: "ການຄືນເງິນ",
+        speech: "n",
+        examples: [
+            {
+                id: 1,
+                korean: "환불을 요청했습니다.",
+                read: "Hwanbul-eul yocheonghaessseumnida.",
+                english: "I requested a refund.",
+                lao: "ຂ້ອຍໄດ້ຮ້ອງຂໍການຄືນເງິນ.",
+            },
+        ],
+    },
+    {
+        id: 10,
+        korean: "교환",
+        read: "gyohwan",
+        english: "exchange",
+        lao: "ການແລກປ່ຽນ",
+        speech: "n",
+        examples: [
+            {
+                id: 1,
+                korean: "상품을 교환했습니다.",
+                read: "Sangpum-eul gyohwanhaessseumnida.",
+                english: "I exchanged the product.",
+                lao: "ຂ້ອຍໄດ້ແລກປ່ຽນສິນຄ້າ.",
+            },
+        ],
+    },
+    {
+        id: 11,
+        korean: "판매",
+        read: "panmae",
+        english: "sale",
+        lao: "ການຂາຍ",
+        speech: "n",
+        examples: [
+            {
+                id: 1,
+                korean: "이 제품은 판매 중입니다.",
+                read: "I jepum-eun panmae jung-imnida.",
+                english: "This product is on sale.",
+                lao: "ສິນຄ້ານີ້ກຳລັງຂາຍ.",
+            },
+        ],
+    },
+    {
+        id: 12,
+        korean: "구매",
+        read: "gumae",
+        english: "purchase",
+        lao: "ການຊື້",
+        speech: "n",
+        examples: [
+            {
+                id: 1,
+                korean: "구매 후에는 영수증을 보관하세요.",
+                read: "Gumae hue-neun yeongsujeung-eul bogwanhaseyo.",
+                english: "Keep the receipt after purchase.",
+                lao: "ເກັບຮັກສາໃບເສັງໄວ້ຫຼັງຈາກຊື້.",
+            },
+        ],
+    },
+];
