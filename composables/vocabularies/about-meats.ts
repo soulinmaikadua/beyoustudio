@@ -3,6 +3,23 @@ import type { WordModel } from "~/models";
 export const ABOUT_MEATS: WordModel[] = [
     {
         id: 1,
+        korean: "고기",
+        read: "go-gi",
+        english: "meat",
+        lao: "ຊີ້ນ",
+        speech: "n",
+        examples: [
+            {
+                id: 1,
+                korean: "저녁에 고기를 구워 먹었습니다.",
+                read: "Jeonyeog-e gogi-reul guwo meogeossseumnida.",
+                english: "I grilled meat for dinner.",
+                lao: "ຂ້ອຍປີ້ງຊີ້ນໃນມື້ແລງ.",
+            },
+        ],
+    },
+    {
+        id: 1,
         korean: "닭고기",
         read: "dak-go-gi",
         english: "chicken",
@@ -202,6 +219,23 @@ export const ABOUT_MEATS: WordModel[] = [
                 read: "Galbi-reul guwosseoyo.",
                 english: "I grilled ribs and ate them.",
                 lao: "ຂ້ອຍປີ້ງແຖບຊີ້ນ ແລະ ກິນ.",
+            },
+        ],
+    },
+    {
+        id: 13,
+        korean: "달걀",
+        read: "dal-gyal",
+        english: "egg",
+        lao: "ໄຂ່",
+        speech: "n",
+        examples: [
+            {
+                id: 1,
+                korean: "아침에 달걀을 먹습니다.",
+                read: "Achim-e dal-gyal-eul meogseumnida.",
+                english: "I eat eggs in the morning.",
+                lao: "ຂ້ອຍກິນໄຂ່ໃນຕອນເຊົ້າ.",
             },
         ],
     },

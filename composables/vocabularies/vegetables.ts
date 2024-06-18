@@ -3,10 +3,28 @@ import type { WordModel } from "~/models";
 export const VEGETABLES: WordModel[] = [
     {
         id: 1,
+        korean: "채소",
+        read: "chae-so",
+        english: "vegetable",
+        lao: "ຜັກ",
+        speech: "n",
+        examples: [
+            {
+                id: 1,
+                korean: "채소는 건강에 좋습니다.",
+                read: "Chaesoneun geongang-e johseumnida.",
+                english: "Vegetables are good for your health.",
+                lao: "ຜັກເປັນຜົນດີຕໍ່ສຸຂະພາບ.",
+            },
+        ],
+    },
+    {
+        id: 1,
         korean: "당근",
         read: "dang-geun",
         english: "carrot",
         lao: "ແຄລອດ",
+        speech: "n",
         examples: [
             {
                 id: 1,
@@ -23,6 +41,7 @@ export const VEGETABLES: WordModel[] = [
         read: "gam-ja",
         english: "potato",
         lao: "ມັນຝຣັ່ງ",
+        speech: "n",
         examples: [
             {
                 id: 1,
@@ -39,6 +58,7 @@ export const VEGETABLES: WordModel[] = [
         read: "yang-pa",
         english: "onion",
         lao: "ຫອມບົ່ວ",
+        speech: "n",
         examples: [
             {
                 id: 1,
@@ -55,6 +75,7 @@ export const VEGETABLES: WordModel[] = [
         read: "ma-neul",
         english: "garlic",
         lao: "ຫອມວຽນ",
+        speech: "n",
         examples: [
             {
                 id: 1,
@@ -71,6 +92,7 @@ export const VEGETABLES: WordModel[] = [
         read: "to-ma-to",
         english: "tomato",
         lao: "ເຂືອ",
+        speech: "n",
         examples: [
             {
                 id: 1,
@@ -87,6 +109,7 @@ export const VEGETABLES: WordModel[] = [
         read: "yang-bae-chu",
         english: "cabbage",
         lao: "ກະລໍ້າປີ",
+        speech: "n",
         examples: [
             {
                 id: 1,
@@ -103,6 +126,7 @@ export const VEGETABLES: WordModel[] = [
         read: "sang-chu",
         english: "lettuce",
         lao: "ຜັກສະຫຼຽງ",
+        speech: "n",
         examples: [
             {
                 id: 1,
@@ -119,6 +143,7 @@ export const VEGETABLES: WordModel[] = [
         read: "si-geum-chi",
         english: "spinach",
         lao: "ຜັກຂະຫນາດ",
+        speech: "n",
         examples: [
             {
                 id: 1,
@@ -135,6 +160,7 @@ export const VEGETABLES: WordModel[] = [
         read: "beu-ro-kol-li",
         english: "broccoli",
         lao: "ບຣອກໂຄລີ",
+        speech: "n",
         examples: [
             {
                 id: 1,
@@ -151,6 +177,7 @@ export const VEGETABLES: WordModel[] = [
         read: "kol-li-peul-la-wo",
         english: "cauliflower",
         lao: "ດອກກະລໍ່າດອກ",
+        speech: "n",
         examples: [
             {
                 id: 1,
@@ -167,6 +194,7 @@ export const VEGETABLES: WordModel[] = [
         read: "o-i",
         english: "cucumber",
         lao: "ແຕງ",
+        speech: "n",
         examples: [
             {
                 id: 1,
@@ -183,6 +211,7 @@ export const VEGETABLES: WordModel[] = [
         read: "pi-mang",
         english: "bell pepper",
         lao: "ໝາກເພັດຫວານ",
+        speech: "n",
         examples: [
             {
                 id: 1,
@@ -199,6 +228,7 @@ export const VEGETABLES: WordModel[] = [
         read: "cheong-yang-go-chu",
         english: "green pepper",
         lao: "ໝາກເພັດຂຽວ",
+        speech: "n",
         examples: [
             {
                 id: 1,
@@ -215,6 +245,7 @@ export const VEGETABLES: WordModel[] = [
         read: "ga-ji",
         english: "eggplant",
         lao: "ມັງ",
+        speech: "n",
         examples: [
             {
                 id: 1,
@@ -231,6 +262,7 @@ export const VEGETABLES: WordModel[] = [
         read: "ae-ho-bak",
         english: "zucchini",
         lao: "ໝາກແຝນ",
+        speech: "n",
         examples: [
             {
                 id: 1,
@@ -247,6 +279,7 @@ export const VEGETABLES: WordModel[] = [
         read: "ho-bak",
         english: "pumpkin",
         lao: "ໝາກອຶ",
+        speech: "n",
         examples: [
             {
                 id: 1,
@@ -263,6 +296,7 @@ export const VEGETABLES: WordModel[] = [
         read: "go-gu-ma",
         english: "sweet potato",
         lao: "ມັນໝາກລິ້ງ",
+        speech: "n",
         examples: [
             {
                 id: 1,
@@ -279,6 +313,7 @@ export const VEGETABLES: WordModel[] = [
         read: "mu",
         english: "radish",
         lao: "ປາກເທົາ",
+        speech: "n",
         examples: [
             {
                 id: 1,
@@ -295,6 +330,7 @@ export const VEGETABLES: WordModel[] = [
         read: "bi-teu",
         english: "beet",
         lao: "ຜັກບີດ",
+        speech: "n",
         examples: [
             {
                 id: 1,
@@ -311,6 +347,7 @@ export const VEGETABLES: WordModel[] = [
         read: "beo-seot",
         english: "mushroom",
         lao: "ເຫັດ",
+        speech: "n",
         examples: [
             {
                 id: 1,
@@ -327,6 +364,7 @@ export const VEGETABLES: WordModel[] = [
         read: "wan-du-kong",
         english: "peas",
         lao: "ເຖົ່າຖົ່ວອອກ",
+        speech: "n",
         examples: [
             {
                 id: 1,
@@ -342,14 +380,15 @@ export const VEGETABLES: WordModel[] = [
         korean: "옥수수",
         read: "ok-su-su",
         english: "corn",
-        lao: "ໝາກພວງ",
+        lao: "ສາລີ",
+        speech: "n",
         examples: [
             {
                 id: 1,
                 korean: "옥수수를 구워서 먹어요.",
                 read: "oksusureul guwoseo meogeoyo",
                 english: "Grill the corn and eat it.",
-                lao: "ຢ່າງໝາກພວງແລະກິນ.",
+                lao: "ຈິ່ສາລີແລະກິນ.",
             },
         ],
     },
@@ -359,6 +398,7 @@ export const VEGETABLES: WordModel[] = [
         read: "a-seu-pa-ra-geo-seu",
         english: "asparagus",
         lao: "ໜໍ່ໄມ້ຝຣັ່ງ",
+        speech: "n",
         examples: [
             {
                 id: 1,
@@ -375,6 +415,7 @@ export const VEGETABLES: WordModel[] = [
         read: "ke-il",
         english: "kale",
         lao: "ເຄວ",
+        speech: "n",
         examples: [
             {
                 id: 1,
@@ -391,6 +432,7 @@ export const VEGETABLES: WordModel[] = [
         read: "sel-leo-ri",
         english: "celery",
         lao: "ຜັກກັກ",
+        speech: "n",
         examples: [
             {
                 id: 1,
@@ -398,6 +440,40 @@ export const VEGETABLES: WordModel[] = [
                 read: "sellerireul saelleodeue neoeoyo",
                 english: "Add celery to the salad.",
                 lao: "ໃສ່ຜັກກັກໃນສະຫຼັດ.",
+            },
+        ],
+    },
+    {
+        id: 26,
+        korean: "고추",
+        read: "go-chu",
+        english: "chili",
+        lao: "ໝາກເຜັດ",
+        speech: "n",
+        examples: [
+            {
+                id: 1,
+                korean: "고추는 매운 맛을 줍니다.",
+                read: "Gochu-neun mae-un mas-eul jum-nida.",
+                english: "Chili gives a spicy taste.",
+                lao: "ໝາກເຜັດເຮັດໃຫ້ມີລົດຊາດເຜັດ.",
+            },
+        ],
+    },
+    {
+        id: 27,
+        korean: "생강",
+        read: "saenggang",
+        english: "ginger",
+        lao: "ຂິ່ງ",
+        speech: "n",
+        examples: [
+            {
+                id: 1,
+                korean: "생강은 건강에 좋습니다.",
+                read: "Saenggang-eun geongang-e josseumnida.",
+                english: "Ginger is good for health.",
+                lao: "ຂິ່ງເປັນປະໂຫຍດຕໍ່ສຸຂະພາບ.",
             },
         ],
     },

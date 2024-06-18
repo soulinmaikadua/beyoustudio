@@ -183,6 +183,23 @@ export const KITCHEN: WordModel[] = [
     },
     {
         id: 11,
+        korean: "설탕",
+        read: "seol-tang",
+        english: "sugar",
+        lao: "ນ້ຳຕານ",
+        speech: "n",
+        examples: [
+            {
+                id: 1,
+                korean: "차에 설탕을 넣습니다.",
+                read: "Cha-e seoltang-eul neohseumnida.",
+                english: "I add sugar to my tea.",
+                lao: "ຂ້ອຍເພີ່ມນ້ຳຕານໃສ່ຊາຂອງຂ້ອຍ.",
+            },
+        ],
+    },
+    {
+        id: 12,
         korean: "냉장고",
         read: "naeng-jang-go",
         english: "refrigerator",

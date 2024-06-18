@@ -255,4 +255,109 @@ export const JOBS: WordModel[] = [
             },
         ],
     },
+    {
+        id: 15,
+        korean: "배우",
+        read: "bae-u",
+        english: "actor",
+        lao: "ນັກສະແດງ",
+        speech: "n",
+        emoji: "🕺🏻",
+        examples: [
+            {
+                id: 1,
+                korean: "배우는 다양한 역할을 연기합니다.",
+                read: "Baeuneun dayanghan yeoghal-eul yeonggihamnida.",
+                english: "The actor plays various roles.",
+                lao: "ນັກສະແດງຫຼັງຫຼາຍບົດບາດ.",
+            },
+        ],
+    },
+    {
+        id: 16,
+        korean: "가수",
+        read: "gasu",
+        english: "singer",
+        lao: "ນັກຮ້ອງ",
+        speech: "n",
+        examples: [
+            {
+                id: 1,
+                korean: "가수는 노래를 부릅니다.",
+                read: "Gasuneun nolaereul bureumnida.",
+                english: "The singer sings songs.",
+                lao: "ນັກຮ້ອງຮ້ອງເພງ.",
+            },
+        ],
+    },
+    {
+        id: 17,
+        korean: "운전사",
+        read: "unjeonsa",
+        english: "driver",
+        lao: "ຄົນຂັບລົດ",
+        speech: "n",
+        examples: [
+            {
+                id: 1,
+                korean: "운전사는 안전하게 운전합니다.",
+                read: "Unjeonsaneun anjeonhage unjeonhamnida.",
+                english: "The driver drives safely.",
+                lao: "ຄົນຂັບລົດຂັບໄປຢ່າງປອດໄພ.",
+            },
+        ],
+    },
+    {
+        id: 18,
+        korean: "작가",
+        read: "jagga",
+        english: "writer",
+        lao: "ນັກຂຽນ",
+        speech: "n",
+        emoji: "✍️",
+        examples: [
+            {
+                id: 1,
+                korean: "작가는 책을 씁니다.",
+                read: "Jagganeun chaekeul sseumnida.",
+                english: "The writer writes books.",
+                lao: "ນັກຂຽນຂຽນປື້ມ.",
+            },
+        ],
+    },
+    {
+        id: 19,
+        korean: "건축가",
+        read: "geonchugga",
+        english: "architect",
+        lao: "ນັກອອກແບບອາຄານ",
+        speech: "n",
+        examples: [
+            {
+                id: 1,
+                korean: "건축가는 건물을 설계합니다.",
+                read: "Geonchugganeun geonmuleul seolgyehamnida.",
+                english: "The architect designs buildings.",
+                lao: "ນັກອອກແບບອາຄານອອກແບບອາຄານ.",
+            },
+        ],
+    },
+    {
+        id: 20,
+        korean: "프로그래머",
+        read: "peurogeuraemeo",
+        english: "programmer",
+        lao: "ນັກຂຽນໂປຣແກຣມ",
+        speech: "n",
+        emoji: "👨‍💻",
+        examples: [
+            {
+                id: 1,
+                korean: "프로그래머는 소프트웨어를 개발합니다.",
+                read: "Peurogeuraemeoneun sopeuteuweeo-reul gaebalhamnida.",
+                english: "The programmer develops software.",
+                lao: "ນັກຂຽນໂປຣແກຣມພັດທະນາຊອຟແວ.",
+            },
+        ],
+    },
 ];

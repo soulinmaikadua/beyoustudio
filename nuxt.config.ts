@@ -49,6 +49,7 @@ export default defineNuxtConfig({
             ],
         },
     },
+    css: ["~/assets/css/main.css"],
     site: {
         url: "https://beyoustudio.pro",
         trailingSlash: true,

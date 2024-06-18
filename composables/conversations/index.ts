@@ -8,8 +8,10 @@ interface VocabList {
 }
 import { ASKING_BUS_STATION } from "./asking-bus-station";
 import { ASKING_DIRECTION_AT_AIRPORT } from "./asking-direction-and-check-in-at-the-airport";
+import { BOOKING_A_RESTAURANT } from "./booking-a-restaurant";
 import { A_TIME_TO_MEET } from "./choosing-a-time-to-meet";
 import { GREETING_CONVERSATIONS } from "./greeting-conversations";
+import { ORDERING_FOOD } from "./ordering-food-at-restaurant";
 
 const URL = `https://beyoustudio.pro/conversations`;
 
@@ -45,5 +47,21 @@ export const CONVERSATIONS: VocabList[] = [
         route: "/korean-conversations/asking-bus-station",
         slug: "asking-bus-station",
         data: ASKING_BUS_STATION,
+    },
+    {
+        image: `${URL}/booking-a-restaurant.png`,
+        korean: "레스토랑 예약",
+        lao: "ຈອງຮ້ານອາຫານ",
+        route: "/korean-conversations/booking-a-restaurant",
+        slug: "booking-a-restaurant",
+        data: BOOKING_A_RESTAURANT,
+    },
+    {
+        image: `${URL}/ordering-food-at-restaurant.png`,
+        korean: "레스토랑에서 음식 주문하기",
+        lao: "ສັ່ງອາຫານຢູ່ຮ້ານອາຫານ",
+        route: "/korean-conversations/ordering-food-at-restaurant",
+        slug: "ordering-food-at-restaurant",
+        data: ORDERING_FOOD,
     },
 ];
