@@ -7,6 +7,7 @@ export const ABOUT_SCHOOLS: WordModel[] = [
         read: "gyo-sil",
         english: "Classroom",
         lao: "ຫ້ອງຮຽນ",
+        speech: "n",
         examples: [
             {
                 id: 1,
@@ -23,6 +24,7 @@ export const ABOUT_SCHOOLS: WordModel[] = [
         read: "seon-saeng-nim",
         english: "Teacher",
         lao: "ຄູສອນ",
+        speech: "n",
         examples: [
             {
                 id: 1,
@@ -39,6 +41,7 @@ export const ABOUT_SCHOOLS: WordModel[] = [
         read: "hak-saeng",
         english: "Student",
         lao: "ນັກຮຽນ",
+        speech: "n",
         examples: [
             {
                 id: 1,
@@ -55,6 +58,7 @@ export const ABOUT_SCHOOLS: WordModel[] = [
         read: "gyo-jang",
         english: "Principal",
         lao: "ຜູ້ອໍານວຍການ",
+        speech: "n",
         examples: [
             {
                 id: 1,
@@ -71,6 +75,7 @@ export const ABOUT_SCHOOLS: WordModel[] = [
         read: "chaek-sang",
         english: "Desk",
         lao: "ໂຕະ",
+        speech: "n",
         examples: [
             {
                 id: 1,
@@ -87,6 +92,7 @@ export const ABOUT_SCHOOLS: WordModel[] = [
         read: "te-i-beul",
         english: "Table",
         lao: "ໂຕະ",
+        speech: "n",
         examples: [
             {
                 id: 1,
@@ -103,6 +109,7 @@ export const ABOUT_SCHOOLS: WordModel[] = [
         read: "ui-ja",
         english: "Chair",
         lao: "ເກົ້າອີ້",
+        speech: "n",
         examples: [
             {
                 id: 1,
@@ -119,6 +126,7 @@ export const ABOUT_SCHOOLS: WordModel[] = [
         read: "chil-pan",
         english: "Board",
         lao: "ກະດານ",
+        speech: "n",
         examples: [
             {
                 id: 1,
@@ -135,6 +143,7 @@ export const ABOUT_SCHOOLS: WordModel[] = [
         read: "do-seo-gwan",
         english: "Library",
         lao: "ຫ້ອງສະໝຸດ",
+        speech: "n",
         examples: [
             {
                 id: 1,
@@ -151,6 +160,7 @@ export const ABOUT_SCHOOLS: WordModel[] = [
         read: "gyo-gwa-seo",
         english: "Textbook",
         lao: "ປື້ມຮຽນ",
+        speech: "n",
         examples: [
             {
                 id: 1,
@@ -167,6 +177,7 @@ export const ABOUT_SCHOOLS: WordModel[] = [
         read: "yeon-pil",
         english: "Pencil",
         lao: "ສໍດຳ",
+        speech: "n",
         examples: [
             {
                 id: 1,
@@ -182,14 +193,15 @@ export const ABOUT_SCHOOLS: WordModel[] = [
         korean: "펜",
         read: "pen",
         english: "Pen",
-        lao: "ບິກ",
+        lao: "ປາກກາ",
+        speech: "n",
         examples: [
             {
                 id: 1,
                 korean: "펜으로 노트를 씁니다.",
                 read: "pen-eu-ro no-teu-reul sseum-ni-da.",
                 english: "I write notes with a pen.",
-                lao: "ຂ້ອຍຂຽນໂນດດ້ວຍບິກ.",
+                lao: "ຂ້ອຍຂຽນໂນດດ້ວຍປາກກາ.",
             },
         ],
     },
@@ -198,14 +210,15 @@ export const ABOUT_SCHOOLS: WordModel[] = [
         korean: "공책",
         read: "gong-chaek",
         english: "Notebook",
-        lao: "ປື້ມບັນທິກ",
+        lao: "ສົມຸດ",
+        speech: "n",
         examples: [
             {
                 id: 1,
                 korean: "노트에 중요한 것을 적었습니다.",
                 read: "no-teu-e jung-yo-han geo-seul jeo-geot-seum-ni-da.",
                 english: "I wrote down important things in my notebook.",
-                lao: "ຂ້ອຍຈົດສິ່ງທີ່ສຳຄັນໄວ້ໃນປື້ມບັນທິກ.",
+                lao: "ຂ້ອຍຈົດສິ່ງທີ່ສຳຄັນໄວ້ໃນສົມຸດ.",
             },
         ],
     },
@@ -215,6 +228,7 @@ export const ABOUT_SCHOOLS: WordModel[] = [
         read: "suk-je",
         english: "Homework",
         lao: "ວຽກບ້ານ",
+        speech: "n",
         examples: [
             {
                 id: 1,
@@ -231,6 +245,7 @@ export const ABOUT_SCHOOLS: WordModel[] = [
         read: "si-heom",
         english: "Exam",
         lao: "ການສອບເສັງ",
+        speech: "n",
         examples: [
             {
                 id: 1,
@@ -247,6 +262,7 @@ export const ABOUT_SCHOOLS: WordModel[] = [
         read: "hak-gyo beos",
         english: "School bus",
         lao: "ລົດໂຮງຮຽນ",
+        speech: "n",
         examples: [
             {
                 id: 1,
@@ -262,14 +278,15 @@ export const ABOUT_SCHOOLS: WordModel[] = [
         korean: "운동장",
         read: "un-dong-jang",
         english: "Playground",
-        lao: "ສະຫນາມເຕະບານ",
+        lao: "ສະຫນາມກິລາ",
+        speech: "n",
         examples: [
             {
                 id: 1,
                 korean: "아이들이 운동장에서 놀고 있습니다.",
                 read: "a-i-deul-i un-dong-jang-e-seo nol-go it-seum-ni-da.",
                 english: "The children are playing in the playground.",
-                lao: "ເດັກໆກຳລັງຫລີ້ນຢູ່ໃນສະຫນາມເຕະບານ.",
+                lao: "ເດັກໆກຳລັງຫລີ້ນຢູ່ໃນສະຫນາມກິລາ.",
             },
         ],
     },
@@ -279,6 +296,7 @@ export const ABOUT_SCHOOLS: WordModel[] = [
         read: "geup-sik-sil",
         english: "Cafeteria",
         lao: "ຫ້ອງອາຫານ",
+        speech: "n",
         examples: [
             {
                 id: 1,
@@ -295,6 +313,7 @@ export const ABOUT_SCHOOLS: WordModel[] = [
         read: "che-yuk-gwan",
         english: "Gymnasium",
         lao: "ສະຫນາມກິລາ",
+        speech: "n",
         examples: [
             {
                 id: 1,
@@ -312,6 +331,7 @@ export const ABOUT_SCHOOLS: WordModel[] = [
         read: "keom-pyu-teo-sil",
         english: "Computer room",
         lao: "ຫ້ອງຄອມພິວເຕີ",
+        speech: "n",
         examples: [
             {
                 id: 1,

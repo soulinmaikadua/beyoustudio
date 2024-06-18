@@ -39,6 +39,7 @@ import { ABOUT_PARK } from "./about-park";
 import { ABOUT_RESTAURANT } from "./about-restaurant";
 import { ABOUT_FOOD } from "./about-food";
 import { ABOUT_DRINK } from "./about-drink";
+import { ABOUT_POSITION_DIRECTION } from "./about-position-direction";
 
 const URL = `https://beyoustudio.pro/vocabularies`;
 
@@ -354,5 +355,13 @@ export const VOCABULARIES: PageList[] = [
         route: "/korean-vocabulary-lists/about-drink",
         slug: "about-drink",
         data: ABOUT_DRINK,
+    },
+    {
+        image: `${URL}/about-position-direction.png`,
+        korean: "위치 / 방향에 관한 어휘",
+        lao: "ຄໍາ​ສັບ​ຕ່າງໆ​ກ່ຽວ​ກັບ​ຕໍາ​ແຫນ່ງ / ທິດ​ທາງ​",
+        route: "/korean-vocabulary-lists/about-position-direction",
+        slug: "about-position-direction",
+        data: ABOUT_POSITION_DIRECTION,
     },
 ];

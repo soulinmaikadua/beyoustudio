@@ -177,7 +177,7 @@ export const ABOUT_RENTING_APARTMENT: WordModel[] = [
         read: "isa",
         english: "move",
         lao: "ຍ້າຍບ້ານ",
-        speech: "n",
+        speech: "v",
         examples: [
             {
                 id: 1,
