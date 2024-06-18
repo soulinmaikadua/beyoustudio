@@ -455,4 +455,22 @@ export const ANIMALS: WordModel[] = [
             },
         ],
     },
+    {
+        id: 26,
+        korean: "곰",
+        read: "gom",
+        english: "bear",
+        lao: "ຫມີ",
+        speech: "n",
+        emoji: "🐻",
+        examples: [
+            {
+                id: 1,
+                korean: "산에서 곰을 보았습니다.",
+                read: "San-eseo gom-eul boasimnida.",
+                english: "I saw a bear in the mountains.",
+                lao: "ຂ້ອຍເຫັນຫມີໃນພູເຂົາ.",
+            },
+        ],
+    },
 ];

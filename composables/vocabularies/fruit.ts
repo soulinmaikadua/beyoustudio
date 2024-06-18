@@ -11,10 +11,10 @@ export const FRUIT: WordModel[] = [
         examples: [
             {
                 id: 1,
-                korean: "과일 한 조각",
-                read: "gwail han jogak",
-                english: "piece of fruit",
-                lao: "ຕ່ອນຂອງຫມາກໄມ້",
+                korean: "나는 아침에 과일을 먹습니다.",
+                read: "Naneun achim-e gwail-eul meogseumnida.",
+                english: "I eat fruit in the morning.",
+                lao: "ຂ້ອຍກິນຜົນໄມ້ໃນຕອນເຊົ້າ.",
             },
         ],
     },
