@@ -9,9 +9,9 @@
                 >
                     <IconSpeakerWave />
                 </button>
-                <div class="ml-4 flex">
+                <div class="ml-4">
                     <p>{{ props.item.korean }}</p>
-                    <p v-if="props.romanization" class="ml-2">
+                    <p v-if="props.romanization">
                         {{ props.item.read }}
                     </p>
                 </div>
@@ -27,9 +27,9 @@
                 >
                     <IconSpeakerWave />
                 </button>
-                <div class="ml-4 flex">
+                <div class="ml-4">
                     <p v-if="props.english">{{ props.item.english }}</p>
-                    <p v-if="props.lao" class="ml-2">{{ props.item.lao }}</p>
+                    <p v-if="props.lao">{{ props.item.lao }}</p>
                 </div>
             </div>
         </div>

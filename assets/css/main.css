@@ -1,5 +1,6 @@
 table {
     margin: 10px 0px;
+    width: 100%;
 }
 table th {
     padding-top: 12px;
@@ -34,13 +35,24 @@ a {
     margin-top: 10px;
 }
 
-ol li {
+.content-image ol li {
     list-style: decimal;
     font-weight: bold;
     margin-left: 25px;
     padding: 10px;
 }
 
+.content-image ul li {
+    margin-left: 25px;
+    padding: 5px;
+}
+
 .content-image img {
-    margin: 10px 0px;
+    margin: 10px auto;
+}
+
+.content-section h2 {
+    font-size: 1.11em !important;
+    font-weight: bold !important;
+    margin-top: 12px;
 }
