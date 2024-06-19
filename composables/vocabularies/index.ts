@@ -40,6 +40,11 @@ import { ABOUT_RESTAURANT } from "./about-restaurant";
 import { ABOUT_FOOD } from "./about-food";
 import { ABOUT_DRINK } from "./about-drink";
 import { ABOUT_POSITION_DIRECTION } from "./about-position-direction";
+import { ABOUT_MATH_SHAPE } from "./about-math-shape";
+import { ABOUT_RIVER_SEA_OCEAN } from "./about-river-sea-ocean";
+import { ABOUT_NEW_YEAR } from "./about-korean-new-year";
+import { ABOUT_MARKET } from "./about-market";
+import { ABOUT_BUGS_AND_INSECTS } from "./about-bugs-and-insects";
 
 const URL = `https://beyoustudio.pro/vocabularies`;
 
@@ -67,6 +72,14 @@ export const VOCABULARIES: PageList[] = [
         route: "/korean-vocabulary-lists/about-maths",
         slug: "about-maths",
         data: ABOUT_MATHS,
+    },
+    {
+        image: `${URL}/about-math-shape.png`,
+        korean: "수학 모양에 관한 어휘",
+        lao: "ຄໍາ​ສັບ​ຕ່າງໆ​ກ່ຽວ​ກັບ​ຮູບ​ຮ່າງ​ຄະ​ນິດ​ສາດ​",
+        route: "/korean-vocabulary-lists/about-math-shape",
+        slug: "about-math-shape",
+        data: ABOUT_MATH_SHAPE,
     },
     {
         image: `${URL}/days.png`,
@@ -363,5 +376,37 @@ export const VOCABULARIES: PageList[] = [
         route: "/korean-vocabulary-lists/about-position-direction",
         slug: "about-position-direction",
         data: ABOUT_POSITION_DIRECTION,
+    },
+    {
+        image: `${URL}/about-river-sea-ocean.png`,
+        korean: "강, 바다, 바다에 관한 어휘",
+        lao: "ຄໍາສັບກ່ຽວກັບແມ່ນ້ໍາ, ທະເລ, ມະຫາສະຫມຸດ​",
+        route: "/korean-vocabulary-lists/about-river-sea-ocean",
+        slug: "about-river-sea-ocean",
+        data: ABOUT_RIVER_SEA_OCEAN,
+    },
+    {
+        image: `${URL}/about-korean-new-year.png`,
+        korean: "한국의 새해에 관한 어휘",
+        lao: "ຄຳສັບກ່ຽວກັບປີໃໝ່ເກົາຫຼີ​",
+        route: "/korean-vocabulary-lists/about-korean-new-year",
+        slug: "about-korean-new-year",
+        data: ABOUT_NEW_YEAR,
+    },
+    {
+        image: `${URL}/about-market.png`,
+        korean: "시장에 관한 어휘",
+        lao: "ຄໍາ​ສັບ​ຕ່າງໆ​ກ່ຽວ​ກັບ​ການ​ຕະ​ຫຼາດ​",
+        route: "/korean-vocabulary-lists/about-market",
+        slug: "about-market",
+        data: ABOUT_MARKET,
+    },
+    {
+        image: `${URL}/about-bugs-and-insects.png`,
+        korean: "시장에 관한 어휘",
+        lao: "ຄໍາ​ສັບ​ຕ່າງໆ​ກ່ຽວ​ກັບ​ການ​ຕະ​ຫຼາດ​",
+        route: "/korean-vocabulary-lists/about-bugs-and-insects",
+        slug: "about-bugs-and-insects",
+        data: ABOUT_BUGS_AND_INSECTS,
     },
 ];

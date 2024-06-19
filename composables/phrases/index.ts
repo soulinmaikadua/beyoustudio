@@ -3,6 +3,8 @@ import { GREETING_PHRASES } from "./greeting-phrases";
 import { INTRODUCE_YOURSELF } from "./introduce-yourself";
 import { INTRODUCE_SMALL_TALK } from "./small-talk";
 import { INTRODUCE_DAILY_ROUTINES } from "./daily-routines";
+import { LEARNING_A_LANGUAGE } from "./whats-your-reason-for-learning-a-language";
+import { TO_SAY_SORRY } from "./common-ways-to-say-sorry";
 
 const URL = `https://beyoustudio.pro/phrases`;
 
@@ -38,5 +40,21 @@ export const PHRASES: PageList[] = [
         route: "/korean-phrases/daily-routines",
         slug: "daily-routines",
         data: INTRODUCE_DAILY_ROUTINES,
+    },
+    {
+        image: `${URL}/whats-your-reason-for-learning-a-language.png`,
+        korean: "당신이 언어를 배우는 이유는 무엇입니까?",
+        lao: "ເຫດຜົນຫຍັງທີ່ເຮັດໃຫ້ເຈົ້າຮຽນພາສາ",
+        route: "/korean-phrases/whats-your-reason-for-learning-a-language",
+        slug: "whats-your-reason-for-learning-a-language",
+        data: LEARNING_A_LANGUAGE,
+    },
+    {
+        image: `${URL}/to-say-sorry.png`,
+        korean: "미안하다고 말하는 일반적인 방법",
+        lao: "ວິທີການຄຳຂໍໂທດ",
+        route: "/korean-phrases/to-say-sorry",
+        slug: "to-say-sorry",
+        data: TO_SAY_SORRY,
     },
 ];
