@@ -85,6 +85,6 @@ date: "2024-06-18"
 위 (wi): ㅇ (ພະຍັນຊະນະ) + ㅟ (wi)
 
 <div class="flex justify-between">
-<a href="/beginer/hangul-alphabet/" class="bg-blue-500 px-12 py-1 mt-6 my-2 rounded text-white">ບົດກ່ອນຫນ້າ</a>
-<a href="/beginer/basic-grammar/" class="bg-blue-500 px-12 py-1 mt-6 my-2 rounded text-white">ບົດຕໍ່ໄປ</a>
+<a href="/beginner/hangul-alphabet/" class="bg-blue-500 px-12 py-1 mt-6 my-2 rounded text-white">ບົດກ່ອນຫນ້າ</a>
+<a href="/beginner/basic-grammar/" class="bg-blue-500 px-12 py-1 mt-6 my-2 rounded text-white">ບົດຕໍ່ໄປ</a>
 </div>

@@ -2,7 +2,7 @@
 title: "한글 알파벳"
 description: "ຕົວອັກສອນ Hangul"
 date: "2024-06-18"
-image: "/lesson/hangul.png"
+image: "https://beyoustudio.pro/lesson/hangul.png"
 ---
 
 # 한글 알파벳 ຕົວອັກສອນ Hangul
@@ -78,5 +78,5 @@ image: "/lesson/hangul.png"
 **ຕົວຢ່າງ:** 곽 (ㄱ + ㅗ + ㄱ), 굴 (ㄱ + ㅜ + ㄹ)
 
 <div class="flex justify-between">
-<a href="/beginer/hangul-double-vowels/" class="bg-blue-500 px-12 py-1 mt-6 my-2 rounded text-white">ບົດຕໍ່ໄປ</a>
+<a href="/beginner/hangul-double-vowels/" class="bg-blue-500 px-12 py-1 mt-6 my-2 rounded text-white">ບົດຕໍ່ໄປ</a>
 </div>
