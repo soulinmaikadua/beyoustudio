@@ -10,18 +10,18 @@
                             :key="index"
                             class="flex items-center"
                         >
-                            <div class="w-16 h-16 my-1">
-                                <nuxt-link :to="item.route">
+                            <div class="w-20 my-1">
+                                <nuxt-link :to="item._path">
                                     <img
                                         :src="item?.image"
                                         style="width: 100%"
-                                        class="rounded"
+                                        class="my-auto"
                                         :alt="item?.lao"
                                     />
                                 </nuxt-link>
                             </div>
                             <div class="ml-4 border-b w-full">
-                                <nuxt-link :to="item.route">
+                                <nuxt-link :to="item._path">
                                     <h1 class="text-xl">{{ item.title }}</h1>
                                     <p>{{ item.date }}</p>
                                 </nuxt-link>
