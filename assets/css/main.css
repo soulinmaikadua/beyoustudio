@@ -1,8 +1,8 @@
-table {
+.content-section table {
     margin: 10px 0px;
     width: 100%;
 }
-table th {
+.content-section table th {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
@@ -10,49 +10,46 @@ table th {
     color: white;
 }
 
-table th,
+.content-section table th,
 td {
     padding: 8px;
 }
 
-table tr:nth-child(even) {
+.content-section table tr:nth-child(even) {
     background-color: #f2f2f2;
 }
 
-h1 {
+.content-section h1 {
     font-size: 1.17em !important;
     font-weight: bold !important;
-}
-h2 {
-    font-size: 1.11em !important;
-    font-weight: bold !important;
-}
-h3 {
-    font-size: 0.9em !important;
-    font-weight: bold !important;
-}
-a {
-    margin-top: 10px;
-}
-
-.content-image ol li {
-    list-style: decimal;
-    font-weight: bold;
-    margin-left: 25px;
-    padding: 10px;
-}
-
-.content-image ul li {
-    margin-left: 25px;
-    padding: 5px;
-}
-
-.content-image img {
-    margin: 10px auto;
 }
 
 .content-section h2 {
     font-size: 1.11em !important;
     font-weight: bold !important;
     margin-top: 12px;
+}
+
+.content-section h3 {
+    font-size: 0.9em !important;
+    font-weight: bold !important;
+}
+.content-section a {
+    margin-top: 10px;
+}
+
+.content-section ol li {
+    list-style: decimal;
+    font-weight: bold;
+    margin-left: 25px;
+    padding: 10px;
+}
+
+.content-section ul li {
+    margin-left: 25px;
+    padding: 5px;
+}
+
+.content-image img {
+    margin: 10px auto;
 }

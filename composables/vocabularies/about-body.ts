@@ -227,7 +227,7 @@ export const ABOUT_BODY: WordModel[] = [
         korean: "무릎",
         read: "mu-reup",
         english: "knee",
-        lao: "ຂໍເຂົາ",
+        lao: "ເຂົາ",
         speech: "n",
         examples: [
             {
