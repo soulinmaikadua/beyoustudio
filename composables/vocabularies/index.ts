@@ -23,10 +23,40 @@ import { ABOUT_HOUSE_BEDROOM } from "./about-house-bedroom";
 import { ABOUT_HOUSE_BATHROOM } from "./about-house-bathroom";
 import { ABOUT_HOUSE_LIVING_DINING } from "./about-house-living-dining-room";
 import { ABOUT_HOUSE_GARDEN } from "./about-house-garden";
+import { ABOUT_TIMING } from "./about-timing";
+import { ABOUT_FAMILY } from "./about-family";
+import { ABOUT_PRONOUNS } from "./about-pronouns";
+import { ABOUT_SIZE_BEAUTY } from "./about-size-beauty-and-more";
+import { ABOUT_MATHS } from "./about-maths";
+import { ABOUT_RENTING_APARTMENT } from "./about-renting-apartment";
+import { ABOUT_AIRPORT } from "./about-airport";
+import { ABOUT_BUS_STOP_STATION } from "./about-bus-stop-and-station";
+import { ABOUT_PHARMACY } from "./about-pharmacy";
+import { ABOUT_CLINIC } from "./about-clinic";
+import { ABOUT_HOSPITAL } from "./about-hospital";
+import { ABOUT_SHOPPING } from "./about-shopping";
+import { ABOUT_PARK } from "./about-park";
+import { ABOUT_RESTAURANT } from "./about-restaurant";
+import { ABOUT_FOOD } from "./about-food";
+import { ABOUT_DRINK } from "./about-drink";
+import { ABOUT_POSITION_DIRECTION } from "./about-position-direction";
+import { ABOUT_MATH_SHAPE } from "./about-math-shape";
+import { ABOUT_RIVER_SEA_OCEAN } from "./about-river-sea-ocean";
+import { ABOUT_NEW_YEAR } from "./about-korean-new-year";
+import { ABOUT_MARKET } from "./about-market";
+import { ABOUT_BUGS_AND_INSECTS } from "./about-bugs-and-insects";
 
 const URL = `https://beyoustudio.pro/vocabularies`;
 
 export const VOCABULARIES: PageList[] = [
+    {
+        image: `${URL}/about-pronouns.png`,
+        korean: "대명사에 관한 어휘",
+        lao: "ຄຳສັບກ່ຽວກັບຄຳນາມ",
+        route: "/korean-vocabulary-lists/about-pronouns",
+        slug: "about-pronouns",
+        data: ABOUT_PRONOUNS,
+    },
     {
         image: `${URL}/numeric.png`,
         korean: "숫자에 관한 단어",
@@ -34,6 +64,22 @@ export const VOCABULARIES: PageList[] = [
         route: "/korean-vocabulary-lists/numeric",
         slug: "numeric",
         data: NUMERIC,
+    },
+    {
+        image: `${URL}/about-maths.png`,
+        korean: "수학에 관한 어휘",
+        lao: "ຄໍາ​ສັບ​ຕ່າງໆ​ກ່ຽວ​ກັບ​ຄະ​ນິດ​ສາດ​",
+        route: "/korean-vocabulary-lists/about-maths",
+        slug: "about-maths",
+        data: ABOUT_MATHS,
+    },
+    {
+        image: `${URL}/about-math-shape.png`,
+        korean: "수학 모양에 관한 어휘",
+        lao: "ຄໍາ​ສັບ​ຕ່າງໆ​ກ່ຽວ​ກັບ​ຮູບ​ຮ່າງ​ຄະ​ນິດ​ສາດ​",
+        route: "/korean-vocabulary-lists/about-math-shape",
+        slug: "about-math-shape",
+        data: ABOUT_MATH_SHAPE,
     },
     {
         image: `${URL}/days.png`,
@@ -204,11 +250,163 @@ export const VOCABULARIES: PageList[] = [
         data: ABOUT_SCHOOLS,
     },
     {
+        image: `${URL}/about-timing.png`,
+        korean: "타이밍에 관한 용어",
+        lao: "ຄຳສັບກ່ຽວກັບເວລາ",
+        route: "/korean-vocabulary-lists/about-timing",
+        slug: "about-timing",
+        data: ABOUT_TIMING,
+    },
+    {
         image: `${URL}/about-colors.png`,
         korean: "색상에 관한 용어",
         lao: "ຄໍາ​ສັບ​ຕ່າງໆ​ກ່ຽວ​ກັບ​ສີ​​",
         route: "/korean-vocabulary-lists/about-colors",
         slug: "about-colors",
         data: ABOUT_COLORS,
+    },
+    {
+        image: `${URL}/about-family.png`,
+        korean: "가족에 관한 용어",
+        lao: "ຄໍາ​ສັບ​ຕ່າງໆ​ກ່ຽວ​ກັບ​ຄອບ​ຄົວ​",
+        route: "/korean-vocabulary-lists/about-family",
+        slug: "about-family",
+        data: ABOUT_FAMILY,
+    },
+    {
+        image: `${URL}/about-size-beauty-and-more.png`,
+        korean: "크기, 아름다움 등에 관한 어휘",
+        lao: "ຄໍາສັບກ່ຽວກັບຂະຫນາດ, ຄວາມງາມ ແລະ ອື່ນໆ",
+        route: "/korean-vocabulary-lists/about-size-beauty-and-more",
+        slug: "about-size-beauty-and-more",
+        data: ABOUT_SIZE_BEAUTY,
+    },
+    {
+        image: `${URL}/about-renting-apartment.png`,
+        korean: "아파트 임대에 관한 어휘",
+        lao: "ຄໍາສັບກ່ຽວກັບການເຊົ່າອາພາດເມັນ",
+        route: "/korean-vocabulary-lists/about-renting-apartment",
+        slug: "about-renting-apartment",
+        data: ABOUT_RENTING_APARTMENT,
+    },
+    {
+        image: `${URL}/about-airport.png`,
+        korean: "공항에 관한 어휘",
+        lao: "ຄໍາ​ສັບ​ຕ່າງໆ​ກ່ຽວ​ກັບ​ສະ​ຫນາມ​ບິນ​",
+        route: "/korean-vocabulary-lists/about-airport",
+        slug: "about-airport",
+        data: ABOUT_AIRPORT,
+    },
+    {
+        image: `${URL}/about-bus-stop-and-station.png`,
+        korean: "버스 정류장과 버스 정류장에 대한 어휘",
+        lao: "ຄຳສັບກ່ຽວກັບປ້າຍລົດເມ ແລະ ສະຖານີລົດເມ",
+        route: "/korean-vocabulary-lists/about-bus-stop-and-station",
+        slug: "about-bus-stop-and-station",
+        data: ABOUT_BUS_STOP_STATION,
+    },
+    {
+        image: `${URL}/about-pharmacy.png`,
+        korean: "약국에 관한 단어",
+        lao: "ຄຄຳສັບກ່ຽວກັບຮ້ານຂາຍຢາ",
+        route: "/korean-vocabulary-lists/about-pharmacy",
+        slug: "about-pharmacy",
+        data: ABOUT_PHARMACY,
+    },
+    {
+        image: `${URL}/about-clinic.png`,
+        korean: "진료소에 대한 단어",
+        lao: "ຄຳສັບກ່ຽວກັບຄລີນິກ",
+        route: "/korean-vocabulary-lists/about-clinic",
+        slug: "about-clinic",
+        data: ABOUT_CLINIC,
+    },
+    {
+        image: `${URL}/about-hospital.png`,
+        korean: "병원에 관한 단어",
+        lao: "ຄໍາ​ສັບ​ຕ່າງໆ​ກ່ຽວ​ກັບ​ໂຮງ​ຫມໍ​",
+        route: "/korean-vocabulary-lists/about-hospital",
+        slug: "about-hospital",
+        data: ABOUT_HOSPITAL,
+    },
+    {
+        image: `${URL}/about-shopping.png`,
+        korean: "쇼핑에 관한 어휘",
+        lao: "ຄໍາສັບກ່ຽວກັບການຊື້ເຄື່ອງ",
+        route: "/korean-vocabulary-lists/about-shopping",
+        slug: "about-shopping",
+        data: ABOUT_SHOPPING,
+    },
+    {
+        image: `${URL}/about-park.png`,
+        korean: "공원에 관한 어휘",
+        lao: "ຄຳສັບກ່ຽວກັບສວນສາທາລະນະ",
+        route: "/korean-vocabulary-lists/about-park",
+        slug: "about-park",
+        data: ABOUT_PARK,
+    },
+    {
+        image: `${URL}/about-restaurant.png`,
+        korean: "레스토랑에 대한 단어",
+        lao: "ຄຳສັບກ່ຽວກັບຮ້ານອາຫານ",
+        route: "/korean-vocabulary-lists/about-restaurant",
+        slug: "about-restaurant",
+        data: ABOUT_RESTAURANT,
+    },
+    {
+        image: `${URL}/about-food.png`,
+        korean: "음식에 관한 용어",
+        lao: "ຄຳສັບກ່ຽວກັບອາຫານ",
+        route: "/korean-vocabulary-lists/about-food",
+        slug: "about-food",
+        data: ABOUT_FOOD,
+    },
+    {
+        image: `${URL}/about-drink.png`,
+        korean: "음료에 관한 단어",
+        lao: "ຄໍາ​ສັບ​ຕ່າງໆ​ກ່ຽວ​ກັບ​ເຄື່ອງ​ດື່ມ​",
+        route: "/korean-vocabulary-lists/about-drink",
+        slug: "about-drink",
+        data: ABOUT_DRINK,
+    },
+    {
+        image: `${URL}/about-position-direction.png`,
+        korean: "위치 / 방향에 관한 어휘",
+        lao: "ຄໍາ​ສັບ​ຕ່າງໆ​ກ່ຽວ​ກັບ​ຕໍາ​ແຫນ່ງ / ທິດ​ທາງ​",
+        route: "/korean-vocabulary-lists/about-position-direction",
+        slug: "about-position-direction",
+        data: ABOUT_POSITION_DIRECTION,
+    },
+    {
+        image: `${URL}/about-river-sea-ocean.png`,
+        korean: "강, 바다, 바다에 관한 어휘",
+        lao: "ຄໍາສັບກ່ຽວກັບແມ່ນ້ໍາ, ທະເລ, ມະຫາສະຫມຸດ​",
+        route: "/korean-vocabulary-lists/about-river-sea-ocean",
+        slug: "about-river-sea-ocean",
+        data: ABOUT_RIVER_SEA_OCEAN,
+    },
+    {
+        image: `${URL}/about-korean-new-year.png`,
+        korean: "한국의 새해에 관한 어휘",
+        lao: "ຄຳສັບກ່ຽວກັບປີໃໝ່ເກົາຫຼີ​",
+        route: "/korean-vocabulary-lists/about-korean-new-year",
+        slug: "about-korean-new-year",
+        data: ABOUT_NEW_YEAR,
+    },
+    {
+        image: `${URL}/about-market.png`,
+        korean: "시장에 관한 어휘",
+        lao: "ຄໍາ​ສັບ​ຕ່າງໆ​ກ່ຽວ​ກັບ​ການ​ຕະ​ຫຼາດ​",
+        route: "/korean-vocabulary-lists/about-market",
+        slug: "about-market",
+        data: ABOUT_MARKET,
+    },
+    {
+        image: `${URL}/about-bugs-and-insects.png`,
+        korean: "시장에 관한 어휘",
+        lao: "ຄໍາ​ສັບ​ຕ່າງໆ​ກ່ຽວ​ກັບ​ການ​ຕະ​ຫຼາດ​",
+        route: "/korean-vocabulary-lists/about-bugs-and-insects",
+        slug: "about-bugs-and-insects",
+        data: ABOUT_BUGS_AND_INSECTS,
     },
 ];

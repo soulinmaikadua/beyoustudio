@@ -74,7 +74,7 @@ export const ABOUT_HOUSE_BATHROOM: WordModel[] = [
         korean: "거울",
         read: "geo-ul",
         english: "mirror",
-        lao: "ກະຈົກ",
+        lao: "ແວ່ນ",
         speech: "n",
         examples: [
             {
@@ -82,7 +82,7 @@ export const ABOUT_HOUSE_BATHROOM: WordModel[] = [
                 korean: "거울을 보면서 머리를 빗어요.",
                 read: "Geo-ul-eul bo-myeon-seo meo-ri-reul bit-eo-yo.",
                 english: "I comb my hair while looking in the mirror.",
-                lao: "ຂ້ອຍຫວີຜົມໂດຍເບິ່ງໃນກະຈົກ.",
+                lao: "ຂ້ອຍຫວີຜົມໂດຍເບິ່ງໃນແວ່ນ.",
             },
         ],
     },
@@ -159,7 +159,7 @@ export const ABOUT_HOUSE_BATHROOM: WordModel[] = [
         korean: "치약",
         read: "chi-yak",
         english: "toothpaste",
-        lao: "ຢາສີຟັນ",
+        lao: "ຢາຖູແຂ້ວ",
         speech: "n",
         examples: [
             {
@@ -167,7 +167,7 @@ export const ABOUT_HOUSE_BATHROOM: WordModel[] = [
                 korean: "치약을 칫솔에 짜요.",
                 read: "Chi-yak-eul chis-sol-e jja-yo.",
                 english: "I squeeze toothpaste onto the toothbrush.",
-                lao: "ຂ້ອຍບີບຢາສີຟັນໃສ່ແປງສີຟັນ.",
+                lao: "ຂ້ອຍບີບຢາຖູແຂ້ວໃສ່ແປງຖູແຂ້ວ.",
             },
         ],
     },
@@ -176,7 +176,7 @@ export const ABOUT_HOUSE_BATHROOM: WordModel[] = [
         korean: "칫솔",
         read: "chis-sol",
         english: "toothbrush",
-        lao: "ແປງສີຟັນ",
+        lao: "ແປງຖູແຂ້ວ",
         speech: "n",
         examples: [
             {
@@ -184,7 +184,7 @@ export const ABOUT_HOUSE_BATHROOM: WordModel[] = [
                 korean: "칫솔로 이를 닦아요.",
                 read: "Chis-sol-lo il-eul takk-ayo.",
                 english: "I brush my teeth with a toothbrush.",
-                lao: "ຂ້ອຍແປງຟັນດ້ວຍແປງສີຟັນ.",
+                lao: "ຂ້ອຍແປງຟັນດ້ວຍແປງຖູແຂ້ວ.",
             },
         ],
     },

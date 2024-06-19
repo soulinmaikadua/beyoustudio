@@ -57,7 +57,7 @@ export const ABOUT_HOUSE_GARDEN: WordModel[] = [
         korean: "정원사",
         read: "jeong-won-sa",
         english: "gardener",
-        lao: "ຄົນທຳສວນ",
+        lao: "ຄົນເຮັດສວນ",
         speech: "n",
         examples: [
             {
@@ -65,7 +65,7 @@ export const ABOUT_HOUSE_GARDEN: WordModel[] = [
                 korean: "정원사가 정원을 돌보고 있어요.",
                 read: "Jeong-won-sa-ga jeong-won-eul dol-bo-go iss-eo-yo.",
                 english: "The gardener is taking care of the garden.",
-                lao: "ຄົນທຳສວນກຳລັງດູແລສວນ.",
+                lao: "ຄົນເຮັດສວນກຳລັງດູແລສວນ.",
             },
         ],
     },
@@ -125,7 +125,7 @@ export const ABOUT_HOUSE_GARDEN: WordModel[] = [
         korean: "정원 도구",
         read: "jeong-won do-gu",
         english: "garden tools",
-        lao: "ເຄື່ອງມືທຳສວນ",
+        lao: "ເຄື່ອງມືເຮັດສວນ",
         speech: "n",
         examples: [
             {
@@ -133,7 +133,7 @@ export const ABOUT_HOUSE_GARDEN: WordModel[] = [
                 korean: "정원 도구를 사용하여 일을 했어요.",
                 read: "Jeong-won do-gu-reul sa-yong-ha-yeo il-eul haess-eo-yo.",
                 english: "I used garden tools to do the work.",
-                lao: "ຂ້ອຍໃຊ້ເຄື່ອງມືທຳສວນເພື່ອເຮັດວຽກ.",
+                lao: "ຂ້ອຍໃຊ້ເຄື່ອງມືເຮັດສວນເພື່ອເຮັດວຽກ.",
             },
         ],
     },
@@ -176,7 +176,7 @@ export const ABOUT_HOUSE_GARDEN: WordModel[] = [
         korean: "정원 가꾸기",
         read: "jeong-won ga-kku-gi",
         english: "gardening",
-        lao: "ການທຳສວນ",
+        lao: "ການເຮັດສວນ",
         speech: "n",
         examples: [
             {
@@ -184,7 +184,7 @@ export const ABOUT_HOUSE_GARDEN: WordModel[] = [
                 korean: "정원 가꾸기는 제 취미예요.",
                 read: "Jeong-won ga-kku-gi-neun je chwi-mi-ye-yo.",
                 english: "Gardening is my hobby.",
-                lao: "ການທຳສວນແມ່ນສິ່ງທີ່ຂ້ອຍມັກ.",
+                lao: "ການເຮັດສວນແມ່ນສິ່ງທີ່ຂ້ອຍມັກ.",
             },
         ],
     },
@@ -210,7 +210,7 @@ export const ABOUT_HOUSE_GARDEN: WordModel[] = [
         korean: "정원 가꾸기 장갑",
         read: "jeong-won ga-kku-gi jang-gap",
         english: "gardening gloves",
-        lao: "ຖົງມືສຳລັບທຳສວນ",
+        lao: "ຖົງມືສຳລັບເຮັດສວນ",
         speech: "n",
         examples: [
             {
@@ -218,7 +218,7 @@ export const ABOUT_HOUSE_GARDEN: WordModel[] = [
                 korean: "정원 가꾸기 장갑을 끼고 일했어요.",
                 read: "Jeong-won ga-kku-gi jang-gap-eul kki-go il-haess-eo-yo.",
                 english: "I worked wearing gardening gloves.",
-                lao: "ຂ້ອຍເຮັດວຽກໂດຍໃສ່ຖົງມືສຳລັບທຳສວນ.",
+                lao: "ຂ້ອຍເຮັດວຽກໂດຍໃສ່ຖົງມືສຳລັບເຮັດສວນ.",
             },
         ],
     },
@@ -261,7 +261,7 @@ export const ABOUT_HOUSE_GARDEN: WordModel[] = [
         korean: "온실",
         read: "on-sil",
         english: "greenhouse",
-        lao: "ເຮືອນກະຈົກ",
+        lao: "ເຮືອນແກ້ວ",
         speech: "n",
         examples: [
             {
@@ -269,7 +269,7 @@ export const ABOUT_HOUSE_GARDEN: WordModel[] = [
                 korean: "온실에서 채소를 키웠어요.",
                 read: "On-sil-e-seo chae-so-reul ki-woss-eo-yo.",
                 english: "I grew vegetables in the greenhouse.",
-                lao: "ຂ້ອຍປູກຜັກໃນເຮືອນກະຈົກ.",
+                lao: "ຂ້ອຍປູກຜັກໃນເຮືອນແກ້ວ.",
             },
         ],
     },

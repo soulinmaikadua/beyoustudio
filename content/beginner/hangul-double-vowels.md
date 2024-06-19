@@ -1,0 +1,93 @@
+---
+title: "이중 모음 ພະຍັນຊະນະຄູ່"
+description: "이중 모음 ພະຍັນຊະນະຄູ່"
+date: "2024-06-18"
+image: "https://beyoustudio.pro/lesson/vowels.png"
+---
+
+# 이중 모음 ພະຍັນຊະນະຄູ່
+
+---
+
+![hangul double vowels](/lesson/vowels.png)
+
+ສະຫລະສອງຕົວຂອງພາສາເກົາຫລີແມ່ນການປະສົມປະສານຂອງສອງພະຍາງໃນພະຍາງດຽວ. ພະຍັນຊະນະທັງສອງແມ່ນຈະຂຽນຕິດກັນສະເໝີ, ບໍ່ຍະຫວ່າງ ແລະ ການອອກສຽງເປັນສຽງດຽວ.
+
+| ສະຫລະ | ພາສາອັງກິດ | ພາສາລາວ |
+| ----- | ---------- | ------- |
+| ㅐ    | ae         | 2       |
+| ㅒ    | yae        | 2       |
+| ㅔ    | e          | 2       |
+| ㅖ    | ye         | 2       |
+| ㅘ    | wa         | 2       |
+| ㅙ    | wae        | 2       |
+| ㅚ    | oe         | 2       |
+| ㅝ    | wo         | 2       |
+| ㅞ    | we         | 2       |
+| ㅟ    | wi         | 2       |
+| ㅢ    | ui         | 2       |
+
+## ຕົວຢ່າງແລະການອອກສຽງ
+
+1. ㅐ (ae)
+
+개 (gae) - dog (ໝາ)
+
+2. ㅒ (yae)
+
+얘기 (yaegi) - story, conversation (ເລື່ອງເລົ່າ, ສົນທະນາ)
+
+3. ㅔ (e)
+
+네 (ne) - yes (ໂດຍ)
+
+4. ㅖ (ye)
+
+예 (ye) - yes (ໂດຍ)
+
+5. ㅘ (wa)
+
+과 (gwa) - lesson, subject (ບົດຮຽນ, ວິຊາ)
+
+6. ㅙ (wae)
+
+왜 (wae) - why (ເປັນຫຍັງ)
+
+7. ㅚ (oe)
+
+외 (oe) - outside, foreign (ຂ້າງນອກ, ຕ່າງປະເທດ)
+
+8. ㅝ (wo)
+
+원 (won) - Korean currency (won) (ສະກຸນເງີນເກົາຫລິ ວອນ)
+
+9. ㅞ (we)
+
+웨 (we) - ສວນຫລາຍໃຊ້ກັບຄຳສັບຕ່າງປະເທດ, e.g., 웨딩 (wedding) ງານດອນ
+
+10. ㅟ (wi)
+
+위 (wi) - above, up (ຂັ້ນເທິງ, ເທິງ)
+
+11. ㅢ (ui)
+
+의 (ui) - belonging to (ເປັນຂອງ)
+
+## ການປະສົນ
+
+ການປະສົນພະຍັນຊະນະ ແລະ ສະຫລະ ແບບສອງອັນ ແມ່ນຄືກັບປະສົນແບບສະຫລະອັນດຽວ
+
+**ຕົວຢ່າງ:**
+
+과 (gwa): ㄱ (g) + ㅘ (wa)
+
+왜 (wae): ㅇ (ພະຍັນຊະນະ) + ㅙ (wae)
+
+외 (oe): ㅇ (ພະຍັນຊະນະ) + ㅚ (oe)
+
+위 (wi): ㅇ (ພະຍັນຊະນະ) + ㅟ (wi)
+
+<div class="flex justify-between">
+<a href="/beginner/hangul-alphabet/" class="bg-blue-500 px-12 py-1 mt-6 my-2 rounded text-white">ບົດກ່ອນຫນ້າ</a>
+<a href="/beginner/basic-grammar/" class="bg-blue-500 px-12 py-1 mt-6 my-2 rounded text-white">ບົດຕໍ່ໄປ</a>
+</div>

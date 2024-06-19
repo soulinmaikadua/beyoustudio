@@ -184,7 +184,7 @@ export const ABOUT_HOUSE: WordModel[] = [
                 korean: "현관에서 신발을 벗어요.",
                 read: "Hyeon-gwan-e-seo sin-bal-eul beos-eo-yo.",
                 english: "I take off my shoes at the entrance.",
-                lao: "ຂ້ອຍຖອດລອງເທົາຢູ່ທາງເຂົ້າ.",
+                lao: "ຂ້ອຍຖອດເກີບຢູ່ທາງເຂົ້າ.",
             },
         ],
     },
@@ -210,7 +210,7 @@ export const ABOUT_HOUSE: WordModel[] = [
         korean: "옥상",
         read: "ok-sang",
         english: "roof",
-        lao: "ຫົວຫນ້າ",
+        lao: "ຫລັງຄາ",
         speech: "n",
         examples: [
             {
@@ -218,7 +218,7 @@ export const ABOUT_HOUSE: WordModel[] = [
                 korean: "옥상에서 별을 봐요.",
                 read: "Ok-sang-e-seo byeol-eul bwa-yo.",
                 english: "I watch the stars from the roof.",
-                lao: "ຂ້ອຍເບິ່ງດາວຈາກຫົວຫນ້າ.",
+                lao: "ຂ້ອຍເບິ່ງດາວຢູ່ເທິງຫລັງຄາ.",
             },
         ],
     },
@@ -227,7 +227,7 @@ export const ABOUT_HOUSE: WordModel[] = [
         korean: "벽",
         read: "byeok",
         english: "wall",
-        lao: "ກໍແພ",
+        lao: "ກຳແພງ",
         speech: "n",
         examples: [
             {
@@ -235,7 +235,7 @@ export const ABOUT_HOUSE: WordModel[] = [
                 korean: "벽에 그림을 걸었어요.",
                 read: "Byeog-e geurim-eul geol-eoss-eo-yo.",
                 english: "I hung a picture on the wall.",
-                lao: "ຂ້ອຍແຂວນຮູບຢູ່ກໍແພ.",
+                lao: "ຂ້ອຍແຂວນຮູບຢູ່ກຳແພງ.",
             },
         ],
     },
@@ -252,7 +252,7 @@ export const ABOUT_HOUSE: WordModel[] = [
                 korean: "천장에 등이 달려 있어요.",
                 read: "Cheon-jang-e deung-i dal-lyeo iss-eo-yo.",
                 english: "There is a light on the ceiling.",
-                lao: "ມີໄຟຢູ່ເທິງຝ້າເພດານ.",
+                lao: "ມີດອກໄຟຢູ່ເທິງຝ້າເພດານ.",
             },
         ],
     },

@@ -7,6 +7,7 @@ export const ABOUT_SCHOOLS: WordModel[] = [
         read: "gyo-sil",
         english: "Classroom",
         lao: "ຫ້ອງຮຽນ",
+        speech: "n",
         examples: [
             {
                 id: 1,
@@ -23,6 +24,7 @@ export const ABOUT_SCHOOLS: WordModel[] = [
         read: "seon-saeng-nim",
         english: "Teacher",
         lao: "ຄູສອນ",
+        speech: "n",
         examples: [
             {
                 id: 1,
@@ -39,6 +41,7 @@ export const ABOUT_SCHOOLS: WordModel[] = [
         read: "hak-saeng",
         english: "Student",
         lao: "ນັກຮຽນ",
+        speech: "n",
         examples: [
             {
                 id: 1,
@@ -55,6 +58,7 @@ export const ABOUT_SCHOOLS: WordModel[] = [
         read: "gyo-jang",
         english: "Principal",
         lao: "ຜູ້ອໍານວຍການ",
+        speech: "n",
         examples: [
             {
                 id: 1,
@@ -71,6 +75,7 @@ export const ABOUT_SCHOOLS: WordModel[] = [
         read: "chaek-sang",
         english: "Desk",
         lao: "ໂຕະ",
+        speech: "n",
         examples: [
             {
                 id: 1,
@@ -87,6 +92,7 @@ export const ABOUT_SCHOOLS: WordModel[] = [
         read: "te-i-beul",
         english: "Table",
         lao: "ໂຕະ",
+        speech: "n",
         examples: [
             {
                 id: 1,
@@ -103,6 +109,7 @@ export const ABOUT_SCHOOLS: WordModel[] = [
         read: "ui-ja",
         english: "Chair",
         lao: "ເກົ້າອີ້",
+        speech: "n",
         examples: [
             {
                 id: 1,
@@ -119,6 +126,7 @@ export const ABOUT_SCHOOLS: WordModel[] = [
         read: "chil-pan",
         english: "Board",
         lao: "ກະດານ",
+        speech: "n",
         examples: [
             {
                 id: 1,
@@ -135,6 +143,7 @@ export const ABOUT_SCHOOLS: WordModel[] = [
         read: "do-seo-gwan",
         english: "Library",
         lao: "ຫ້ອງສະໝຸດ",
+        speech: "n",
         examples: [
             {
                 id: 1,
@@ -151,6 +160,7 @@ export const ABOUT_SCHOOLS: WordModel[] = [
         read: "gyo-gwa-seo",
         english: "Textbook",
         lao: "ປື້ມຮຽນ",
+        speech: "n",
         examples: [
             {
                 id: 1,
@@ -167,6 +177,7 @@ export const ABOUT_SCHOOLS: WordModel[] = [
         read: "yeon-pil",
         english: "Pencil",
         lao: "ສໍດຳ",
+        speech: "n",
         examples: [
             {
                 id: 1,
@@ -182,14 +193,15 @@ export const ABOUT_SCHOOLS: WordModel[] = [
         korean: "펜",
         read: "pen",
         english: "Pen",
-        lao: "ບິກ",
+        lao: "ປາກກາ",
+        speech: "n",
         examples: [
             {
                 id: 1,
                 korean: "펜으로 노트를 씁니다.",
                 read: "pen-eu-ro no-teu-reul sseum-ni-da.",
                 english: "I write notes with a pen.",
-                lao: "ຂ້ອຍຂຽນໂນດດ້ວຍບິກ.",
+                lao: "ຂ້ອຍຂຽນໂນດດ້ວຍປາກກາ.",
             },
         ],
     },
@@ -198,14 +210,15 @@ export const ABOUT_SCHOOLS: WordModel[] = [
         korean: "공책",
         read: "gong-chaek",
         english: "Notebook",
-        lao: "ປື້ມບັນທິກ",
+        lao: "ສົມຸດ",
+        speech: "n",
         examples: [
             {
                 id: 1,
                 korean: "노트에 중요한 것을 적었습니다.",
                 read: "no-teu-e jung-yo-han geo-seul jeo-geot-seum-ni-da.",
                 english: "I wrote down important things in my notebook.",
-                lao: "ຂ້ອຍຈົດສິ່ງທີ່ສຳຄັນໄວ້ໃນປື້ມບັນທິກ.",
+                lao: "ຂ້ອຍຈົດສິ່ງທີ່ສຳຄັນໄວ້ໃນສົມຸດ.",
             },
         ],
     },
@@ -215,6 +228,7 @@ export const ABOUT_SCHOOLS: WordModel[] = [
         read: "suk-je",
         english: "Homework",
         lao: "ວຽກບ້ານ",
+        speech: "n",
         examples: [
             {
                 id: 1,
@@ -231,6 +245,7 @@ export const ABOUT_SCHOOLS: WordModel[] = [
         read: "si-heom",
         english: "Exam",
         lao: "ການສອບເສັງ",
+        speech: "n",
         examples: [
             {
                 id: 1,
@@ -247,6 +262,7 @@ export const ABOUT_SCHOOLS: WordModel[] = [
         read: "hak-gyo beos",
         english: "School bus",
         lao: "ລົດໂຮງຮຽນ",
+        speech: "n",
         examples: [
             {
                 id: 1,
@@ -262,14 +278,15 @@ export const ABOUT_SCHOOLS: WordModel[] = [
         korean: "운동장",
         read: "un-dong-jang",
         english: "Playground",
-        lao: "ສະຫນາມເຕະບານ",
+        lao: "ສະຫນາມກິລາ",
+        speech: "n",
         examples: [
             {
                 id: 1,
                 korean: "아이들이 운동장에서 놀고 있습니다.",
                 read: "a-i-deul-i un-dong-jang-e-seo nol-go it-seum-ni-da.",
                 english: "The children are playing in the playground.",
-                lao: "ເດັກໆກຳລັງຫລີ້ນຢູ່ໃນສະຫນາມເຕະບານ.",
+                lao: "ເດັກໆກຳລັງຫລີ້ນຢູ່ໃນສະຫນາມກິລາ.",
             },
         ],
     },
@@ -279,6 +296,7 @@ export const ABOUT_SCHOOLS: WordModel[] = [
         read: "geup-sik-sil",
         english: "Cafeteria",
         lao: "ຫ້ອງອາຫານ",
+        speech: "n",
         examples: [
             {
                 id: 1,
@@ -295,6 +313,7 @@ export const ABOUT_SCHOOLS: WordModel[] = [
         read: "che-yuk-gwan",
         english: "Gymnasium",
         lao: "ສະຫນາມກິລາ",
+        speech: "n",
         examples: [
             {
                 id: 1,
@@ -312,6 +331,7 @@ export const ABOUT_SCHOOLS: WordModel[] = [
         read: "keom-pyu-teo-sil",
         english: "Computer room",
         lao: "ຫ້ອງຄອມພິວເຕີ",
+        speech: "n",
         examples: [
             {
                 id: 1,
@@ -320,6 +340,194 @@ export const ABOUT_SCHOOLS: WordModel[] = [
                 english:
                     "The students are attending a class in the computer room.",
                 lao: "ນັກຮຽນກຳລັງຮຽນຢູ່ໃນຫ້ອງຄອມພິວເຕີ.",
+            },
+        ],
+    },
+    {
+        id: 21,
+        korean: "동기",
+        read: "donggi",
+        english: "classmate",
+        lao: "ເພື່ອຮ່ວມຫ້ອງ",
+        speech: "n",
+        examples: [
+            {
+                id: 1,
+                korean: "그는 내 동기입니다.",
+                read: "geu-neun nae donggi-imnida.",
+                english: "He is my classmate.",
+                lao: "ລາວເປັນເພື່ອຮ່ວມຫ້ອງຂອງຂ້ອຍ.",
+            },
+        ],
+    },
+    {
+        id: 22,
+        korean: "자",
+        read: "ja",
+        english: "ruler",
+        lao: "ໄມ້ບັນທັກ",
+        speech: "n",
+        examples: [
+            {
+                id: 1,
+                korean: "자로 길이를 잰다.",
+                read: "ja-ro giri-reul jaenda.",
+                english: "Measure the length with a ruler.",
+                lao: "ແທັກຄວາມຄວາມຍາວດ້ວຍໄມ້ບັນທັກ.",
+            },
+        ],
+    },
+    {
+        id: 23,
+        korean: "지우개",
+        read: "jiugae",
+        english: "eraser",
+        lao: "ຢາງລຶບ",
+        speech: "n",
+        examples: [
+            {
+                id: 1,
+                korean: "지우개로 실수를 지웠다.",
+                read: "jiugae-ro silsureul jiweotda.",
+                english: "Erased the mistake with an eraser.",
+                lao: "ລຶບຂໍ້ຜິດພາດດ້ວຍຢາງລຶບ",
+            },
+        ],
+    },
+    {
+        id: 24,
+        korean: "분필",
+        read: "bunpil",
+        english: "chalk",
+        lao: "ສໍຂາວ",
+        speech: "n",
+        examples: [
+            {
+                id: 1,
+                korean: "분필로 칠했다.",
+                read: "bunpil-ro chilhaetda.",
+                english: "Wrote with chalk.",
+                lao: "ຂຽນດ້ວຍສໍຂາວ.",
+            },
+        ],
+    },
+    {
+        id: 25,
+        korean: "교복",
+        read: "gyobok",
+        english: "school uniform",
+        lao: "ເຄື່ອງແບບນັກຮຽນ",
+        speech: "n",
+        examples: [
+            {
+                id: 1,
+                korean: "그는 학교 교복을 입었다.",
+                read: "geuneun hakgyo gyobok-eul ibeotda.",
+                english: "He wore the school uniform.",
+                lao: "ເປັນໂປຣແກມຊື່ຮັກຂອງໂມງ.",
+            },
+        ],
+    },
+    {
+        id: 26,
+        korean: "도서관",
+        read: "do-seo-gwan",
+        english: "library",
+        lao: "ຫ້ອງສະໝຸດ",
+        speech: "n",
+        examples: [
+            {
+                id: 1,
+                korean: "도서관에서 책을 읽고 있습니다.",
+                read: "do-seo-gwan-e-seo chaek-eul ilk-go it-seum-ni-da.",
+                english: "I am reading a book in the library.",
+                lao: "ຂ້ອຍກຳລັງອ່ານປື້ມຢູ່ໃນຫ້ອງສະໝຸດ.",
+            },
+        ],
+    },
+    {
+        id: 27,
+        korean: "사서",
+        read: "sa-seo",
+        english: "librarian",
+        lao: "ບິບລິຣາ",
+        speech: "n",
+        examples: [
+            {
+                id: 1,
+                korean: "사서가 책을 정리하고 있습니다.",
+                read: "sa-seo-ga chaek-eul jeong-ri-ha-go it-seum-ni-da.",
+                english: "The librarian is organizing books.",
+                lao: "ບິບລິຣາກຳລັງຈັດເລຂົ້າ.",
+            },
+        ],
+    },
+    {
+        id: 28,
+        korean: "책",
+        read: "chaek",
+        english: "book",
+        lao: "ປື້ມ",
+        speech: "n",
+        examples: [
+            {
+                id: 1,
+                korean: "나는 흥미로운 책을 읽고 있습니다.",
+                read: "na-neun heung-mi-ro-un chaek-eul ilk-go it-seum-ni-da.",
+                english: "I am reading an interesting book.",
+                lao: "ຂ້ອຍກຳລັງອ່ານປື້ມທີ່ມີຄວາມນົດຫຼົ້ມ.",
+            },
+        ],
+    },
+    {
+        id: 29,
+        korean: "책꽂이",
+        read: "chaek-ggot-ji",
+        english: "bookshelf",
+        lao: "ຊັ້ນວາງປື້ມ",
+        speech: "n",
+        examples: [
+            {
+                id: 1,
+                korean: "책꽂이에 많은 책들이 있습니다.",
+                read: "chaek-ggot-ji-e manh-eun chaek-deul-i it-seum-ni-da.",
+                english: "There are many books on the bookshelf.",
+                lao: "ມີປື້ມຫລາຍຢູ່ຊັ້ນວາງປື້ມ.",
+            },
+        ],
+    },
+    {
+        id: 30,
+        korean: "잡지",
+        read: "jab-ji",
+        english: "magazine",
+        lao: "ນິຕະສານ",
+        speech: "n",
+        examples: [
+            {
+                id: 1,
+                korean: "나는 도서관에서 잡지를 읽었습니다.",
+                read: "na-neun do-seo-gwan-e-seo jab-ji-reul ilk-eoss-seum-ni-da.",
+                english: "I read a magazine in the library.",
+                lao: "ຂ້ອຍອ່ານນິຕະສານຢູ່ໃນຫ້ອງສະໝຸດ.",
+            },
+        ],
+    },
+    {
+        id: 31,
+        korean: "열람실",
+        read: "yeol-lam-sil",
+        english: "reading room",
+        lao: "ຫ້ອງອ່ານປື້ມ",
+        speech: "n",
+        examples: [
+            {
+                id: 1,
+                korean: "도서관 열람실은 공부하기에 좋습니다.",
+                read: "do-seo-gwan yeol-lam-sil-eun gong-bu-ha-gi-e joh-seum-ni-da.",
+                english:
+                    "The reading room in the library is good for studying.",
+                lao: "ຫ້ອງອ່ານປື້ມໃນຫ້ອງສະໝຸດເຫມາະສົມສຳລັບການຮຽນ.",
             },
         ],
     },
