@@ -45,6 +45,7 @@ import { ABOUT_RIVER_SEA_OCEAN } from "./about-river-sea-ocean";
 import { ABOUT_NEW_YEAR } from "./about-korean-new-year";
 import { ABOUT_MARKET } from "./about-market";
 import { ABOUT_BUGS_AND_INSECTS } from "./about-bugs-and-insects";
+import { ABOUT_DAILY_LIFE } from "./about-daily-life-action";
 
 const URL = `https://beyoustudio.pro/vocabularies`;
 
@@ -408,5 +409,13 @@ export const VOCABULARIES: PageList[] = [
         route: "/korean-vocabulary-lists/about-bugs-and-insects",
         slug: "about-bugs-and-insects",
         data: ABOUT_BUGS_AND_INSECTS,
+    },
+    {
+        image: `${URL}/about-daily-life.png`,
+        korean: "시장에 관한 어휘",
+        lao: "ຄໍາ​ສັບ​ຕ່າງໆ​ກ່ຽວ​ກັບ​ການ​ຕະ​ຫຼາດ​",
+        route: "/korean-vocabulary-lists/about-daily-life",
+        slug: "about-daily-life",
+        data: ABOUT_DAILY_LIFE,
     },
 ];
