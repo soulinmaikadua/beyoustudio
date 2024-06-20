@@ -1,7 +1,9 @@
 <template>
     <div class="min-h-screen">
         <div class="flex justify-between items-center border-b my-4">
-            <h1 class="text-xl font-bold my-2">구절 ປະໂຫຍກ</h1>
+            <h1 class="text-xl font-bold my-2">
+                Phrases / Sentences (ວະລີ / ປະໂຫຍກ)
+            </h1>
             <div>
                 <button
                     class="border p-2 h-10 w-10"

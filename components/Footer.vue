@@ -13,24 +13,24 @@
                 <h2>LEARN KOREAN</h2>
                 <ul class="mt-4">
                     <li class="text-blue-500 hover:underline">
-                        <nuxt-link to="/">Home</nuxt-link>
+                        <nuxt-link to="/">Home (ໜ້າຫລັກ)</nuxt-link>
                     </li>
                     <li class="text-blue-500 hover:underline">
-                        <nuxt-link to="/beginner/"
-                            >Korean Hangul</nuxt-link
-                        >
+                        <nuxt-link to="/beginner/">Korean Hangul</nuxt-link>
                     </li>
                     <li class="text-blue-500 hover:underline">
                         <nuxt-link to="/korean-vocabulary-lists/"
-                            >Vocabularies</nuxt-link
+                            >Vocabularies (ຄຳສັບ)</nuxt-link
                         >
                     </li>
                     <li class="text-blue-500 hover:underline">
-                        <nuxt-link to="/korean-phrases/">Phrases</nuxt-link>
+                        <nuxt-link to="/korean-phrases/"
+                            >Phrases / Sentences (ວະລີ / ປະໂຫຍກ)</nuxt-link
+                        >
                     </li>
                     <li class="text-blue-500 hover:underline">
                         <nuxt-link to="/korean-conversations/"
-                            >Conversations</nuxt-link
+                            >Conversations (ບົດສົນທະນາ)</nuxt-link
                         >
                     </li>
                 </ul>
@@ -39,15 +39,17 @@
                 <h2>ABOUT US</h2>
                 <ul class="mt-4">
                     <li class="text-blue-500 hover:underline">
-                        <nuxt-link to="/about-us/">About Us</nuxt-link>
-                    </li>
-                    <li class="text-blue-500 hover:underline">
-                        <nuxt-link to="/contact-us/"
-                            >Contact Us</nuxt-link
+                        <nuxt-link to="/about-us/"
+                            >About Us (ກ່ຽວກັບພວກເຮົາ)</nuxt-link
                         >
                     </li>
                     <li class="text-blue-500 hover:underline">
-                        <nuxt-link to="/blog/">Blog</nuxt-link>
+                        <nuxt-link to="/contact-us/"
+                            >Contact Us (ຕິດຕໍ່ພວກເຮົາ)</nuxt-link
+                        >
+                    </li>
+                    <li class="text-blue-500 hover:underline">
+                        <nuxt-link to="/blog/">Blog (ບົດຄວາມ)</nuxt-link>
                     </li>
                 </ul>
             </div>
