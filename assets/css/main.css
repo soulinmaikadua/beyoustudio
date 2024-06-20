@@ -53,3 +53,6 @@ td {
 .content-image img {
     margin: 10px auto;
 }
+.content-section hr {
+    margin: 10px 0px;
+}
