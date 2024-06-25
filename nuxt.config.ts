@@ -46,6 +46,9 @@ export default defineNuxtConfig({
                         'window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag("js", new Date());gtag("config", "G-Y2NG6E4LB2");(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "ftlwikt3ui");',
                     //  G-Y2NG6E4LB2
                 },
+                {
+                    children: 'document.addEventListener("contextmenu", function(event) {event.preventDefault();});'
+                }
             ],
         },
     },
