@@ -1,7 +1,7 @@
 <template>
     <main class="max-w-screen-xl mx-auto min-h-screen">
         <div class="w-full h-screen flex flex-col justify-center items-center">
-            <div class="grid grid-cols-2">
+            <div class="grid grid-cols-1 md:grid-cols-2">
                 <div>
                     <img src="/gif/giphy.gif" class="mx-auto" />
                 </div>
@@ -17,12 +17,14 @@
                         fun lessons. Dive into Hangul, expand your vocabulary,
                         and explore Korean culture with us.
                     </h3>
-                    <nuxt-link
-                        to="/beginner/"
-                        class="mt-6 bg-blue-500 hover:bg-blue-600 px-4 py-2 text-white rounded"
-                    >
-                        Let's learn together!
-                    </nuxt-link>
+                    <div class="text-center md:text-left">
+                        <nuxt-link
+                            to="/beginner/"
+                            class="mt-6 bg-blue-500 hover:bg-blue-600 px-4 py-2 text-white rounded"
+                        >
+                            Let's learn together!
+                        </nuxt-link>
+                    </div>
                 </div>
             </div>
         </div>
