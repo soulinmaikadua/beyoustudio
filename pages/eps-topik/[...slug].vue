@@ -23,6 +23,7 @@
                         v-for="(item, index) in workRelated[currentIndex]
                             .choices"
                         :key="index"
+                        class="my-1"
                     >
                         <input
                             v-model="answer"
