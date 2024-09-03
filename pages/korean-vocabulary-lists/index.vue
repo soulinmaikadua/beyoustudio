@@ -81,25 +81,25 @@
 import { VOCABULARIES } from "~/composables/vocabularies";
 const viewGrid = ref<boolean>(true);
 useHead({
-    title: "어휘 ຄຳສັບ" + " - " + SITE_TITLE,
+    title: "어휘 Vocabularies" + " - " + SITE_TITLE,
     meta: [
         // Open Graph / Facebook
         {
             property: "og:title",
-            content: "어휘 ຄຳສັບ" + " - " + SITE_TITLE,
+            content: "어휘 Vocabularies" + " - " + SITE_TITLE,
         },
         {
             property: "og:description",
-            content: "어휘 ຄຳສັບ",
+            content: "어휘 Vocabularies",
         },
         //  Twitter
         {
             property: "twitter:title",
-            content: "어휘 ຄຳສັບ" + " - " + SITE_TITLE,
+            content: "어휘 Vocabularies" + " - " + SITE_TITLE,
         },
         {
             property: "twitter:description",
-            content: "어휘 ຄຳສັບ",
+            content: "어휘 Vocabularies",
         },
     ],
 });

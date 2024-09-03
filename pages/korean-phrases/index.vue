@@ -83,25 +83,25 @@
 import { PHRASES } from "~/composables/phrases";
 const viewGrid = ref<boolean>(true);
 useHead({
-    title: "구절 ປະໂຫຍກ" + " - " + SITE_TITLE,
+    title: "구절 Phrases" + " - " + SITE_TITLE,
     meta: [
         // Open Graph / Facebook
         {
             property: "og:title",
-            content: "구절 ປະໂຫຍກ" + " - " + SITE_TITLE,
+            content: "구절 Phrases" + " - " + SITE_TITLE,
         },
         {
             property: "og:description",
-            content: "구절 ປະໂຫຍກ",
+            content: "구절 Phrases",
         },
         //  Twitter
         {
             property: "twitter:title",
-            content: "구절 ປະໂຫຍກ" + " - " + SITE_TITLE,
+            content: "구절 Phrases" + " - " + SITE_TITLE,
         },
         {
             property: "twitter:description",
-            content: "구절 ປະໂຫຍກ",
+            content: "구절 Phrases",
         },
     ],
 });

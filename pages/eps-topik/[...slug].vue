@@ -134,10 +134,6 @@ useHead({
             property: "og:description",
             content: route.query.korean + " " + route.query.english,
         },
-        {
-            property: "og:image",
-            content: route.query.korean + " " + route.query.english,
-        },
         //  Twitter
         {
             property: "twitter:title",
@@ -150,10 +146,6 @@ useHead({
         },
         {
             property: "twitter:description",
-            content: route.query.korean + " " + route.query.english,
-        },
-        {
-            property: "twitter:image",
             content: route.query.korean + " " + route.query.english,
         },
     ],
