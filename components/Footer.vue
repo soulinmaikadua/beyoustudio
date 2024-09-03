@@ -6,7 +6,7 @@
                 alt="Footer logo"
                 style="width: 50px; height: 50px"
             />
-            <h1 class="text-xl">BeYouStudio.Pro</h1>
+            <h1 class="text-xl my-1">BeYouStudio.Pro</h1>
         </div>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-2 mt-6">
             <div>

@@ -8,8 +8,9 @@
             </div>
             <div class="border my-3"></div>
             <div v-if="workRelated.length > 0" class="mt-4">
-                <!-- {{ workRelated[currentIndex] }} -->
-                [{{ currentIndex + 1 }}/{{ workRelated.length }}]
+                <p class="my-2">
+                    [{{ currentIndex + 1 }}/{{ workRelated.length }}]
+                </p>
                 <img
                     v-if="workRelated[currentIndex]?.image"
                     :src="workRelated[currentIndex]?.image"
@@ -17,7 +18,7 @@
                 />
                 <p>{{ workRelated[currentIndex].english }}</p>
                 <p>{{ workRelated[currentIndex].question }}</p>
-                <ul>
+                <ul class="mt-4">
                     <li
                         v-for="(item, index) in workRelated[currentIndex]
                             .choices"
@@ -93,7 +94,7 @@ const isCheck = ref(false);
 const fetchWorkRelated = () => {
     loading.value = true;
     useAPI()
-        .get(`/${route.params.slug}.json`)
+        .get(`/${route.params.slug[1]}.json`)
         .then((data: any) => {
             workRelated.value = data.data as any[];
         })
