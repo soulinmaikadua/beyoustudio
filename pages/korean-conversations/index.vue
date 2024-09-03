@@ -81,20 +81,20 @@ useHead({
         // Open Graph / Facebook
         {
             property: "og:title",
-            content: "대화 ບົດສົນທະນາ" + " - " + SITE_TITLE,
+            content: "대화 Conversations" + " - " + SITE_TITLE,
         },
         {
             property: "og:description",
-            content: "대화 ບົດສົນທະນາ",
+            content: "대화 Conversations",
         },
         //  Twitter
         {
             property: "twitter:title",
-            content: "대화 ບົດສົນທະນາ" + " - " + SITE_TITLE,
+            content: "대화 Conversations" + " - " + SITE_TITLE,
         },
         {
             property: "twitter:description",
-            content: "대화 ບົດສົນທະນາ",
+            content: "대화 Conversations",
         },
     ],
 });
