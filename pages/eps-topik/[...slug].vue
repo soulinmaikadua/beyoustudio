@@ -1,9 +1,9 @@
 <template>
     <div>
         <div>
-            <div v-if="route?.query?.korean && route?.query?.english">
+            <div v-if="splitWords(route.params.slug[1])">
                 <h1 class="text-2xl font-bold">
-                    {{ route.query.korean }} - {{ route.query.english }}
+                    {{ splitWords(route.params.slug[1]) }}
                 </h1>
             </div>
             <div class="border my-3"></div>
@@ -117,37 +117,36 @@ const onNext = () => {
     isCheck.value = false;
     currentIndex.value = currentIndex.value + 1;
 };
+const splitWords = (word: string) => {
+    const splitWords = word.split("-");
+    // Capitalize the first letter of each word and join them with a space
+    const result = splitWords
+        .map(
+            (w: string) => w.charAt(0).toUpperCase() + w.slice(1).toLowerCase()
+        )
+        .join(", ");
+    return result;
+};
 useHead({
-    title:
-        route?.query?.korean + " " + route?.query?.english + " - " + SITE_TITLE,
+    title: splitWords(route.params.slug[1]) + " - " + SITE_TITLE,
     meta: [
         // Open Graph / Facebook
         {
             property: "og:title",
-            content:
-                route?.query?.korean +
-                " " +
-                route?.query?.english +
-                " - " +
-                SITE_TITLE,
+            content: splitWords(route.params.slug[1]) + " - " + SITE_TITLE,
         },
         {
             property: "og:description",
-            content: route?.query?.korean + " " + route?.query?.english,
+            content: splitWords(route.params.slug[1]),
         },
         //  Twitter
         {
             property: "twitter:title",
-            content:
-                route?.query?.korean +
-                " " +
-                route?.query?.english +
-                " - " +
-                SITE_TITLE,
+            content: splitWords(route.params.slug[1]) + " - " + SITE_TITLE,
         },
         {
             property: "twitter:description",
-            content: route?.query?.korean + " " + route?.query?.english,
+            content: splitWords(route.params.slug[1]),
         },
     ],
 });

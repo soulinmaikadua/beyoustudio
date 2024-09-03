@@ -9,8 +9,7 @@
         <div v-if="workRelated?.length > 0" class="mt-4">
             <ul>
                 <li v-for="(item, index) in workRelated" :key="index">
-                    <NuxtLink
-                        :to="`/eps-topik/work-related/${item.slug}?korean=${item.korean}&english=${item.english}`"
+                    <NuxtLink :to="`/eps-topik/work-related/${item.slug}`"
                         >{{ item.korean }} - {{ item.english }}</NuxtLink
                     >
                 </li>
