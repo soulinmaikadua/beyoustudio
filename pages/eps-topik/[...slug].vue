@@ -1,7 +1,7 @@
 <template>
     <div>
         <div>
-            <div v-if="route.query.korean && route.query.english">
+            <div v-if="route?.query?.korean && route?.query?.english">
                 <h1 class="text-2xl font-bold">
                     {{ route.query.korean }} - {{ route.query.english }}
                 </h1>
@@ -94,7 +94,7 @@ const isCheck = ref(false);
 const fetchWorkRelated = () => {
     loading.value = true;
     useAPI()
-        .get(`/${route.params.slug[1]}.json`)
+        .get(`/${route?.params?.slug[1]}.json`)
         .then((data: any) => {
             workRelated.value = data.data as any[];
         })
@@ -118,35 +118,36 @@ const onNext = () => {
     currentIndex.value = currentIndex.value + 1;
 };
 useHead({
-    title: route.query.korean + " " + route.query.english + " - " + SITE_TITLE,
+    title:
+        route?.query?.korean + " " + route?.query?.english + " - " + SITE_TITLE,
     meta: [
         // Open Graph / Facebook
         {
             property: "og:title",
             content:
-                route.query.korean +
+                route?.query?.korean +
                 " " +
-                route.query.english +
+                route?.query?.english +
                 " - " +
                 SITE_TITLE,
         },
         {
             property: "og:description",
-            content: route.query.korean + " " + route.query.english,
+            content: route?.query?.korean + " " + route?.query?.english,
         },
         //  Twitter
         {
             property: "twitter:title",
             content:
-                route.query.korean +
+                route?.query?.korean +
                 " " +
-                route.query.english +
+                route?.query?.english +
                 " - " +
                 SITE_TITLE,
         },
         {
             property: "twitter:description",
-            content: route.query.korean + " " + route.query.english,
+            content: route?.query?.korean + " " + route?.query?.english,
         },
     ],
 });
