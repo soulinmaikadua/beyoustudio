@@ -3,13 +3,23 @@
         <h1 class="text-2xl font-bold">EPS TOPIK</h1>
         <h2 class="text-xl font-bold">Work Related</h2>
         <div class="my-4">
-            <NuxtLink :to="`/eps-topik/reading`">Reading</NuxtLink>
+            <NuxtLink
+                :to="`/eps-topik/reading`"
+                class="text-blue-500 hover:underline"
+                >Reading</NuxtLink
+            >
         </div>
         <h2 class="text-xl font-bold">Work Related</h2>
         <div v-if="workRelated?.length > 0" class="mt-4">
             <ul>
-                <li v-for="(item, index) in workRelated" :key="index">
-                    <NuxtLink :to="`/eps-topik/work-related/${item.slug}`"
+                <li
+                    v-for="(item, index) in workRelated"
+                    :key="index"
+                    class="my-1"
+                >
+                    <NuxtLink
+                        :to="`/eps-topik/work-related/${item.slug}`"
+                        class="text-blue-500 hover:underline"
                         >{{ item.korean }} - {{ item.english }}</NuxtLink
                     >
                 </li>
