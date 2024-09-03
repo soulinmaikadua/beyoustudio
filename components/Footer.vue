@@ -60,7 +60,11 @@
                             href="https://facebook.com/beyoustudio98"
                             target="_blank"
                         >
-                            <img src="/social/facebook.png" class="h-8 w-8" />
+                            <img
+                                src="/social/facebook.png"
+                                alt="Facebook Logo"
+                                class="h-8 w-8"
+                            />
                         </a>
                     </li>
                 </ul>

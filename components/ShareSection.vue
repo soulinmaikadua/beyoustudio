@@ -6,7 +6,11 @@
                 :href="`https://fb.com/sharer/sharer.php?u=${SITE_URL}${route.fullPath}`"
                 target="_blank"
             >
-                <img src="/social/facebook.png" class="h-8 w-8" />
+                <img
+                    src="/social/facebook.png"
+                    alt="Facebook Logo"
+                    class="h-8 w-8"
+                />
             </a>
             <button
                 class="rounded-full p-2 border border-blue-200 ml-4 hover:bg-blue-100"
