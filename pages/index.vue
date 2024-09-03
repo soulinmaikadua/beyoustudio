@@ -3,7 +3,7 @@
         <div class="w-full h-screen flex flex-col justify-center items-center">
             <div class="grid grid-cols-1 md:grid-cols-2">
                 <div>
-                    <img src="/gif/giphy.gif" class="mx-auto" />
+                    <img src="/gif/giphy.gif" alt="a gift" class="mx-auto" />
                 </div>
                 <div class="mt-10">
                     <h1 class="text-2xl">Welcome to BeYou Studio!</h1>
