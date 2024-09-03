@@ -35,4 +35,19 @@ const fetchWorkRelated = () => {
         });
 };
 fetchWorkRelated();
+useHead({
+    title: "EPS TOPIK - " + SITE_TITLE,
+    meta: [
+        // Open Graph / Facebook
+        {
+            property: "og:title",
+            content: "EPS TOPIK - " + SITE_TITLE,
+        },
+        //  Twitter
+        {
+            property: "twitter:title",
+            content: "EPS TOPIK - " + SITE_TITLE,
+        },
+    ],
+});
 </script>
