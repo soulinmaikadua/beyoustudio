@@ -37,6 +37,7 @@
                     <img
                         :src="item.image"
                         style="width: 100%"
+                        :alt="`Photo ${index}`"
                         class="rounded-t"
                     />
                 </nuxt-link>
@@ -59,6 +60,7 @@
                         <img
                             :src="item.image"
                             style="width: 100%"
+                            :alt="`Photo ${index}`"
                             class="rounded"
                         />
                     </nuxt-link>
