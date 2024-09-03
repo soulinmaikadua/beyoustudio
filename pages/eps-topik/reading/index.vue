@@ -99,6 +99,7 @@ const fetchReading = () => {
             loading.value = false;
         });
 };
+
 fetchReading();
 
 const onCheck = () => {
@@ -111,4 +112,20 @@ const onNext = () => {
     isCheck.value = false;
     currentIndex.value = currentIndex.value + 1;
 };
+
+useHead({
+    title: "Reading - " + SITE_TITLE,
+    meta: [
+        // Open Graph / Facebook
+        {
+            property: "og:title",
+            content: "Reading - " + SITE_TITLE,
+        },
+        //  Twitter
+        {
+            property: "twitter:title",
+            content: "Reading - " + SITE_TITLE,
+        },
+    ],
+});
 </script>

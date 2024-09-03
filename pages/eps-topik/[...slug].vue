@@ -117,4 +117,45 @@ const onNext = () => {
     isCheck.value = false;
     currentIndex.value = currentIndex.value + 1;
 };
+useHead({
+    title: route.query.korean + " " + route.query.english + " - " + SITE_TITLE,
+    meta: [
+        // Open Graph / Facebook
+        {
+            property: "og:title",
+            content:
+                route.query.korean +
+                " " +
+                route.query.english +
+                " - " +
+                SITE_TITLE,
+        },
+        {
+            property: "og:description",
+            content: route.query.korean + " " + route.query.english,
+        },
+        {
+            property: "og:image",
+            content: route.query.korean + " " + route.query.english,
+        },
+        //  Twitter
+        {
+            property: "twitter:title",
+            content:
+                route.query.korean +
+                " " +
+                route.query.english +
+                " - " +
+                SITE_TITLE,
+        },
+        {
+            property: "twitter:description",
+            content: route.query.korean + " " + route.query.english,
+        },
+        {
+            property: "twitter:image",
+            content: route.query.korean + " " + route.query.english,
+        },
+    ],
+});
 </script>
